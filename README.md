@@ -1,23 +1,31 @@
 # PubMed-Screener-420M (`bigwisu/PubMed-Screener-420M`)
 
-Official open-source repository for **PubMed-Screener-420M**, an open-weights Small Language Model (SLM) decision architecture developed and calibrated for high-recall title and abstract citation screening in biomedical systematic reviews.
+Official repository for **PubMed-Screener-420M**, an open-weights Small Language Model (SLM) decision architecture developed and calibrated for high-recall title and abstract citation screening in biomedical systematic reviews.
 
 [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model%20Weights-blue)](https://huggingface.co/bigwisu/PubMed-Screener-420M)
 [![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](LICENSE)
 
 ---
 
-## Key Features
+## Repository Structure
 
-- **Compact Parameter Footprint:** 421M parameters (843 MB on disk), combining a ModernBERT-large backbone (`answerdotai/ModernBERT-large`) with a task-adapted propositional decision head (`convaiinnovations/laya`).
-- **Clinically Calibrated Operating Point:** Calibrated *a priori* ($\theta^* = 0.028$) on 4 held-out systematic reviews, achieving **95.15% pooled recall** [95% CI: 92.69%–97.12%] across 62 unseen primary reviews ($962,860$ evaluations).
-- **100% Offline & Sovereign Inference:** Executes entirely on local hardware without cloud API calls, preserving confidential research protocols.
-- **Consumer Hardware Friendly:** Processes 2.4 citations/s on an Apple M3 MacBook Air (107 minutes for a full 15,530-citation search catalog) with only 2.1 GB peak RAM.
+```
+pubmed-screener/
+├── benchmark/
+│   └── README.md                     # Benchmark attribution & dataset availability statement
+├── laya/                             # Submodule (fork: github.com/bigwisu/laya of convaiinnovations/laya)
+├── scripts/
+│   └── build_synergy_dataset.py      # Script to rebuild zero-leakage training data from SYNERGY
+├── screen_with_model.py              # Screening engine for local decision models
+├── requirements.txt                  # Python dependencies
+└── README.md                         # This file
+```
 
 ---
 
-## Installation
+## Quickstart: Screening Citations with Local Weights
 
+### 1. Installation
 ```bash
 git clone --recurse-submodules https://github.com/bigwisu/pubmed-screener.git
 cd pubmed-screener
@@ -27,13 +35,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
----
-
-## Quickstart: Screening Citations
-
-### 1. Download Model Weights
-Model weights and configurations are hosted on Hugging Face Hub:
-
+### 2. Download Model Weights
 ```python
 from huggingface_hub import snapshot_download
 
@@ -43,8 +45,7 @@ snapshot_download(
 )
 ```
 
-### 2. Run Inference
-
+### 3. Run Inference
 ```python
 from laya import load
 
@@ -76,32 +77,51 @@ print(f"Decision: {'INCLUDE (Proceed to full-text)' if score >= 0.028 else 'EXCL
 
 ---
 
-## Evaluation & Benchmark Reproduction
+## Rebuilding and Fine-Tuning the Model
 
-This repository contains evaluation scripts and calibration protocols:
+Researchers can fine-tune and train PubMed-Screener-420M from base weights using the bundled `laya` submodule fork with positive class weighting (`--pos-weight 8.0`):
 
-- `calibration_protocol.md`: Detailed specification of the a priori threshold selection on 4 held-out calibration reviews.
-- `threshold_analysis.py`: Threshold sweeping, ROC-AUC, PR-AUC, and systematic-review clustered bootstrap CI calculations.
-- `rq3_mechanical_analysis.py`: Structured error analysis and false-negative categorization.
-- `generate_figures.py`: Publication-grade visualization pipeline generating Figures 1–4.
-
-To run threshold analysis:
+### 1. Rebuild Zero-Leakage Training Data from SYNERGY
 ```bash
-python threshold_analysis.py --db outputs/results.sqlite --out publication/tables
+pip install synergy-dataset
+python scripts/build_synergy_dataset.py --out data/train_pico_synergy.jsonl
+```
+
+### 2. Fine-Tune with the Laya CLI
+The fork adds `--pos-weight` to counterbalance positive-class sparsity in systematic review literature screening:
+
+```bash
+python -m laya.train_cli \
+    --data data/train_pico_synergy.jsonl \
+    --model-dir convaiinnovations/laya \
+    --output-dir models/pubmed_screener_420m \
+    --epochs 3 \
+    --batch-size 16 \
+    --grad-accum 4 \
+    --lr 2e-5 \
+    --head-lr 1e-4 \
+    --pos-weight 8.0 \
+    --loss soft-ce
 ```
 
 ---
 
-## Citation & Attribution
+## Benchmark Data Availability
 
-This model is built upon the open-source foundations of **Laya** (`convaiinnovations/laya`) and **ModernBERT** (`answerdotai/ModernBERT-large`).
+The 66-review benchmark corpus was compiled for the BibliZap evaluation study (Bentegeac et al., 2026, *Research Synthesis Methods*, doi:10.1017/rsm.2026.10079) and is **available from the original authors upon reasonable request**. See [`benchmark/README.md`](benchmark/README.md) for details.
 
-If you use PubMed-Screener-420M in your research, please cite:
+---
+
+## Attribution & Citation
+
+PubMed-Screener-420M was developed on the open-source foundations of:
+- **Laya (`convaiinnovations/laya`):** Multilingual, non-autoregressive System-1 decision engine evaluating typed propositions in single forward passes, developed with reinforcement learning against strictly proper scoring rules (RLCD) by ConvAI Innovations. The `laya/` submodule in this repository is maintained from our customized fork ([`bigwisu/laya`](https://github.com/bigwisu/laya)).
+- **ModernBERT (`answerdotai/ModernBERT-large`):** Modern contextual transformer encoder developed by Answer.ai and LightOn.
 
 ```bibtex
 @article{pubmed_screener_420m_2026,
   title={Offline AI Decision Models for PubMed Systematic Review Screening: External Validation of a Calibrated Open-Weights Architecture Across 62 Reviews},
-  author={Wisu et al.},
+  author={Suntoyo et al.},
   journal={Journal of Biomedical Informatics},
   year={2026},
   note={Under Review}

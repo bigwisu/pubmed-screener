@@ -1,0 +1,3 @@
+[submodule "laya"]
+	path = laya
+	url = git@github.com:bigwisu/laya.git

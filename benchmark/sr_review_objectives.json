@@ -1,0 +1,636 @@
+[
+  {
+    "sr_pmid": "22226047",
+    "title": "Group B streptococcal disease in infants aged younger than 3 months: systematic review and meta-analysis.",
+    "instruction": "Does this study report empirical findings on invasive group B streptococcal disease in infants aged younger than 3 months (0–89 days), including incidence, deaths, or serotype distribution?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on invasive group B streptococcal disease in infants aged younger than 3 months (0–89 days)?",
+    "review_objective": "To examine the global burden of invasive group B streptococcal disease in infants aged 0–89 days, including incidence, deaths, and serotype distribution, using studies reporting incidence, deaths, or serotypes of early-onset (days 0–6) or late-onset (days 7–89) disease.",
+    "stripped_abstract": "Despite widespread use of intrapartum antibiotic prophylaxis, group B streptococcus remains a leading cause of morbidity and mortality in infants in Europe, the Americas, and Australia. However, estimates of disease burden in many countries outside of these regions is not available. We aimed to examine the current global burden of invasive disease and the serotype distribution of group B streptococcus isolates.\nWe searched Medline, Embase, and Wholis databases for studies on invasive early-onset (day 0-6) and late-onset (day 7-89) group B streptococcal disease. Eligible studies were those that described incidence, deaths, or serotypes. We also reviewed reference lists and contacted experts to seek unpublished data and data missed by our search. Random effects meta-analysis was used to pool data.",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "22323502",
+    "title": "Acute cannabis consumption and motor vehicle collision risk: systematic review of observational studies and meta-analysis.",
+    "instruction": "Does this study report empirical findings on motor vehicle collision risk after acute cannabis use among drivers compared with non-use or control drivers?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on acute cannabis use and collision risk in drivers?",
+    "review_objective": "To examine the association between acute cannabis (cannabinoid) consumption by drivers and the risk of motor vehicle collision, using observational epidemiology studies with an appropriate control group that measured recent cannabis use by toxicological analysis of whole blood or self-report; experimental and simulator studies were excluded.",
+    "stripped_abstract": "To determine whether the acute consumption of cannabis (cannabinoids) by drivers increases the risk of a motor vehicle collision.\nSystematic review of observational studies, with meta-analysis.\nWe did electronic searches in 19 databases, unrestricted by year or language of publication. We also did manual searches of reference lists, conducted a search for unpublished studies, and reviewed the personal libraries of the research team. Review methods",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "22422870",
+    "title": "White rice consumption and risk of type 2 diabetes: meta-analysis and systematic review.",
+    "instruction": "Does this study report empirical findings on the association between white rice intake levels and type 2 diabetes risk in human populations?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on white rice consumption and type 2 diabetes risk in populations?",
+    "review_objective": "To summarize evidence from prospective cohort studies reporting risk estimates by white rice intake levels on the association between white rice consumption and risk of type 2 diabetes, and to quantify the potential dose-response relationship.",
+    "stripped_abstract": "To summarise evidence on the association between white rice consumption and risk of type 2 diabetes and to quantify the potential dose-response relation.\nMeta-analysis of prospective cohort studies.\nSearches of Medline and Embase databases for articles published up to January 2012 using keywords that included both rice intake and diabetes; further searches of references of included original studies.\nIncluded studies were prospective cohort studies that reported risk estimates for type 2 diabetes by rice intake levels.\nRelative risks were pooled using a random effects model; dose-response relat",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "22777524",
+    "title": "Comparative effectiveness and safety of methods of insulin delivery and glucose monitoring for diabetes mellitus: a systematic review and meta-analysis.",
+    "instruction": "Does this study report empirical findings on insulin delivery (MDI versus CSII) or glucose monitoring (rt-CGM versus SMBG) in people with type 1 or 2 diabetes?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on insulin delivery or glucose monitoring in people with type 1 or type 2 diabetes?",
+    "review_objective": "To examine the effects on outcomes in children and adults with type 1 or type 2 diabetes mellitus of intensive insulin therapy comparing multiple daily injections with rapid-acting analogue-based continuous subcutaneous insulin infusion, glucose monitoring comparing real-time continuous glucose monitoring with self-monitoring of blood glucose, and sensor-augmented insulin pump use compared with multiple daily injections plus self-monitoring of blood glucose, using randomized controlled trials.",
+    "stripped_abstract": "Patients with diabetes mellitus need information about the effectiveness of innovations in insulin delivery and glucose monitoring.\nTo review how intensive insulin therapy (multiple daily injections [MDI] vs. rapid-acting analogue-based continuous subcutaneous insulin infusion [CSII]) or method of monitoring (self-monitoring of blood glucose [SMBG] vs. real-time continuous glucose monitoring [rt-CGM]) affects outcomes in types 1 and 2 diabetes mellitus.\nMEDLINE, EMBASE, and the Cochrane Central Register of Controlled Trials through February 2012 without language restrictions.\n33 randomized, co",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "22872710",
+    "title": "Assessing the risk of venous thromboembolic events in women taking progestin-only contraception: a meta-analysis.",
+    "instruction": "Does this study report empirical findings on venous thromboembolic risk among women using progestin-only contraception compared with non-hormonal contraception, by delivery mode?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on progestin-only contraception and venous thromboembolic events in women?",
+    "review_objective": "To evaluate the risk of venous thromboembolic events in women using progestin-only contraception compared with a non-hormone comparator, and whether the risk differs by mode of delivery (oral, intrauterine, or depot injection), using evidence from randomised controlled trials and case-control, cohort, and cross-sectional studies.",
+    "stripped_abstract": "To evaluate the risk of venous thromboembolic events associated with the use of progestin-only contraception and whether that risk differs with the mode of drug delivery (oral, intrauterine, or depot injection).\nSystematic review and meta-analysis of randomised controlled trials and observational studies.\nPubmed, Embase, Cochrane Library, and reference lists of relevant reviews.\nRandomised controlled trials and case-control, cohort, and cross sectional studies with venous thromboembolic outcome for progestin-only contraception reported relative to a non-hormone comparator group.\nData were extracted by two independent investigators, and consensus for inclusion was reached after assessment by additional investigators.",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "22986378",
+    "title": "Transitional care after hospitalization for acute stroke or myocardial infarction: a systematic review.",
+    "instruction": "Does this study report empirical findings on time-limited transitional care after hospitalization for acute stroke or myocardial infarction in adults, compared with usual care, including outcomes within one year?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on time-limited transitional care after acute stroke or myocardial infarction hospitalization in adults?",
+    "review_objective": "The review aimed to describe time-limited transitional care interventions and assess evidence of benefit or harm compared with usual care among adults hospitalized for acute stroke or myocardial infarction, using English-language trial or observational studies reporting patient, caregiver, process, or systems outcomes within one year of hospital discharge.",
+    "stripped_abstract": "Transitional care is a time-limited service to prevent discontinuous care and adverse outcomes, including rehospitalization.\nTo describe transitional care interventions and evidence of benefit or harm in patients hospitalized for acute stroke or myocardial infarction (MI).\nCumulative Index to Nursing and Allied Health Literature, MEDLINE, Cochrane Database of Systematic Reviews, and EMBASE, supplemented with manual searches of reference lists of relevant studies and review articles (January 2000 to March 2012).\n6 reviewers screened 5857 citations to identify English-language reports of trials ",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "23033409",
+    "title": "Indoor tanning and non-melanoma skin cancer: systematic review and meta-analysis.",
+    "instruction": "Does this study report empirical findings on indoor tanning and non-melanoma skin cancer risk in people, comparing ever with never use or assessing exposure dose or timing?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on indoor tanning and non-melanoma skin cancer in human populations?",
+    "review_objective": "To synthesize evidence from English-language articles reporting an original effect statistic on indoor tanning and non-melanoma skin cancer, excluding articles presenting no data, such as reviews and editorials, and to examine the relative risk for ever use versus never use, dose-response effects, exposure during early life, and the population attributable risk fraction for the United States population.",
+    "stripped_abstract": "To synthesise the literature on indoor tanning and non-melanoma skin cancer.\nSystematic review and meta-analysis.\nPubMed (1966 to present), Embase (1974 to present), and Web of Science (1898 to present).\nAll articles that reported an original effect statistic for indoor tanning and non-melanoma skin cancer were included. Articles that presented no data, such as review articles and editorials, were excluded, as were articles in languages other than English.\nTwo investigators independently extracted data. Random effects meta-analysis was used to summarise the relative risk of ever use versus nev",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "23420235",
+    "title": "Comparative effectiveness of treatments for open-angle glaucoma: a systematic review for the U.S. Preventive Services Task Force.",
+    "instruction": "Does this study report empirical findings on medical, laser, or surgical treatments versus alternatives or usual care in adults with open-angle glaucoma, assessing pressure or vision outcomes?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on medical, laser, or surgical glaucoma treatments in adults with open-angle glaucoma?",
+    "review_objective": "To compare the effectiveness of medical, laser, and surgical treatments in adults with open-angle glaucoma for decreasing intraocular pressure and preventing optic nerve damage, vision loss, and visual impairment, using English-language systematic reviews, randomized controlled trials, and quasi-randomized controlled trials for most outcomes, and observational studies for quality of life and harms.",
+    "stripped_abstract": "Glaucoma is an acquired degeneration of the optic nerve and a leading cause of blindness worldwide. Medical and surgical treatments that decrease intraocular pressure may prevent visual impairment and blindness.\nTo compare the effectiveness of medical, laser, and surgical treatments in adults with open-angle glaucoma with regard to decreasing intraocular pressure and preventing optic nerve damage, vision loss, and visual impairment.\nMEDLINE, CENTRAL, and an existing database for systematic reviews (through 2 March 2011); MEDLINE, EMBASE, LILACS, and CENTRAL for primary studies (through 30 July",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "23460092",
+    "title": "Promoting a culture of safety as a patient safety strategy: a systematic review.",
+    "instruction": "Does this study report empirical findings on interventions targeting healthcare workers in inpatient acute care, assessing changes in patient safety culture or climate?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on interventions promoting patient safety culture or climate among healthcare workers in inpatient acute care?",
+    "review_objective": "To identify and assess interventions targeting health care workers in inpatient acute care settings to promote patient safety culture or climate, using studies that report changes in safety culture or climate after an intervention.",
+    "stripped_abstract": "Developing a culture of safety is a core element of many efforts to improve patient safety and care quality. This systematic review identifies and assesses interventions used to promote safety culture or climate in acute care settings. The authors searched MEDLINE, CINAHL, PsycINFO, Cochrane, and EMBASE to identify relevant English-language studies published from January 2000 to October 2012. They selected studies that targeted health care workers practicing in inpatient settings and included data about change in patient safety culture or climate after a targeted intervention. Two raters indep",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "23529983",
+    "title": "Coronary artery calcium score prediction of all cause mortality and cardiovascular events in people with type 2 diabetes: systematic review and meta-analysis.",
+    "instruction": "Does this study report empirical findings on baseline coronary artery calcium score levels and subsequent mortality or cardiovascular events in people with type 2 diabetes?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on coronary artery calcium scores in people with type 2 diabetes?",
+    "review_objective": "To investigate the association between baseline coronary artery calcium score and subsequent all-cause mortality or fatal and non-fatal cardiovascular events in people with type 2 diabetes, using prospective observational studies.",
+    "stripped_abstract": "To investigate the association of coronary artery calcium score with all cause mortality and cardiovascular events in people with type 2 diabetes.\nSystematic review and meta-analysis of observational studies.\nStudies were identified from Embase, PubMed, and abstracts from the 2011 and 2012 annual meetings of the American Diabetes Association, European Association for the Study of Diabetes, American College of Cardiology, and American Heart Association (2011).\nProspective studies that evaluated baseline coronary artery calcium score in people with type 2 diabetes and subsequent all cause mortal",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "23814120",
+    "title": "Intake of fish and marine n-3 polyunsaturated fatty acids and risk of breast cancer: meta-analysis of data from 21 independent prospective cohort studies.",
+    "instruction": "Does this study report empirical findings on fish or marine n-3 polyunsaturated fatty acid intake or biomarkers and breast cancer risk among women in prospective cohorts?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on fish or marine n-3 polyunsaturated fatty acid intake and breast cancer risk in women?",
+    "review_objective": "To examine the association between fish and n-3 polyunsaturated fatty acid intake, or tissue biomarkers of n-3 polyunsaturated fatty acids, and breast cancer risk, including potential dose-response relationships, in prospective cohort studies reporting relative risks and 95% confidence intervals.",
+    "stripped_abstract": "To investigate the association between intake of fish and n-3 polyunsaturated fatty acids (n-3 PUFA) and the risk of breast cancer and to evaluate the potential dose-response relation.\nMeta-analysis and systematic review of prospective cohort studies.\nPubMed and Embase up to December 2012 and references of retrieved relevant articles.\nProspective cohort studies with relative risk and 95% confidence intervals for breast cancer according to fish intake, n-3 PUFA intake, or tissue biomarkers.\nTwenty six publications, including 20,905 cases of breast cancer and 883,585 participants from 21 indepen",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "23900314",
+    "title": "Severe hypoglycaemia and cardiovascular disease: systematic review and meta-analysis with bias analysis.",
+    "instruction": "Does this study report empirical findings on the association between severe hypoglycaemia and cardiovascular events in people with type 2 diabetes compared with those without severe hypoglycaemia?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on severe hypoglycaemia and cardiovascular disease in people with type 2 diabetes?",
+    "review_objective": "To quantitatively summarize the association between severe hypoglycaemia and cardiovascular events in people with type 2 diabetes, and to examine the sensitivity of this association to possible uncontrolled confounding by unmeasured comorbid severe illness using bias analysis, based on cohort studies excluding acute hospital settings.",
+    "stripped_abstract": "To provide a systematic and quantitative summary of the association between severe hypoglycaemia and risk of cardiovascular disease in people with type 2 diabetes and to examine the sensitivity of the association to possible uncontrolled confounding by unmeasured comorbid severe illness using a bias analysis.\nMeta-analysis of observational studies.\nMedline, Embase, the Cochrane Library, and Web of Science databases were searched to February 2013, without any language restrictions.\nTwo independent reviewers selected cohort studies that evaluated the association of severe hypoglycaemia with card",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "23935058",
+    "title": "Preventing sexual abusers of children from reoffending: systematic review of medical and psychological interventions.",
+    "instruction": "Does this study evaluate medical or psychological interventions versus usual care or no intervention for preventing reoffending among child sexual abusers or abuse by individuals at risk?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on medical or psychological interventions to prevent child sexual abuse in known abusers or people at risk?",
+    "review_objective": "To evaluate the effectiveness of medical and psychological interventions designed to prevent reoffending among known sexual abusers of children and to prevent sexual abuse of children by individuals at risk, using randomised controlled trials and prospective observational studies, with outcomes of arrests, convictions, breaches of conditions, and self-reported sexual abuse of children after one year or more.",
+    "stripped_abstract": "To evaluate the effectiveness of current medical and psychological interventions for individuals at risk of sexually abusing children, both in known abusers and those at risk of abusing.\nSystematic review of interventions designed to prevent reoffending among known abusers and prevention for individuals at risk of sexually abusing children. Randomised controlled trials and prospective observational studies were eligible. Primary outcomes were arrests, convictions, breaches of conditions, and self reported sexual abuse of children after one year or more.\nAfter review of 1447 abstracts, we retrieved 167 full text studies, and finally included eight studies with low to moderate risk of bias.",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "24046285",
+    "title": "Effect of smoking on comparative efficacy of antiplatelet agents: systematic review, meta-analysis, and indirect comparison.",
+    "instruction": "Does this study report empirical findings on whether smoking status modifies the efficacy of clopidogrel, prasugrel, or ticagrelor for preventing cardiovascular events in smokers and nonsmokers?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on antiplatelet treatment efficacy by smoking status in people at risk of cardiovascular events?",
+    "review_objective": "To evaluate whether smoking status is associated with the efficacy of clopidogrel, prasugrel, or ticagrelor for preventing cardiovascular events, based on clinical outcomes among smokers and nonsmokers in randomized trials.",
+    "stripped_abstract": "To evaluate whether smoking status is associated with the efficacy of antiplatelet treatment in the prevention of cardiovascular events.\nSystematic review, meta-analysis, and indirect comparisons.\nMedline (1966 to present) and Embase (1974 to present), with supplementary searches in databases of abstracts from major cardiology conferences, the Cumulative Index to Nursing and Allied Health (CINAHL) and the CAB Abstracts databases, and Google Scholar.\nRandomized trials of clopidogrel, prasugrel, or ticagrelor that examined clinical outcomes among subgroups of smokers and nonsmokers.\nTwo authors ",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "24157497",
+    "title": "Comparative effectiveness of renin-angiotensin system blockers and other antihypertensive drugs in patients with diabetes: systematic review and bayesian network meta-analysis.",
+    "instruction": "Does this study report empirical findings on antihypertensive drug classes or combinations versus other antihypertensive therapy in patients with diabetes, including mortality or major renal outcomes?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on antihypertensive treatment classes or combinations in patients with diabetes?",
+    "review_objective": "To assess the effects of antihypertensive treatment classes, including monotherapy and combination therapy, on survival and major renal outcomes in patients with diabetes, using randomised clinical trials of ACE inhibitors, ARBs, α blockers, β blockers, calcium channel blockers, diuretics, or their combinations, with at least 12 months of follow-up and reporting all-cause mortality, requirement for dialysis, or doubling of serum creatinine levels.",
+    "stripped_abstract": "To assess the effects of different classes of antihypertensive treatments, including monotherapy and combination therapy, on survival and major renal outcomes in patients with diabetes.\nSystematic review and bayesian network meta-analysis of randomised clinical trials.\nElectronic literature search of PubMed, Medline, Scopus, and the Cochrane Library for studies published up to December 2011.\nRandomised clinical trials of antihypertensive therapy (angiotensin converting enzyme (ACE) inhibitors, angiotensin receptor blockers (ARBs), α blockers, β blockers, calcium channel blockers, diuretics, an",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "24592495",
+    "title": "The accessibility of firearms and risk for suicide and homicide victimization among household members: a systematic review and meta-analysis.",
+    "instruction": "Does this study report empirical findings on the association between household firearm access and suicide or homicide among household members with versus without access?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on household firearm access and suicide or homicide risk in household members?",
+    "review_objective": "To examine current estimates of the association between firearm availability and suicide or homicide, comparing participants with and without firearm access, across all study types.",
+    "stripped_abstract": "Research suggests that access to firearms in the home increases the risk for violent death.\nTo understand current estimates of the association between firearm availability and suicide or homicide.\nPubMed, EMBASE, the Cochrane Central Register of Controlled Trials, and Web of Science were searched without limitations and a gray-literature search was performed on 23 August 2013.\nAll study types that assessed firearm access and outcomes between participants with and without firearm access. There were no restrictions on age, sex, or country.\nTwo authors independently extracted data into a standard",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "24727842",
+    "title": "Functional status and quality of life after transcatheter aortic valve replacement: a systematic review.",
+    "instruction": "Does this study report empirical findings on functional status or quality of life after transcatheter aortic valve replacement for aortic stenosis?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on functional status or quality of life after transcatheter aortic valve replacement in patients with aortic stenosis?",
+    "review_objective": "To evaluate changes in functional status and quality of life after transcatheter aortic valve replacement, including changes in New York Heart Association class, Short Form-12/36 physical and mental component scores, and other measures of functional status.",
+    "stripped_abstract": "The functional and quality-of-life benefits of transcatheter aortic valve replacement (TAVR) have not been established.\nTo evaluate the changes in functional status and quality of life after TAVR.\nMEDLINE, EMBASE, and the Cochrane Central Register of Controlled Trials from 1 January 2002 to 30 September 2013.\nStudies of TAVR that reported the New York Heart Association (NYHA) class, Short Form-12/36 Health Survey physical and mental component summary (points), or other measures of functional status.\nTwo reviewers independently extracted the mean change (follow-up minus baseline) in primary outcomes. Because of substantial heterogeneity, data were not pooled; the range of mean change was summarized.",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "24922745",
+    "title": "Effect of screening sigmoidoscopy and screening colonoscopy on colorectal cancer incidence and mortality: systematic review and meta-analysis of randomised controlled trials and observational studies.",
+    "instruction": "Does this study report empirical findings on screening sigmoidoscopy or colonoscopy in average-risk general populations, assessing colorectal cancer incidence or mortality?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on screening sigmoidoscopy or colonoscopy in average-risk populations?",
+    "review_objective": "To review and compare evidence from English-language randomised controlled trials and observational studies on the effectiveness of screening sigmoidoscopy and screening colonoscopy in preventing colorectal cancer incidence and mortality in the general population at average risk.",
+    "stripped_abstract": "To review, summarise, and compare the evidence for effectiveness of screening sigmoidoscopy and screening colonoscopy in the prevention of colorectal cancer occurrence and deaths.\nSystematic review and meta-analysis of randomised controlled trials and observational studies.\nPubMed, Embase, and Web of Science. Two investigators independently extracted characteristics and results of identified studies and performed standardised quality ratings.\nRandomised controlled trials and observational studies in English on the impact of screening sigmoidoscopy and screening colonoscopy on colorectal cancer",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "25006006",
+    "title": "Leucocyte telomere length and risk of cardiovascular disease: systematic review and meta-analysis.",
+    "instruction": "Does this study report empirical findings on associations between leucocyte telomere length and coronary or cerebrovascular disease risk in general-population cohorts not selected for pre-existing cardiovascular disease or diabetes?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on leucocyte telomere length and cardiovascular disease in general-population cohorts?",
+    "review_objective": "To assess the association between leucocyte telomere length and risk of coronary heart disease, defined as non-fatal myocardial infarction, coronary heart disease death, or coronary revascularisation, and cerebrovascular disease, defined as non-fatal stroke or death from cerebrovascular disease, in prospective and retrospective studies broadly representative of general populations that did not select cohort or control participants on the basis of pre-existing cardiovascular disease or diabetes.",
+    "stripped_abstract": "To assess the association between leucocyte telomere length and risk of cardiovascular disease.\nSystematic review and meta-analysis.\nStudies published up to March 2014 identified through searches of Medline, Web of Science, and Embase.\nProspective and retrospective studies that reported on associations between leucocyte telomere length and coronary heart disease (defined as non-fatal myocardial infarction, coronary heart disease death, or coronary revascularisation) or cerebrovascular disease (defined as non-fatal stroke or death from cerebrovascular disease) and were broadly representative of",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "25059938",
+    "title": "A community empowerment approach to the HIV response among sex workers: effectiveness, challenges, and considerations for implementation and scale-up.",
+    "instruction": "Does this study report empirical findings on community empowerment approaches for HIV prevention or response among sex workers in low- and middle-income countries, including effectiveness or implementation?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on community empowerment approaches to HIV prevention and response in sex workers?",
+    "review_objective": "To examine community empowerment approaches for addressing HIV among sex workers, including their effectiveness in low-income and middle-income countries and the challenges and considerations for implementation and scale-up.",
+    "stripped_abstract": "A community empowerment-based response to HIV is a process by which sex workers take collective ownership of programmes to achieve the most effective HIV outcomes and address social and structural barriers to their overall health and human rights. Community empowerment has increasingly gained recognition as a key approach for addressing HIV in sex workers, with its focus on addressing the broad context within which the heightened risk for infection takes places in these individuals. However, large-scale implementation of community empowerment-based approaches has been scarce. We undertook a comprehensive review of community empowerment approaches for addressing HIV in sex workers. Within this effort, we did a systematic review and meta-analysis of the effectiveness of community empowerment in sex workers in low-income and middle-income countries.",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "25556126",
+    "title": "Blood glucose concentration and risk of pancreatic cancer: systematic review and dose-response meta-analysis.",
+    "instruction": "Does this study report empirical findings on the association of blood glucose concentration with pancreatic cancer risk in prospective observational studies?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on blood glucose concentration and pancreatic cancer risk in prospective observational studies?",
+    "review_objective": "To evaluate potential linear and non-linear dose-response relations between blood glucose concentration and risk of pancreatic cancer in prospective observational studies.",
+    "stripped_abstract": "To evaluate potential linear and non-linear dose-response relations between blood glucose and risk of pancreatic cancer.\nSystematic review and dose-response meta-analysis of prospective observational studies.\nSearch of PubMed, Scopus, and related reviews before 30 November 2013 without language restriction.\nProspective studies evaluating the association between blood glucose concentration and pancreatic cancer. Retrospective and cross sectional studies excluded to avoid reverse causality.\nTwo reviewers independently extracted relevant information and assessed study quality with the Newcastle-O",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "25569206",
+    "title": "Quantifying and monitoring overdiagnosis in cancer screening: a systematic review of methods.",
+    "instruction": "Does this study report empirical findings on methods for quantifying or monitoring cancer screening overdiagnosis in prostate, breast, lung, colorectal, melanoma, bladder, renal, thyroid, or uterine cancer?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on cancer screening overdiagnosis in prostate, breast, lung, colorectal, melanoma, bladder, renal, thyroid, or uterine cancer?",
+    "review_objective": "To determine the optimal methods for quantifying and monitoring overdiagnosis over time in screening for prostate, breast, lung, colorectal, melanoma, bladder, renal, thyroid, and uterine cancers, by reviewing English-language primary research studies of any design that quantified overdiagnosis, excluding case series, case reports, and reviews reporting only results of other studies.",
+    "stripped_abstract": "To determine the optimal method for quantifying and monitoring overdiagnosis in cancer screening over time.\nSystematic review of primary research studies of any design that quantified overdiagnosis from screening for nine types of cancer. We used explicit criteria to critically appraise individual studies and assess strength of the body of evidence for each study design (double blinded review), and assessed the potential for each study design to accurately quantify and monitor overdiagnosis over time.\nPubMed and Embase up to 28 February 2014; hand searching of systematic reviews.\nEnglish language studies of any design that quantified overdiagnosis for any of nine common cancers (prostate, breast, lung, colorectal, melanoma, bladder, renal, thyroid, and uterine); excluded case series, case reports, and reviews that only reported results of other studies.",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "25770113",
+    "title": "Methotrexate use and risk of lung disease in psoriasis, psoriatic arthritis, and inflammatory bowel disease: systematic literature review and meta-analysis of randomised controlled trials.",
+    "instruction": "Does this study report empirical findings on pulmonary disease risk with methotrexate versus placebo or active agents in adults with psoriasis, psoriatic arthritis, or inflammatory bowel disease?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on methotrexate-associated pulmonary disease in adults with psoriasis, psoriatic arthritis, or inflammatory bowel disease?",
+    "review_objective": "To evaluate the relative risk of pulmonary disease in adults with psoriasis, psoriatic arthritis, or inflammatory bowel disease treated with methotrexate versus placebo or active comparator agents, using double-blind randomised controlled trials of at least 50 participants and 12 weeks’ duration, with outcomes including total, infectious, and non-infectious respiratory adverse events, interstitial lung disease, and death.",
+    "stripped_abstract": "To evaluate the relative risk of pulmonary disease among patients with psoriasis, psoriatic arthritis, and inflammatory bowel disease treated with methotrexate.\nPubMed, Cochrane central register of controlled trials, and Embase to 9 January 2014.\nDouble blind randomised controlled trials of methotrexate versus placebo or active comparator agents in adults with psoriatic arthritis, psoriasis, or inflammatory bowel disease. Studies with fewer than 50 participants or of less than 12 weeks' duration were excluded.\nTwo investigators independently searched both databases. All authors reviewed select",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "26109551",
+    "title": "Risk of recurrent stillbirth: systematic review and meta-analysis.",
+    "instruction": "Does this study report empirical findings on subsequent-pregnancy stillbirth risk after prior stillbirth versus prior live birth, including unexplained stillbirth, in high-income countries?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on recurrent stillbirth risk after prior stillbirth in subsequent pregnancies in high-income countries?",
+    "review_objective": "To determine the risk of stillbirth in a subsequent pregnancy associated with stillbirth in an initial pregnancy, including unexplained stillbirth, in cohort and case-control studies conducted in high-income countries. Stillbirth was defined as fetal death after 20 weeks’ gestation or a birth weight of at least 400 g.",
+    "stripped_abstract": "To determine the risk of recurrent stillbirth.\nSystematic review and meta-analysis of cohort and case-control studies.\nEmbase, Medline, Cochrane Library, PubMed, CINAHL, and Scopus searched systematically with no restrictions on date, publication, or language to identify relevant studies. Supplementary efforts included searching relevant internet resources as well as hand searching the reference lists of included studies. Where published information was unclear or inadequate, corresponding authors were contacted for more information.\nCohort and case-control studies from high income countries w",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "26199070",
+    "title": "Consumption of sugar sweetened beverages, artificially sweetened beverages, and fruit juice and incidence of type 2 diabetes: systematic review, meta-analysis, and estimation of population attributable fraction.",
+    "instruction": "Does this study report empirical findings on prospective associations of sugar-sweetened beverages, artificially sweetened beverages, or fruit juice with incident type 2 diabetes among adults without diabetes?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on sweetened beverage or fruit juice consumption and type 2 diabetes in adults initially without diabetes?",
+    "review_objective": "To examine prospective associations between consumption of sugar sweetened beverages, artificially sweetened beverages, and fruit juice and incidence of type 2 diabetes among adults without diabetes, before and after adjustment for adiposity, and to estimate the population attributable fraction for type 2 diabetes associated with sugar sweetened beverage consumption in the United States and United Kingdom, using prospective studies and national survey data.",
+    "stripped_abstract": "To examine the prospective associations between consumption of sugar sweetened beverages, artificially sweetened beverages, and fruit juice with type 2 diabetes before and after adjustment for adiposity, and to estimate the population attributable fraction for type 2 diabetes from consumption of sugar sweetened beverages in the United States and United Kingdom.\nSystematic review and meta-analysis.\nPubMed, Embase, Ovid, and Web of Knowledge for prospective studies of adults without diabetes, published until February 2014. The population attributable fraction was estimated in national surveys in",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "26349907",
+    "title": "Diagnostic prediction models for suspected pulmonary embolism: systematic review and independent external validation in primary care.",
+    "instruction": "Does this study report empirical findings on diagnostic prediction models for ruling out suspected acute pulmonary embolism in primary care, including discrimination, sensitivity, specificity, efficiency, or failure rate?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on diagnostic prediction models for ruling out suspected acute pulmonary embolism in primary care?",
+    "review_objective": "To identify and independently externally validate all diagnostic prediction models for ruling out suspected acute pulmonary embolism that are easily applicable in primary care, assess their transportability to primary care, and compare their discriminative ability, sensitivity, specificity, efficiency, and failure rate, including when model cut-offs are combined with a qualitative D-dimer test.",
+    "stripped_abstract": "To validate all diagnostic prediction models for ruling out pulmonary embolism that are easily applicable in primary care.\nSystematic review followed by independent external validation study to assess transportability of retrieved models to primary care medicine.\n300 general practices in the Netherlands.\nIndividual patient dataset of 598 patients with suspected acute pulmonary embolism in primary care.\nDiscriminative ability of all models retrieved by systematic literature search, assessed by calculation and comparison of C statistics. After stratification into groups with high and low probabi",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "26420387",
+    "title": "Calcium intake and risk of fracture: systematic review.",
+    "instruction": "Does this study report empirical findings on increased dietary or supplemental calcium, with or without vitamin D, for fracture prevention in adults over 50?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on calcium intake or supplementation and fracture prevention in adults aged over 50?",
+    "review_objective": "To examine evidence on whether increasing calcium intake through dietary sources, including milk or dairy, or calcium supplements, with or without vitamin D, prevents fractures in people aged over 50, based on randomised controlled trials and cohort studies assessing fracture as an outcome.",
+    "stripped_abstract": "To examine the evidence underpinning recommendations to increase calcium intake through dietary sources or calcium supplements to prevent fractures.\nSystematic review of randomised controlled trials and observational studies of calcium intake with fracture as an endpoint. Results from trials were pooled with random effects meta-analyses.\nOvid Medline, Embase, PubMed, and references from relevant systematic reviews. Initial searches undertaken in July 2013 and updated in September 2014.\nRandomised controlled trials or cohort studies of dietary calcium, milk or dairy intake, or calcium supplemen",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "26420598",
+    "title": "Calcium intake and bone mineral density: systematic review and meta-analysis.",
+    "instruction": "Does this study report empirical findings on effects of increased dietary calcium versus calcium supplements, with or without vitamin D, on bone mineral density in adults aged over 50?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on calcium intake from foods or supplements and bone mineral density in adults over 50?",
+    "review_objective": "To determine whether increasing calcium intake from dietary sources affects bone mineral density in participants aged over 50, and whether its effects are similar to those of calcium supplements with or without vitamin D, in randomised controlled trials measuring bone mineral density at the lumbar spine, total hip, femoral neck, total body, or forearm.",
+    "stripped_abstract": "To determine whether increasing calcium intake from dietary sources affects bone mineral density (BMD) and, if so, whether the effects are similar to those of calcium supplements.\nRandom effects meta-analysis of randomised controlled trials.\nOvid Medline, Embase, Pubmed, and references from relevant systematic reviews. Initial searches were undertaken in July 2013 and updated in September 2014.\nRandomised controlled trials of dietary sources of calcium or calcium supplements (with or without vitamin D) in participants aged over 50 with BMD at the lumbar spine, total hip, femoral neck, total body, or forearm as an outcome.",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "26830055",
+    "title": "Comparative Effect of Contrast Media Type on the Incidence of Contrast-Induced Nephropathy: A Systematic Review and Meta-analysis.",
+    "instruction": "Does this study report empirical findings on contrast-induced nephropathy risk comparing low-osmolar with iso-osmolar contrast media in patients undergoing diagnostic or therapeutic imaging?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on contrast-induced nephropathy associated with low-osmolar or iso-osmolar contrast media in patients undergoing diagnostic or therapeutic imaging?",
+    "review_objective": "To compare the risk of contrast-induced nephropathy among patients receiving low-osmolar or iso-osmolar contrast media for diagnostic or therapeutic imaging, within and between osmolality classes, using randomized controlled trials reporting contrast-induced nephropathy-related outcomes.",
+    "stripped_abstract": "Iodine contrast media are essential components of many imaging procedures. An important potential side effect is contrast-induced nephropathy (CIN).\nTo compare CIN risk for contrast media within and between osmolality classes in patients receiving diagnostic or therapeutic imaging procedures.\nPubMed, EMBASE, Cochrane Library, Clinical Trials.gov, and Scopus through June 2015.\nRandomized, controlled trials that reported CIN-related outcomes in patients receiving low-osmolar contrast media (LOCM) or iso-osmolar contrast media for imaging.\nIndependent study selection and quality assessment by 2 r",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "26830221",
+    "title": "Effectiveness of Prevention Strategies for Contrast-Induced Nephropathy: A Systematic Review and Meta-analysis.",
+    "instruction": "Does this study report empirical findings on N-acetylcysteine, sodium bicarbonate, statins, or ascorbic acid versus controls to prevent contrast-induced nephropathy in adults receiving contrast media?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on contrast-induced nephropathy prevention with N-acetylcysteine, sodium bicarbonate, statins, or ascorbic acid in adults receiving contrast media?",
+    "review_objective": "To evaluate the comparative effectiveness of N-acetylcysteine, sodium bicarbonate, statins, and ascorbic acid for preventing contrast-induced nephropathy in adults receiving intravenous or intra-arterial contrast media, using randomized controlled trials that defined contrast-induced nephropathy and provided sufficient data for meta-analysis.",
+    "stripped_abstract": "N-acetylcysteine, sodium bicarbonate, statins, and ascorbic acid have been studied for reducing contrast-induced nephropathy (CIN).\nTo evaluate the comparative effectiveness of interventions to reduce CIN in adults receiving contrast media.\nMEDLINE, EMBASE, Cochrane Library, ClinicalTrials.gov, and Scopus databases through June 2015. Risk of bias and overall strength of evidence (SOE) of studies were assessed.\nRandomized, controlled trials of N-acetylcysteine, sodium bicarbonate, statins, or ascorbic acid that used intravenous (IV) or intra-arterial contrast media and defined CIN with enough d",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "26868137",
+    "title": "Diabetes mellitus as a compelling indication for use of renin angiotensin system blockers: systematic review and meta-analysis of randomized trials.",
+    "instruction": "Does this study report empirical findings on renin-angiotensin system blockers versus other antihypertensive agents in people with diabetes, assessing clinical or renal outcomes?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on renin-angiotensin system blockers versus other antihypertensive agents in people with diabetes?",
+    "review_objective": "To evaluate outcomes with renin angiotensin system blockers compared with other antihypertensive agents in people with diabetes mellitus, using randomized controlled trials and examining death, cardiovascular death, myocardial infarction, angina, stroke, heart failure, revascularization, and end stage renal disease.",
+    "stripped_abstract": "To evaluate the outcomes with use of renin angiotensin system (RAS) blockers compared with other antihypertensive agents in people with diabetes.\nMeta-analysis.\nPubMed, Embase, and the Cochrane central register of controlled trials databases for randomized trials of RAS blockers versus other antihypertensive agents in people with diabetes mellitus. Outcomes were death, cardiovascular death, myocardial infarction, angina, stroke, heart failure, revascularization, and end stage renal disease.\nThe search yielded 19 randomized controlled trials that enrolled 25,414 participants with diabetes for a",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "26903336",
+    "title": "Developing a New Definition and Assessing New Clinical Criteria for Septic Shock: For the Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3).",
+    "instruction": "Does this study report empirical findings on clinical criteria for identifying septic shock in adults with infection, including prognostic performance or mortality?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on septic shock definitions and clinical criteria in adults with infection?",
+    "review_objective": "To develop a new definition and clinical criteria for identifying septic shock in adults by systematically reviewing observational studies to determine the clinical criteria reported for septic shock, using a Delphi process to reach consensus, and testing the identified variables in cohort studies.",
+    "stripped_abstract": "Septic shock currently refers to a state of acute circulatory failure associated with infection. Emerging biological insights and reported variation in epidemiology challenge the validity of this definition.\nTo develop a new definition and clinical criteria for identifying septic shock in adults.\nThe Society of Critical Care Medicine and the European Society of Intensive Care Medicine convened a task force (19 participants) to revise current sepsis/septic shock definitions. Three sets of studies were conducted: (1) a systematic review and meta-analysis of observational studies in adults publis",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "27142267",
+    "title": "Addition of dipeptidyl peptidase-4 inhibitors to sulphonylureas and risk of hypoglycaemia: systematic review and meta-analysis.",
+    "instruction": "Does this study report empirical findings on hypoglycaemia risk with DPP-4 inhibitors added to sulphonylureas versus placebo plus sulphonylureas in people with type 2 diabetes?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on hypoglycaemia risk with DPP-4 inhibitors added to sulphonylureas in people with type 2 diabetes?",
+    "review_objective": "To quantify the risk of hypoglycaemia with concomitant dipeptidyl peptidase-4 inhibitors and sulphonylureas compared with placebo and sulphonylureas in people with type 2 diabetes, using placebo-controlled randomised trials comprising at least 50 participants.",
+    "stripped_abstract": "To quantify the risk of hypoglycaemia associated with the concomitant use of dipeptidyl peptidase-4 (DPP-4) inhibitors and sulphonylureas compared with placebo and sulphonylureas.\nSystematic review and meta-analysis.\nMedline, ISI Web of Science, SCOPUS, Cochrane Central Register of Controlled Trials, and clinicaltrial.gov were searched without any language restriction.\nPlacebo controlled randomised trials comprising at least 50 participants with type 2 diabetes treated with DPP-4 inhibitors and sulphonylureas.\nRisk of bias in each trial was assessed using the Cochrane Collaboration tool. The risk ratio of hypoglycaemia with 95% confidence intervals was computed for each study and then pooled using fixed effect models (Mantel Haenszel method) or random effect models, when appropriate. Subgroup analyses were also performed (eg, dose of DPP-4 inhibitors). The number needed to harm (NNH) was estimated according to treatment duration.",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "27548070",
+    "title": "Preoperative Frailty Assessment and Outcomes at 6 Months or Later in Older Adults Undergoing Cardiac Surgical Procedures: A Systematic Review.",
+    "instruction": "Does this study report empirical findings on frailty-associated mortality, function, or major cardiac or cerebrovascular events at six months or later after cardiac surgery in adults 60 years or older?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on frailty assessment in adults aged 60 years or older undergoing cardiac surgery?",
+    "review_objective": "To evaluate frailty instruments for predicting mortality, functional status, or major adverse cardiovascular and cerebrovascular events in adults aged 60 years or older undergoing major or minimally invasive cardiac surgical procedures, based on cohort studies evaluating associations between frailty and mortality or functional status at 6 months or later.",
+    "stripped_abstract": "Frailty assessment may inform surgical risk and prognosis not captured by conventional surgical risk scores.\nTo evaluate the evidence for various frailty instruments used to predict mortality, functional status, or major adverse cardiovascular and cerebrovascular events (MACCEs) in older adults undergoing cardiac surgical procedures.\nMEDLINE and EMBASE (without language restrictions), from their inception to 2 May 2016.\nCohort studies evaluating the association between frailty and mortality or functional status at 6 months or later in patients aged 60 years or older undergoing major or minimal",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "27737830",
+    "title": "Non-specific immunological effects of selected routine childhood immunisations: systematic review.",
+    "instruction": "Does this study report empirical findings on non-specific or heterologous immune effects after routine BCG, measles/MMR, diphtheria, tetanus, or pertussis vaccination in children versus other vaccine exposures?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on non-specific or heterologous immune effects of routine childhood vaccines in children?",
+    "review_objective": "The review aimed to identify, assemble, and review human randomised controlled trials, cohort studies, and case-control studies reporting non-specific or heterologous immunological effects after routine vaccination with standard childhood immunisations, specifically BCG, measles, measles-mumps-rubella (MMR), diphtheria, tetanus, and pertussis vaccines. Studies using recombinant vaccines, no vaccine at all, or reporting only vaccine-specific outcomes were excluded.",
+    "stripped_abstract": " To identify and characterise non-specific immunological effects after routine childhood vaccines against BCG, measles, diphtheria, pertussis, and tetanus.\n Systematic review of randomised controlled trials, cohort studies, and case-control studies.\n Embase, PubMed, Cochrane library, and Trip searched between 1947 and January 2014. Publications submitted by a panel of experts in the specialty were also included.\n All human studies reporting non-specific immunological effects after vaccination with standard childhood immunisations. Studies using recombinant vaccines, no vaccine at all, or repor",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "27802478",
+    "title": "Management of Gout: A Systematic Review in Support of an American College of Physicians Clinical Practice Guideline.",
+    "instruction": "Does this study report empirical findings on treatments for acute gout attacks, urate-lowering prevention, or medication discontinuation versus alternatives in adults, including effectiveness or adverse events?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on acute gout treatment, urate-lowering prevention, or chronic gout medication discontinuation in adults?",
+    "review_objective": "To review evidence on treatments for acute gout attacks, management of hyperuricemia to prevent attacks, and discontinuation of medications for chronic gout in adults, focusing on drugs approved by the U.S. Food and Drug Administration and commonly prescribed by primary care physicians; effectiveness was evaluated in randomized trials, and adverse events in trials and observational studies.",
+    "stripped_abstract": "Gout is a common type of inflammatory arthritis in patients seen by primary care physicians.\nTo review evidence about treatment of acute gout attacks, management of hyperuricemia to prevent attacks, and discontinuation of medications for chronic gout in adults.\nMultiple electronic databases from January 2010 to March 2016, reference mining, and pharmaceutical manufacturers.\nStudies of drugs approved by the U.S. Food and Drug Administration and commonly prescribed by primary care physicians, randomized trials for effectiveness, and trials and observational studies for adverse events.\nData extra",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "27802505",
+    "title": "Diagnosis of Gout: A Systematic Review in Support of an American College of Physicians Clinical Practice Guideline.",
+    "instruction": "Does this study report empirical findings on accuracy of gout tests or algorithms in inflamed joints without prior diagnosis, compared with joint-aspirate MSU crystal analysis?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on gout diagnosis in people with joint inflammation and no prior definitive diagnosis?",
+    "review_objective": "To assess the accuracy of clinical tests and classification algorithms for diagnosing gout in participants with joint inflammation and no previous definitive gout diagnosis, compared with monosodium urate crystal analysis of joint aspirate, using evidence from prospective cohort, cross-sectional, and case-control studies.",
+    "stripped_abstract": "Alternative strategies exist for diagnosing gout that do not rely solely on the documentation of monosodium urate (MSU) crystals.\nTo summarize evidence regarding the accuracy of clinical tests and classification algorithms compared with that of a reference standard of MSU crystals in joint aspirate for diagnosing gout.\nSeveral electronic databases from inception to 29 February 2016.\n21 prospective cohort, cross-sectional, and case-control studies including participants with joint inflammation and no previous definitive gout diagnosis who had MSU analysis of joint aspirate.\nData extraction and ",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "27893131",
+    "title": "Association Between Palliative Care and Patient and Caregiver Outcomes: A Systematic Review and Meta-analysis.",
+    "instruction": "Does this study report empirical findings on palliative care versus usual care for adults with life-limiting illness or their caregivers, including patient or caregiver outcomes?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on palliative care interventions in adults with life-limiting illness or their caregivers?",
+    "review_objective": "To determine the association of palliative care interventions with quality of life, symptom burden, survival, mood, advance care planning, site of death, health care satisfaction, resource utilization, and health care expenditures among adults with life-limiting illness and their caregivers, based on randomized clinical trials.",
+    "stripped_abstract": "The use of palliative care programs and the number of trials assessing their effectiveness have increased.\nTo determine the association of palliative care with quality of life (QOL), symptom burden, survival, and other outcomes for people with life-limiting illness and for their caregivers.\nMEDLINE, EMBASE, CINAHL, and Cochrane CENTRAL to July 2016.\nRandomized clinical trials of palliative care interventions in adults with life-limiting illness.\nTwo reviewers independently extracted data. Narrative synthesis was conducted for all trials. Quality of life, symptom burden, and survival were analy",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "28114600",
+    "title": "The Effects of Pay-for-Performance Programs on Health, Health Care Use, and Processes of Care: A Systematic Review.",
+    "instruction": "Does this study report empirical findings on pay-for-performance programs targeting clinicians or health care organizations in ambulatory or inpatient settings, measuring care processes, health, or utilization?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on pay-for-performance programs targeting health care providers or organizations in clinical settings?",
+    "review_objective": "To update and expand a prior review of the effects of pay-for-performance programs targeted at the physician, group, managerial, or institutional level on processes of care, health, and health care utilization in ambulatory and inpatient settings, based on trials and observational studies reporting these outcomes.",
+    "stripped_abstract": "The benefits of pay-for-performance (P4P) programs are uncertain.\nTo update and expand a prior review examining the effects of P4P programs targeted at the physician, group, managerial, or institutional level on process-of-care and patient outcomes in ambulatory and inpatient settings.\nPubMed from June 2007 to October 2016; MEDLINE, PsycINFO, CINAHL, Business Economics and Theory, Business Source Elite, Scopus, Faculty of 1000, and Gartner Research from June 2007 to February 2016.\nTrials and observational studies in ambulatory and inpatient settings reporting process-of-care, health, or utiliz",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "28348110",
+    "title": "Low intensity pulsed ultrasound for bone healing: systematic review of randomized controlled trials.",
+    "instruction": "Does this study report empirical findings on low-intensity pulsed ultrasound versus control for bone healing in patients with fractures?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on low-intensity pulsed ultrasound for bone healing in patients with fractures?",
+    "review_objective": null,
+    "stripped_abstract": "[No Abstract]",
+    "excluded_from_study": true,
+    "exclusion_reason": "no abstract"
+  },
+  {
+    "sr_pmid": "28903922",
+    "title": "Risk of relapse after antidepressant discontinuation in anxiety disorders, obsessive-compulsive disorder, and post-traumatic stress disorder: systematic review and meta-analysis of relapse prevention trials.",
+    "instruction": "Does this study report empirical findings on relapse after antidepressant discontinuation versus continuation in patients with anxiety disorders, obsessive-compulsive disorder, or post-traumatic stress disorder?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on relapse following antidepressant discontinuation in people with anxiety disorders, obsessive-compulsive disorder, or post-traumatic stress disorder?",
+    "review_objective": null,
+    "stripped_abstract": "[No Abstract]",
+    "excluded_from_study": true,
+    "exclusion_reason": "no abstract"
+  },
+  {
+    "sr_pmid": "29049756",
+    "title": "Interventions to Improve Follow-up of Positive Results on Fecal Blood Tests: A Systematic Review.",
+    "instruction": "Does this study report empirical findings on interventions to increase follow-up colonoscopy after positive guaiac or immunochemical fecal tests among asymptomatic adults?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on interventions to improve colonoscopy follow-up after positive fecal blood tests in asymptomatic adults?",
+    "review_objective": "To evaluate interventions intended to improve follow-up colonoscopy rates among asymptomatic adults with positive guaiac or immunochemical fecal test results, based on English-language randomized and nonrandomized studies.",
+    "stripped_abstract": "Fecal immunochemical testing is the most commonly used method for colorectal cancer screening worldwide. However, its effectiveness is frequently undermined by failure to obtain follow-up colonoscopy after positive test results.\nTo evaluate interventions to improve rates of follow-up colonoscopy for adults after a positive result on a fecal test (guaiac or immunochemical).\nEnglish-language studies from the Cochrane Central Register of Controlled Trials, PubMed, and Embase from database inception through June 2017.\nRandomized and nonrandomized studies reporting an intervention for colonoscopy f",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "29187358",
+    "title": "Vitamin D supplementation during pregnancy: state of the evidence from a systematic review of randomised trials.",
+    "instruction": "Does this study report empirical findings on vitamin D supplementation versus placebo or usual care in pregnant women, including maternal or infant outcomes?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on vitamin D supplementation during pregnancy in pregnant women?",
+    "review_objective": null,
+    "stripped_abstract": "[No Abstract]",
+    "excluded_from_study": true,
+    "exclusion_reason": "no abstract"
+  },
+  {
+    "sr_pmid": "29540345",
+    "title": "Immune-related adverse events for anti-PD-1 and anti-PD-L1 drugs: systematic review and meta-analysis.",
+    "instruction": "Does this study report empirical findings on immune-related adverse events with anti-PD-1 or anti-PD-L1 drugs in patients with recurrent or metastatic cancer versus control treatments?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on immune-related adverse events with anti-PD-1 or anti-PD-L1 drugs in recurrent or metastatic cancer?",
+    "review_objective": "To evaluate rates of serious organ-specific immune-related adverse events, general adverse events related to immune activation, and adverse events consistent with musculoskeletal problems associated with anti-PD-1 drugs, overall and compared with control treatments, in patients with recurrent or metastatic cancer, using primary clinical trial data.",
+    "stripped_abstract": "To evaluate rates of serious organ specific immune-related adverse events, general adverse events related to immune activation, and adverse events consistent with musculoskeletal problems for anti-programmed cell death 1 (PD-1) drugs overall and compared with control treatments.\nSystematic review and meta-analysis.\nMedline, Embase, Cochrane Library, Web of Science, and Scopus searched to 16 March 2017 and combined with data from ClinicalTrials.gov.\nEligible studies included primary clinical trial data on patients with cancer with recurrent or metastatic disease.\nThree independent investigators",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "30158148",
+    "title": "Environmental toxic metal contaminants and risk of cardiovascular disease: systematic review and meta-analysis.",
+    "instruction": "Does this study report empirical findings on associations between varying arsenic, lead, cadmium, mercury, or copper levels and cardiovascular disease, coronary heart disease, or stroke in human populations?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on arsenic, lead, cadmium, mercury, or copper exposure in human cardiovascular health?",
+    "review_objective": "To systematically review and meta-analyze epidemiological studies reporting risk estimates for the association between levels of arsenic, lead, cadmium, mercury, or copper and total cardiovascular disease, coronary heart disease, or stroke.",
+    "stripped_abstract": "To conduct a systematic review and meta-analysis of epidemiological studies investigating the association of arsenic, lead, cadmium, mercury, and copper with cardiovascular disease.\nSystematic review and meta-analysis.\nPubMed, Embase, and Web of Science searched up to December 2017.\nStudies reporting risk estimates for total cardiovascular disease, coronary heart disease, and stroke for levels of arsenic, lead, cadmium, mercury, or copper were included. Two investigators independently extracted information on study characteristics and outcomes in accordance with PRISMA and MOOSE guidelines. Re",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "30326495",
+    "title": "Prevalence of Burnout Among Physicians: A Systematic Review.",
+    "instruction": "Does this study report empirical findings on questionnaire-assessed burnout prevalence or assessment methods among practicing physicians, excluding physicians in training?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on burnout in practicing physicians, excluding physicians in training?",
+    "review_objective": "To characterize the methods used to assess burnout and estimate the point or period prevalence of questionnaire-assessed burnout among practicing physicians, excluding physicians in training.",
+    "stripped_abstract": "Burnout is a self-reported job-related syndrome increasingly recognized as a critical factor affecting physicians and their patients. An accurate estimate of burnout prevalence among physicians would have important health policy implications, but the overall prevalence is unknown.\nTo characterize the methods used to assess burnout and provide an estimate of the prevalence of physician burnout.\nSystematic search of EMBASE, ERIC, MEDLINE/PubMed, psycARTICLES, and psycINFO for studies on the prevalence of burnout in practicing physicians (ie, excluding physicians in training) published before Jun",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "30383109",
+    "title": "Clinical Outcomes Associated With Sickle Cell Trait: A Systematic Review.",
+    "instruction": "Does this study report empirical findings on associations between sickle cell trait and clinical outcomes in children or adults compared with those without trait?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on sickle cell trait-associated clinical outcomes in children or adults?",
+    "review_objective": "To evaluate associations between sickle cell trait and any of 24 clinical outcomes specified a priori in children or adults, including exertion-related injury; renal, vascular, pediatric, and surgery- or trauma-related outcomes; and overall mortality, in observational controlled studies published in English.",
+    "stripped_abstract": "Although sickle cell trait (SCT) is largely a benign carrier state, it may increase risk for certain clinical outcomes.\nTo evaluate associations between SCT and clinical outcomes in children and adults.\nEnglish-language searches of PubMed, CINAHL, the Cochrane Library, Current Contents Connect, Scopus, and Embase (1 January 1970 to 30 June 2018) and bibliographies of review articles.\nObservational controlled studies (published in English) in children or adults that examined an association between SCT and any of 24 clinical outcomes specified a priori in the following 6 categories: exertion-rel",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "30409774",
+    "title": "Comparative safety of immune checkpoint inhibitors in cancer: systematic review and network meta-analysis.",
+    "instruction": "Does this study report empirical findings on treatment-related toxicities or adverse events in patients with cancer receiving immune checkpoint inhibitors versus other immune checkpoint inhibitors or conventional therapies?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on immune checkpoint inhibitor safety in patients with cancer?",
+    "review_objective": "To examine the toxicity profile, toxicity spectrum, and safety ranking of immune checkpoint inhibitor drugs for cancer treatment, including treatment-related adverse events reported at the site, organ, or system level. Eligible evidence comprised English-language head-to-head phase II or III randomised controlled trials comparing any two or three of nivolumab, pembrolizumab, ipilimumab, tremelimumab, atezolizumab, conventional therapy (chemotherapy, targeted therapy, or their combinations), two immune checkpoint inhibitor drugs, or one immune checkpoint inhibitor drug with conventional therapy, including comparisons of different doses of the same drug; high-quality single-arm trials and placebo-controlled trials of immune checkpoint inhibitor drugs were selected to establish a validation group.",
+    "stripped_abstract": "To provide a complete toxicity profile, toxicity spectrum, and a safety ranking of immune checkpoint inhibitor (ICI) drugs for treatment of cancer.\nSystematic review and network meta-analysis.\nElectronic databases (PubMed, Embase, Cochrane Library, and Web of Science) were systematically searched to include relevant studies published in English between January 2007 and February 2018.\nOnly head-to-head phase II and III randomised controlled trials comparing any two or three of the following treatments or different doses of the same ICI drug were included: nivolumab, pembrolizumab, ipilimumab, t",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "30617123",
+    "title": "Operative treatment versus nonoperative treatment of Achilles tendon ruptures: systematic review and meta-analysis.",
+    "instruction": "Does this study report empirical findings on operative versus nonoperative treatment of acute Achilles tendon rupture, including rerupture, complications, or functional outcomes?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on operative or nonoperative treatment of acute Achilles tendon rupture in affected patients?",
+    "review_objective": "The review aimed to compare re-rupture rate, complication rate, and functional outcome after operative versus nonoperative treatment of acute Achilles tendon ruptures; compare re-rupture rates after early versus late full weight bearing and after functional rehabilitation with early range of motion; and compare effect estimates from randomised controlled trials and observational studies. Eligible studies were randomised controlled trials and observational studies comparing operative with nonoperative treatment.",
+    "stripped_abstract": "To compare re-rupture rate, complication rate, and functional outcome after operative versus nonoperative treatment of Achilles tendon ruptures; to compare re-rupture rate after early and late full weight bearing; to evaluate re-rupture rate after functional rehabilitation with early range of motion; and to compare effect estimates from randomised controlled trials and observational studies.\nSystematic review and meta-analysis.\nPubMed/Medline, Embase, CENTRAL, and CINAHL databases were last searched on 25 April 2018 for studies comparing operative versus nonoperative treatment of Achilles tendon ruptures.\nRandomised controlled trials and observational studies reporting on comparison of operative versus nonoperative treatment of acute Achilles tendon ruptures.\nData extraction was performed independently in pairs, by four reviewers, with the use of a predefined data extraction file. Outcomes were pooled using random effects models and presented as risk difference, risk ratio, or mean difference, with 95% confidence interval.",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "30884526",
+    "title": "Pharmacologic and Nonpharmacologic Treatments for Urinary Incontinence in Women: A Systematic Review and Network Meta-analysis of Clinical Outcomes.",
+    "instruction": "Does this study report empirical findings on pharmacologic or nonpharmacologic treatments versus comparators for stress, urgency, or mixed urinary incontinence in nonpregnant women, including cure or improvement?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on pharmacologic or nonpharmacologic treatments for stress, urgency, or mixed urinary incontinence in nonpregnant women?",
+    "review_objective": "To compare the effectiveness of pharmacologic and nonpharmacologic interventions for improving or curing stress, urgency, or mixed urinary incontinence in nonpregnant women, using randomized trials reporting categorical cure or improvement outcomes.",
+    "stripped_abstract": "Urinary incontinence (UI), a common malady in women, most often is classified as stress, urgency, or mixed.\nTo compare the effectiveness of pharmacologic and nonpharmacologic interventions to improve or cure stress, urgency, or mixed UI in nonpregnant women.\nMEDLINE, Cochrane Central Register of Controlled Trials (Wiley), Cochrane Database of Systematic Reviews (Wiley), EMBASE (Elsevier), CINAHL (EBSCO), and PsycINFO (American Psychological Association) from inception through 10 August 2018.\n84 randomized trials that evaluated 14 categories of interventions and reported categorical cure or imp",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "30917990",
+    "title": "Comparative efficacy and acceptability of non-surgical brain stimulation for the acute treatment of major depressive episodes in adults: systematic review and network meta-analysis.",
+    "instruction": "Does this study report empirical findings on randomized non-surgical brain stimulation versus sham or another method for acute major depressive episodes in adults, assessing response, remission, discontinuation, or severity?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on non-surgical brain stimulation in adults with acute major depressive episodes?",
+    "review_objective": "To estimate the comparative clinical efficacy and acceptability of electroconvulsive therapy, transcranial magnetic stimulation (repetitive, accelerated, priming, deep, and synchronised), theta burst stimulation, magnetic seizure therapy, and transcranial direct current stimulation, compared with sham therapy or each other, for the acute treatment of major depressive episodes in adults. Eligible studies were clinical trials with random allocation to one of these interventions or sham therapy. Outcomes of interest were response, all-cause discontinuation, remission, and continuous depression severity scores after treatment.",
+    "stripped_abstract": "To estimate the comparative clinical efficacy and acceptability of non-surgical brain stimulation for the acute treatment of major depressive episodes in adults.\nSystematic review with pairwise and network meta-analysis.\nElectronic search of Embase, PubMed/Medline, and PsycINFO up to 8 May 2018, supplemented by manual searches of bibliographies of several reviews (published between 2009 and 2018) and included trials.\nClinical trials with random allocation to electroconvulsive therapy (ECT), transcranial magnetic stimulation (repetitive (rTMS), accelerated, priming, deep, and synchronised), the",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "31200992",
+    "title": "New WHO prevalence estimates of mental disorders in conflict settings: a systematic review and meta-analysis.",
+    "instruction": "Does this study report empirical findings on prevalence or population burden of depression, anxiety disorders, PTSD, bipolar disorder, or schizophrenia in conflict-affected settings within 10 years of conflict?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on mental disorders in populations in conflict-affected settings within 10 years of conflict?",
+    "review_objective": "To update WHO estimates of the prevalence of depression, anxiety disorders, post-traumatic stress disorder, bipolar disorder, and schizophrenia in conflict-affected settings that had experienced conflict less than 10 years previously, and to calculate the burden per 1000 population.",
+    "stripped_abstract": "Existing WHO estimates of the prevalence of mental disorders in emergency settings are more than a decade old and do not reflect modern methods to gather existing data and derive estimates. We sought to update WHO estimates for the prevalence of mental disorders in conflict-affected settings and calculate the burden per 1000 population.\nIn this systematic review and meta-analysis, we updated a previous systematic review by searching MEDLINE (PubMed), PsycINFO, and Embase for studies published between Jan 1, 2000, and Aug 9, 2017, on the prevalence of depression, anxiety disorder, post-traumati",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "31255301",
+    "title": "Population-level impact and herd effects following the introduction of human papillomavirus vaccination programmes: updated systematic review and meta-analysis.",
+    "instruction": "Does this study report empirical findings on population-level effects of HPV vaccination programmes for girls and women versus pre-vaccination populations, including HPV infection, anogenital warts, or CIN2+?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on population-level effects of HPV vaccination programmes in girls and women?",
+    "review_objective": "To examine the population-level impact in real-world settings of HPV vaccination programmes vaccinating girls and women, including the impact of multiple age-cohort vaccination, on genital HPV infections, anogenital wart diagnoses, and histologically confirmed CIN2+. Eligible studies compared the prevalence or incidence of at least one of these endpoints between pre-vaccination and post-vaccination periods in the general population, using the same population sources and recruitment methods before and after vaccination.",
+    "stripped_abstract": "More than 10 years have elapsed since human papillomavirus (HPV) vaccination was implemented. We did a systematic review and meta-analysis of the population-level impact of vaccinating girls and women against human papillomavirus on HPV infections, anogenital wart diagnoses, and cervical intraepithelial neoplasia grade 2+ (CIN2+) to summarise the most recent evidence about the effectiveness of HPV vaccines in real-world settings and to quantify the impact of multiple age-cohort vaccination.\nIn this updated systematic review and meta-analysis, we used the same search strategy as in our previous paper. We searched MEDLINE and Embase for studies published between Feb 1, 2014, and Oct 11, 2018. Studies were eligible if they compared the frequency (prevalence or incidence) of at least one HPV-related endpoint (genital HPV infections, anogenital wart diagnoses, or histologically confirmed CIN2+) between pre-vaccination and post-vaccination periods among the general population and if they used the same population sources and recruitment methods before and after vaccination. Our primary assessment was the relative risk (RR) comparing the frequency (prevalence or incidence) of HPV-related endpoints between the pre-vaccination and post-vaccination periods. We stratified all analyses by sex, age, and years since introduction of HPV vaccination. We used random-effects models to estimate pooled relative risks.",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "31585960",
+    "title": "Prognostic models for outcome prediction in patients with chronic obstructive pulmonary disease: systematic review and critical appraisal.",
+    "instruction": "Does this study report empirical findings on prognostic models predicting clinical outcomes in patients with COPD, including model development, validation, or updating?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on prognostic models in patients with chronic obstructive pulmonary disease?",
+    "review_objective": "The review aimed to map and assess prognostic models for predicting any potential clinical outcome in patients with chronic obstructive pulmonary disease, including studies that developed, validated, or updated a prediction model.",
+    "stripped_abstract": "To map and assess prognostic models for outcome prediction in patients with chronic obstructive pulmonary disease (COPD).\nSystematic review.\nPubMed until November 2018 and hand searched references from eligible articles.\nStudies developing, validating, or updating a prediction model in COPD patients and focusing on any potential clinical outcome.\nThe systematic search yielded 228 eligible articles, describing the development of 408 prognostic models, the external validation of 38 models, and the validation of 20 prognostic models derived for diseases other than COPD. The 408 prognostic models were developed in three clinical settings: outpatients (n=239; 59%), patients admitted to hospital (n=155; 38%), and patients attending the emergency department (n=14; 3%).",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "31591158",
+    "title": "Efficacy and safety of first line treatments for patients with advanced epidermal growth factor receptor mutated, non-small cell lung cancer: systematic review and network meta-analysis.",
+    "instruction": "Does this study report empirical findings on first-line treatment comparisons in randomized trials for advanced EGFR-mutated NSCLC, including survival, response, or grade ≥3 adverse events?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on first-line treatment comparisons for patients with advanced EGFR-mutated NSCLC?",
+    "review_objective": "To compare the efficacy and safety of first-line treatments for patients with advanced EGFR-mutated non-small cell lung cancer, using published or unpublished randomized controlled trials comparing two or more treatments and reporting progression-free survival, overall survival, objective response rate, or grade 3 or higher adverse events.",
+    "stripped_abstract": "To compare the efficacy and safety of first line treatments for patients with advanced epidermal growth factor receptor (EGFR) mutated non-small cell lung cancer (NSCLC).\nSystematic review and network meta-analysis.\nPubMed, Embase, Cochrane Central Register of Controlled Trials, ClinicalTrials.gov, and several international conference databases, from inception to 20 May 2019.\nPublished and unpublished randomised controlled trials comparing two or more treatments in the first line setting for patients with advanced EGFR mutated NSCLC were included in a bayesian network meta-analysis. Eligible s",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "31727627",
+    "title": "Comparative efficacy and safety of new surgical treatments for benign prostatic hyperplasia: systematic review and network meta-analysis.",
+    "instruction": "Does this study report empirical findings on efficacy or safety of endoscopic prostate vaporization, resection, or enucleation for benign prostatic hyperplasia compared with other techniques?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on endoscopic surgical treatment of benign prostatic hyperplasia?",
+    "review_objective": "To assess the efficacy and safety of endoscopic surgical treatments for benign prostatic hyperplasia by comparing randomised controlled trials of prostate vapourisation, resection, and enucleation using monopolar, bipolar, or holmium, thulium, potassium titanyl phosphate, or diode laser systems. Outcomes of interest were maximal flow rate (Qmax) and International Prostate Symptom Score (IPSS) at 12 months, Qmax and IPSS at 6, 24, and 36 months, perioperative parameters, and surgical complications.",
+    "stripped_abstract": "To assess the efficacy and safety of different endoscopic surgical treatments for benign prostatic hyperplasia.\nSystematic review and network meta-analysis of randomised controlled trials.\nA comprehensive search of PubMed, Embase, and Cochrane databases from inception to 31 March 2019.\nRandomised controlled trials comparing vapourisation, resection, and enucleation of the prostate using monopolar, bipolar, or various laser systems (holmium, thulium, potassium titanyl phosphate, or diode) as surgical treatments for benign prostatic hyperplasia. The primary outcomes were the maximal flow rate (Q",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "31990319",
+    "title": "Malpractice Liability and Health Care Quality: A Review.",
+    "instruction": "Does this study report empirical findings on how differing malpractice liability risks relate to health care quality or safety in clinician care of patients?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on malpractice liability risk and health care quality or safety in clinical care settings?",
+    "review_objective": "To examine empirical evidence on the association between malpractice liability risk—including measures such as malpractice insurance premiums, tort reforms, claims and payments, jury awards, immunity from liability, and composite measures—and health care quality and safety, including health outcomes and structural and process indicators of care.",
+    "stripped_abstract": "The tort liability system is intended to serve 3 functions: compensate patients who sustain injury from negligence, provide corrective justice, and deter negligence. Deterrence, in theory, occurs because clinicians know that they may experience adverse consequences if they negligently injure patients.\nTo review empirical findings regarding the association between malpractice liability risk (ie, the extent to which clinicians face the threat of being sued and having to pay damages) and health care quality and safety.\nSystematic search of multiple databases for studies published between January ",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "32199484",
+    "title": "The risk of tuberculosis in children after close exposure: a systematic review and individual-participant meta-analysis.",
+    "instruction": "Does this study report empirical findings on tuberculosis risk after close exposure among children younger than 19 years, including time patterns or prevention effects?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on tuberculosis after close exposure in children younger than 19 years?",
+    "review_objective": "To estimate the risk of developing tuberculosis among individuals younger than 19 years with household or close exposure to a person with tuberculosis, in cohort studies with at least 6 months of follow-up, information on the child’s age and sex, and follow-up start and end dates. The review aimed to examine risk by follow-up time period, age, region, HIV status, tuberculosis infection status, and previous tuberculosis, and to estimate the effectiveness of preventive therapy and BCG vaccination on the risk of developing tuberculosis. Studies assessing incident tuberculosis without dates or time of follow-up were excluded.",
+    "stripped_abstract": "Tens of millions of children are exposed to Mycobacterium tuberculosis globally every year; however, there are no contemporary estimates of the risk of developing tuberculosis in exposed children. The effectiveness of contact investigations and preventive therapy remains poorly understood.\nIn this systematic review and meta-analysis, we investigated the development of tuberculosis in children closely exposed to a tuberculosis case and followed for incident disease. We restricted our search to cohort studies published between Jan 1, 1998, and April 6, 2018, in MEDLINE, Web of Science, BIOSIS, a",
+    "excluded_from_study": true,
+    "exclusion_reason": "error in source corpus labeling, raw source dataset PTSD is paired with pediatric tuberculosis reviews"
+  },
+  {
+    "sr_pmid": "32371466",
+    "title": "Occurrence, prevention, and management of the psychological effects of emerging virus outbreaks on healthcare workers: rapid review and meta-analysis.",
+    "instruction": "Does this study report empirical findings on psychological effects or stress-management measures among healthcare workers caring for patients during emerging viral outbreaks?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on psychological effects or stress-management during emerging viral outbreaks in healthcare workers?",
+    "review_objective": "To examine the psychological effects on healthcare staff of working with patients during outbreaks of emerging viruses in any clinical setting, irrespective of comparison with other clinicians or the general population, and successful measures to manage stress and psychological distress.",
+    "stripped_abstract": "To examine the psychological effects on clinicians of working to manage novel viral outbreaks, and successful measures to manage stress and psychological distress.\nRapid review and meta-analysis.\nCochrane Central Register of Controlled Trials, PubMed/Medline, PsycInfo, Scopus, Web of Science, Embase, and Google Scholar, searched up to late March 2020.\nAny study that described the psychological reactions of healthcare staff working with patients in an outbreak of any emerging virus in any clinical setting, irrespective of any comparison with other clinicians or the general population.",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "32427305",
+    "title": "Association of Blood Pressure Lowering With Incident Dementia or Cognitive Impairment: A Systematic Review and Meta-analysis.",
+    "instruction": "Does this study report empirical findings on blood pressure lowering versus placebo, alternative antihypertensive agents, or higher targets and dementia, cognitive impairment, or cognitive decline in trial participants?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on blood pressure lowering and dementia or cognitive impairment in randomized clinical trial participants?",
+    "review_objective": "To determine the association of blood pressure lowering with dementia or cognitive impairment, cognitive decline, and changes in cognitive test scores, compared with placebo, alternative antihypertensive agents, or higher blood pressure targets, in randomized clinical trials.",
+    "stripped_abstract": "The benefit of blood pressure lowering for the prevention of dementia or cognitive impairment is unclear.\nTo determine the association of blood pressure lowering with dementia or cognitive impairment.\nSearch of PubMed, EMBASE, and CENTRAL for randomized clinical trials published from database inception through December 31, 2019, that evaluated the association of blood pressure lowering on cognitive outcomes. The control groups consisted of either placebo, alternative antihypertensive agents, or higher blood pressure targets.\nData were screened and extracted independently by 2 authors. Random-e",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "32442035",
+    "title": "Ventilation Techniques and Risk for Transmission of Coronavirus Disease, Including COVID-19: A Living Systematic Review of Multiple Streams of Evidence.",
+    "instruction": "Does this study report empirical findings on ventilation or oxygenation approaches in coronavirus-infected or hypoxemic patients, or aerosol dispersion or transmission from respiratory procedures?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on ventilation techniques, oxygenation, or aerosol transmission in coronavirus infection or respiratory failure contexts?",
+    "review_objective": "To examine the benefits and harms of ventilation techniques for coronavirus infections, including COVID-19, by comparing oxygenation approaches in patients with coronavirus infections, including SARS or MERS, or hypoxemic respiratory failure; the review also considered studies of any design and language, animal, mechanistic, laboratory and preclinical evidence on coronavirus aerosol dispersion, and studies of virus transmission to health care workers from aerosol-generating procedures.",
+    "stripped_abstract": "Mechanical ventilation is used to treat respiratory failure in coronavirus disease 2019 (COVID-19).\nTo review multiple streams of evidence regarding the benefits and harms of ventilation techniques for coronavirus infections, including that causing COVID-19.\n21 standard, World Health Organization-specific and COVID-19-specific databases, without language restrictions, until 1 May 2020.\nStudies of any design and language comparing different oxygenation approaches in patients with coronavirus infections, including severe acute respiratory syndrome (SARS) or Middle East respiratory syndrome (MERS",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "32459529",
+    "title": "Hydroxychloroquine or Chloroquine for Treatment or Prophylaxis of COVID-19: A Living Systematic Review.",
+    "instruction": "Does this study report empirical findings on hydroxychloroquine or chloroquine for COVID-19 treatment or prophylaxis in infected, suspected, or at-risk people, including efficacy or safety outcomes?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on hydroxychloroquine or chloroquine for COVID-19 treatment or prophylaxis in suspected or at-risk COVID-19 populations?",
+    "review_objective": "To summarize evidence on the benefits and harms of hydroxychloroquine or chloroquine for treatment or prophylaxis of COVID-19, based on studies in any language reporting efficacy or safety outcomes in any setting among adults or children with suspected COVID-19 or at risk for SARS-CoV-2 infection.",
+    "stripped_abstract": "Hydroxychloroquine and chloroquine have antiviral effects in vitro against severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2).\nTo summarize evidence about the benefits and harms of hydroxychloroquine or chloroquine for the treatment or prophylaxis of coronavirus disease 2019 (COVID-19).\nPubMed (via MEDLINE), EMBASE (via Ovid), Scopus, Web of Science, Cochrane Library, bioRxiv, Preprints, ClinicalTrials.gov, World Health Organization International Clinical Trials Registry Platform, and the Chinese Clinical Trials Registry from 1 December 2019 until 8 May 2020.\nStudies in any language ",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "32479176",
+    "title": "Using Electronic Health Record Portals to Improve Patient Engagement: Research Priorities and Best Practices.",
+    "instruction": "Does this study report empirical findings on patient engagement with electronic health record data through patient portals, including portal use, usability, or engagement interventions?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on patient engagement with electronic health record data through portals in healthcare settings?",
+    "review_objective": "To identify research on patient engagement with electronic health record data through patient portals to inform best practices and priorities for future research.",
+    "stripped_abstract": "Ninety percent of health care systems now offer patient portals to access electronic health records (EHRs) in the United States, but only 15% to 30% of patients use these platforms. Using PubMed, the authors identified 53 studies published from September 2013 to June 2019 that informed best practices and priorities for future research on patient engagement with EHR data through patient portals, These studies mostly involved outpatient settings and fell into 3 major categories: interventions to increase use of patient portals, usability testing of portal interfaces, and documentation of patient",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "32496521",
+    "title": "Association of Noninvasive Oxygenation Strategies With All-Cause Mortality in Adults With Acute Hypoxemic Respiratory Failure: A Systematic Review and Meta-analysis.",
+    "instruction": "Does this study report empirical findings on high-flow nasal oxygen or face mask/helmet noninvasive ventilation versus standard oxygen in adults with acute hypoxemic respiratory failure, assessing mortality or intubation?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on noninvasive oxygenation strategies in adults with acute hypoxemic respiratory failure?",
+    "review_objective": "To compare the association of high-flow nasal oxygen, face mask noninvasive ventilation, and helmet noninvasive ventilation with standard oxygen therapy in adults with acute hypoxemic respiratory failure, assessing all-cause mortality and endotracheal intubation in randomized clinical trials.",
+    "stripped_abstract": "Treatment with noninvasive oxygenation strategies such as noninvasive ventilation and high-flow nasal oxygen may be more effective than standard oxygen therapy alone in patients with acute hypoxemic respiratory failure.\nTo compare the association of noninvasive oxygenation strategies with mortality and endotracheal intubation in adults with acute hypoxemic respiratory failure.\nThe following bibliographic databases were searched from inception until April 2020: MEDLINE, Embase, PubMed, Cochrane Central Register of Controlled Trials, CINAHL, Web of Science, and LILACS. No limits were applied to ",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "32909814",
+    "title": "Effects of Intensive Blood Pressure Treatment on Orthostatic Hypotension : A Systematic Review and Individual Participant-based Meta-analysis.",
+    "instruction": "Does this study report empirical findings on orthostatic hypotension with intensive pharmacologic blood pressure treatment versus less intensive goals or placebo in adults with hypertension or elevated blood pressure?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on intensive pharmacologic blood pressure treatment and orthostatic hypotension in adults with hypertension or elevated blood pressure?",
+    "review_objective": "To examine the effects of intensive pharmacologic blood pressure treatment on orthostatic hypotension in adults with hypertension or elevated blood pressure, using randomized trials of more intensive blood pressure goals or active agents compared with less intensive goals or placebo. Eligible trials involved more than 500 adults and lasted at least 6 months.",
+    "stripped_abstract": "Although intensive blood pressure (BP)-lowering treatment reduces risk for cardiovascular disease, there are concerns that it might cause orthostatic hypotension (OH).\nTo examine the effects of intensive BP-lowering treatment on OH in hypertensive adults.\nMEDLINE, EMBASE, and Cochrane CENTRAL from inception through 7 October 2019, without language restrictions.\nRandomized trials of BP pharmacologic treatment (more intensive BP goal or active agent) that involved more than 500 adults with hypertension or elevated BP and that were 6 months or longer in duration. Trial comparisons were groups ass",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "33148618",
+    "title": "Associations between high temperatures in pregnancy and risk of preterm birth, low birth weight, and stillbirths: systematic review and meta-analysis.",
+    "instruction": "Does this study report empirical findings on high versus lower environmental temperatures during pregnancy and risk of preterm birth, low birth weight, or stillbirth?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on high environmental temperatures during pregnancy in pregnant people and perinatal outcomes?",
+    "review_objective": "The review aimed to assess whether exposure to high environmental temperatures during pregnancy is associated with preterm birth, low birth weight, and stillbirth, using evidence from clinical studies.",
+    "stripped_abstract": "To assess whether exposure to high temperatures in pregnancy is associated with increased risk for preterm birth, low birth weight, and stillbirth.\nSystematic review and random effects meta-analysis.\nMedline and Web of Science searched up to September 2018, updated in August 2019.\nClinical studies on associations between high environmental temperatures, and preterm birth, birth weight, and stillbirths.\n14 880 records and 175 full text articles were screened.",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "33176180",
+    "title": "Intravenous alteplase for stroke with unknown time of onset guided by advanced imaging: systematic review and meta-analysis of individual patient data.",
+    "instruction": "Does this study report empirical findings on intravenous alteplase versus standard care or placebo in adults with unknown-onset stroke and imaging evidence of salvageable tissue, including safety or efficacy?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on intravenous alteplase guided by advanced imaging for unknown-onset stroke in adults?",
+    "review_objective": "To establish whether intravenous alteplase is safe and effective compared with standard of care or placebo in adults with stroke of unknown time of onset in whom salvageable tissue has been identified with imaging biomarkers (perfusion-diffusion MRI, perfusion CT, or MRI with DWI-FLAIR mismatch), using an individual patient data meta-analysis of randomised trials.",
+    "stripped_abstract": "Patients who have had a stroke with unknown time of onset have been previously excluded from thrombolysis. We aimed to establish whether intravenous alteplase is safe and effective in such patients when salvageable tissue has been identified with imaging biomarkers.\nWe did a systematic review and meta-analysis of individual patient data for trials published before Sept 21, 2020. Randomised trials of intravenous alteplase versus standard of care or placebo in adults with stroke with unknown time of onset with perfusion-diffusion MRI, perfusion CT, or MRI with diffusion weighted imaging-fluid at",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "33186535",
+    "title": "Efficacy and safety of lowering LDL cholesterol in older patients: a systematic review and meta-analysis of randomised controlled trials.",
+    "instruction": "Does this study report empirical findings comparing LDL cholesterol-lowering therapies with control for major vascular events in patients aged 75 years or older?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on LDL cholesterol-lowering therapies in adults aged 75 years or older?",
+    "review_objective": "To summarise evidence on LDL cholesterol-lowering therapies in patients aged 75 years or older, using randomised controlled trials of cardiovascular outcomes of drugs recommended by the 2018 American College of Cardiology and American Heart Association guidelines, with a median follow-up of at least 2 years and data on older patients; trials exclusively enrolling participants with heart failure or on dialysis are excluded. The outcome of interest is major vascular events (cardiovascular death, myocardial infarction or other acute coronary syndrome, stroke, or coronary revascularisation), assessed per 1 mmol/L reduction in LDL cholesterol.",
+    "stripped_abstract": "The clinical benefit of LDL cholesterol lowering treatment in older patients remains debated. We aimed to summarise the evidence of LDL cholesterol lowering therapies in older patients.\nIn this systematic review and meta-analysis, we searched MEDLINE and Embase for articles published between March 1, 2015, and Aug 14, 2020, without any language restrictions.",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "33441384",
+    "title": "Efficacy and safety of low and very low carbohydrate diets for type 2 diabetes remission: systematic review and meta-analysis of published and unpublished randomized trial data.",
+    "instruction": "Does this study report empirical findings on efficacy of low or very low carbohydrate diets versus other diets in adults with type 2 diabetes?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on low or very low carbohydrate diets in adults with type 2 diabetes?",
+    "review_objective": "To determine the efficacy and safety of low carbohydrate diets (<130 g/day or <26% of a 2000 kcal/day diet) and very low carbohydrate diets (<10% of calories from carbohydrates) for adults with type 2 diabetes, including their effect on diabetes remission, based on randomized clinical trials lasting at least 12 weeks.",
+    "stripped_abstract": "To determine the efficacy and safety of low carbohydrate diets (LCDs) and very low carbohydrate diets (VLCDs) for people with type 2 diabetes.\nSystematic review and meta-analysis.\nSearches of CENTRAL, Medline, Embase, CINAHL, CAB, and grey literature sources from inception to 25 August 2020.\nRandomized clinical trials evaluating LCDs (<130 g/day or <26% of a 2000 kcal/day diet) and VLCDs (<10% calories from carbohydrates) for at least 12 weeks in adults with type 2 diabetes were eligible.\nPrimary outcomes were remission of diabetes (HbA\nSearches identified 14 759 citations yielding 23 trials (",
+    "excluded_from_study": false
+  },
+  {
+    "sr_pmid": "33472813",
+    "title": "Efficacy and safety of antidepressants for the treatment of back pain and osteoarthritis: systematic review and meta-analysis.",
+    "instruction": "Does this study report empirical findings on antidepressants versus placebo for low back or neck pain, sciatica, or hip or knee osteoarthritis, including pain, disability, or safety?",
+    "instruction_inclusive": "Does this study provide potentially relevant evidence on antidepressant treatment in people with back or neck pain, sciatica, or hip or knee osteoarthritis?",
+    "review_objective": "To investigate the efficacy and safety of any antidepressant compared with active or inert placebo in randomised controlled trials involving participants with low back or neck pain, sciatica, or hip or knee osteoarthritis, focusing on pain and disability as primary outcomes and adverse events, serious adverse events, and withdrawals due to adverse events as secondary outcomes.",
+    "stripped_abstract": "To investigate the efficacy and safety of antidepressants for back and osteoarthritis pain compared with placebo.\nSystematic review and meta-analysis.\nMedline, Embase, Cochrane Central Register of Controlled Trials, CINAHL, International Pharmaceutical Abstracts, ClinicalTrials.gov, and the World Health Organization International Clinical Trials Registry Platform from inception to 15 November and updated on 12 May 2020.\nRandomised controlled trials comparing the efficacy or safety, or both of any antidepressant drug with placebo (active or inert) in participants with low back or neck pain, sci",
+    "excluded_from_study": false
+  }
+]

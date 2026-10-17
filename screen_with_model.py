@@ -3,23 +3,24 @@
 screen_with_model.py — Standalone benchmark screening engine for local fine-tuned models.
 
 Screens candidate PubMed documents against systematic reviews across the 66-review
-benchmark (Bentegeac et al. corpus) using local Laya decision models
-(e.g., BioClinical-ModernBERT-large or ModernBERT-large).
+benchmark (Bentegeac et al. corpus) using PubMed-Screener-420M
+(bigwisu/PubMed-Screener-420M; ModernBERT-large encoder with a Laya propositional
+decision head).
 
 Evaluates 100% of the candidate corpus (15,530 PubMed documents per review, ~1.02M
 evaluations) without heuristic early stopping to isolate true decision boundaries,
 calculating confusion matrix metrics (TP, FP, FN, TN, Recall, Precision, Specificity,
 F1, and WSS@95/WSS@100).
 
-Usage examples:
-  # Screen single review with proposed BioClinical end-to-end model
-  python benchmark/screen_with_model.py --model models/soces_pubmed_e2e --sr 22422870
+Usage examples (operational threshold theta* = 0.028):
+  # Screen a single review
+  python screen_with_model.py --model models/pubmed_screener_420m --threshold 0.028 --sr 22422870
 
-  # Screen generic ModernBERT control on calibration reviews (5 SRs)
-  python benchmark/screen_with_model.py --model models/soces_generic_e2e --test
+  # Screen the 4 calibration reviews only
+  python screen_with_model.py --model models/pubmed_screener_420m --threshold 0.028 --test
 
   # Full 66 systematic review benchmark on local GPU/MPS
-  python benchmark/screen_with_model.py --model models/soces_pubmed_e2e --batch-size 128
+  python screen_with_model.py --model models/pubmed_screener_420m --threshold 0.028 --batch-size 128
 """
 
 import os
@@ -42,32 +43,24 @@ if LAYA_DIR not in sys.path:
 
 from laya import load  # noqa: E402
 
-# Standardized Noul instruction prompt (exact 1:1 parity with jev_client.py)
-NOUL_INSTRUCTIONS = (
-    "Given the systematic review objective in review_objective, "
-    "does this paper contribute relevant evidence — even indirectly?\n"
-    "True if: The paper reports empirical data on the topic or population described "
-    "in review_objective, regardless of whether its study design or subpopulation "
-    "exactly matches the review's primary methodology.\n"
-    "False if: The paper's topic is entirely unrelated to review_objective, "
-    "or it contains no data (e.g. editorial, commentary, opinion piece)."
-)
+# Model input: for each review, the `instruction_inclusive` field of
+# benchmark/sr_review_objectives.json is passed verbatim as the NOUL instruction
+# (one question per review, of the form "Does this study provide potentially relevant
+# evidence on <topic>?"). The candidate state is "Title: <title>\nAbstract: <abstract>".
+# See screen_sr_with_model().
 
-# 5 calibration systematic reviews (PICO variety)
+# 4 calibration systematic reviews used to fix theta* = 0.028 a priori
+# (62,120 evaluations, 95 inclusions). The remaining 62 reviews form the primary test set.
 CALIBRATION_SR_PMIDS = [
-    "22226047",  # Group B strep in infants (pediatric / infectious disease)
-    "22323502",  # Cervical spine clearance in trauma (orthopedics / emergency)
-    "22422870",  # Statin-induced myopathy (cardiology / pharmacology)
-    "24157497",  # Direct oral anticoagulants in atrial fib (cardiology / hematology)
-    "30326495",  # Bariatric surgery long-term outcomes (metabolic / surgery)
+    "22226047",  # Invasive group B streptococcal disease in infants (pediatric / infectious disease)
+    "22323502",  # Acute cannabis use and motor vehicle collision risk (observational / public health)
+    "22422870",  # White rice consumption and type 2 diabetes risk (nutrition / epidemiology)
+    "22777524",  # Insulin delivery and glucose monitoring in diabetes (endocrinology / devices)
 ]
 
 MODEL_SHORTCUTS = {
     "laya": "convaiinnovations/laya",
-    "pubmed_e2e": "models/soces_pubmed_e2e",
-    "generic_e2e": "models/soces_generic_e2e",
-    "pubmed_frozen": "models/soces_pubmed_frozen",
-    "generic_frozen": "models/soces_generic_frozen",
+    "pubmed_screener": "bigwisu/PubMed-Screener-420M",
 }
 
 
@@ -314,12 +307,12 @@ def screen_sr_with_model(
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Benchmark screening engine for local fine-tuned System-1 models (e.g. BioClinical-ModernBERT)",
+        description="Benchmark screening engine for PubMed-Screener-420M (local Laya decision model)",
         formatter_class=argparse.ArgumentDefaultsHelpFormatter,
     )
     parser.add_argument(
-        "--model", type=str, default="models/soces_pubmed_e2e",
-        help="Path or shortcut to model checkpoint (e.g. models/soces_pubmed_e2e, pubmed_e2e, generic_e2e)",
+        "--model", type=str, default="models/pubmed_screener_420m",
+        help="Path or shortcut to model checkpoint (e.g. models/pubmed_screener_420m, pubmed_screener)",
     )
     parser.add_argument(
         "--device", type=str, default=None,
@@ -335,7 +328,7 @@ def main():
     )
     parser.add_argument(
         "--test", action="store_true",
-        help="Screen the 5 calibration systematic reviews only",
+        help="Screen the 4 calibration systematic reviews only",
     )
     parser.add_argument(
         "--limit", type=int, default=None,

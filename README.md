@@ -12,8 +12,11 @@ Official repository for **PubMed-Screener-420M**, an open-weights Small Language
 ```
 pubmed-screener/
 ├── benchmark/
-│   └── README.md                     # Benchmark attribution & dataset availability statement
+│   ├── README.md                     # Benchmark attribution & dataset availability statement
+│   └── sr_review_objectives.json     # Review objectives (review_objective prompts) for the 66 reviews
 ├── laya/                             # Submodule (fork: github.com/bigwisu/laya of convaiinnovations/laya)
+├── outputs/
+│   └── soces_pico_laya_e2e_results.parquet  # Canonical per-pair benchmark scores (1,024,980 rows, 66 reviews)
 ├── scripts/
 │   └── build_synergy_dataset.py      # Script to rebuild zero-leakage training data from SYNERGY
 ├── screen_with_model.py              # Screening engine for local decision models
@@ -106,6 +109,21 @@ python -m laya.train_cli \
 
 ---
 
+## Benchmark Results (Parquet)
+
+[`outputs/soces_pico_laya_e2e_results.parquet`](outputs/soces_pico_laya_e2e_results.parquet) is the canonical, version-controlled record of every score reported in the manuscript. It holds one row per (review, document) pair, 1,024,980 rows covering all 66 reviews (4 calibration + 62 primary test). Columns: `sr_pmid`, `pmid`, `relevance_score`, `confidence`, `predicted_include`, `is_inclusion`. `predicted_include` was produced at the frozen threshold θ* = 0.028. The inclusion labels come from the third-party Bentegeac et al. corpus (see below).
+
+Calibration reviews (used to fix θ* a priori): `22226047`, `22323502`, `22422870`, `22777524`. All other `sr_pmid` values form the primary test set.
+
+```python
+import pandas as pd
+df = pd.read_parquet("outputs/soces_pico_laya_e2e_results.parquet")
+```
+
+`screen_with_model.py` also writes a SQLite copy of the same table during a run. SQLite files are git-ignored, so the parquet file is the one to share and cite.
+
+---
+
 ## Benchmark Data Availability
 
 The 66-review benchmark corpus was compiled for the BibliZap evaluation study (Bentegeac et al., 2026, *Research Synthesis Methods*, doi:10.1017/rsm.2026.10079) and is **available from the original authors upon reasonable request**. See [`benchmark/README.md`](benchmark/README.md) for details.
@@ -120,7 +138,7 @@ PubMed-Screener-420M was developed on the open-source foundations of:
 
 ```bibtex
 @article{pubmed_screener_420m_2026,
-  title={Offline AI Decision Models for PubMed Systematic Review Screening: External Validation of a Calibrated Open-Weights Architecture Across 62 Reviews},
+  title={Calibrated Small Language Models for Stage-1 Systematic Review Screening: Frozen Thresholds, Noise-Floor Mechanics, and Sovereign Edge Execution},
   author={Suntoyo et al.},
   journal={Journal of Biomedical Informatics},
   year={2026},

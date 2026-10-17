@@ -1,0 +1,63 @@
+sr_pmid,title,n_inclusions,tp,misses,recall,meets_95,roc_auc,pr_auc,wss95
+25770113,"Methotrexate use and risk of lung disease in psoriasis, psoriatic arthritis, and inflammatory bowel disease: systematic literature review and meta-analysis of randomised controlled trials.",7,1,6,0.1429,False,0.8643,0.0156,0.465
+23935058,Preventing sexual abusers of children from reoffending: systematic review of medical and psychological interventions.,5,3,2,0.6,False,0.9318,0.1411,0.6939
+27802478,Management of Gout: A Systematic Review in Support of an American College of Physicians Clinical Practice Guideline.,89,64,25,0.7191,False,0.9063,0.1994,0.4163
+24046285,"Effect of smoking on comparative efficacy of antiplatelet agents: systematic review, meta-analysis, and indirect comparison.",12,9,3,0.75,False,0.9227,0.1123,0.5479
+27548070,Preoperative Frailty Assessment and Outcomes at 6 Months or Later in Older Adults Undergoing Cardiac Surgical Procedures: A Systematic Review.,26,20,6,0.7692,False,0.981,0.2014,0.8989
+29049756,Interventions to Improve Follow-up of Positive Results on Fecal Blood Tests: A Systematic Review.,20,16,4,0.8,False,0.9704,0.4458,0.7633
+27802505,Diagnosis of Gout: A Systematic Review in Support of an American College of Physicians Clinical Practice Guideline.,21,18,3,0.8571,False,0.9912,0.2696,0.9235
+30409774,Comparative safety of immune checkpoint inhibitors in cancer: systematic review and network meta-analysis.,36,31,5,0.8611,False,0.985,0.2155,0.8827
+32442035,"Ventilation Techniques and Risk for Transmission of Coronavirus Disease, Including COVID-19: A Living Systematic Review of Multiple Streams of Evidence.",15,13,2,0.8667,False,0.9877,0.0601,0.9645
+30383109,Clinical Outcomes Associated With Sickle Cell Trait: A Systematic Review.,38,33,5,0.8684,False,0.902,0.0895,0.463
+32909814,Effects of Intensive Blood Pressure Treatment on Orthostatic Hypotension : A Systematic Review and Individual Participant-based Meta-analysis.,9,8,1,0.8889,False,0.9773,0.0503,0.8674
+27893131,Association Between Palliative Care and Patient and Caregiver Outcomes: A Systematic Review and Meta-analysis.,48,43,5,0.8958,False,0.9323,0.272,0.4622
+27142267,Addition of dipeptidyl peptidase-4 inhibitors to sulphonylureas and risk of hypoglycaemia: systematic review and meta-analysis.,10,9,1,0.9,False,0.985,0.1064,0.8912
+31200992,New WHO prevalence estimates of mental disorders in conflict settings: a systematic review and meta-analysis.,97,88,9,0.9072,False,0.9864,0.3156,0.8951
+31585960,Prognostic models for outcome prediction in patients with chronic obstructive pulmonary disease: systematic review and critical appraisal.,226,210,16,0.9292,False,0.9746,0.4125,0.8415
+33472813,Efficacy and safety of antidepressants for the treatment of back pain and osteoarthritis: systematic review and meta-analysis.,30,28,2,0.9333,False,0.99,0.5216,0.9036
+26903336,Developing a New Definition and Assessing New Clinical Criteria for Septic Shock: For the Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3).,92,87,5,0.9457,False,0.9875,0.2543,0.9165
+25059938,"A community empowerment approach to the HIV response among sex workers: effectiveness, challenges, and considerations for implementation and scale-up.",21,20,1,0.9524,True,0.9988,0.4816,0.9486
+31990319,Malpractice Liability and Health Care Quality: A Review.,21,20,1,0.9524,True,0.8948,0.0563,0.5776
+23420235,Comparative effectiveness of treatments for open-angle glaucoma: a systematic review for the U.S. Preventive Services Task Force.,27,26,1,0.963,True,0.989,0.1318,0.922
+32479176,Using Electronic Health Record Portals to Improve Patient Engagement: Research Priorities and Best Practices.,28,27,1,0.9643,True,0.9909,0.1789,0.9241
+26868137,Diabetes mellitus as a compelling indication for use of renin angiotensin system blockers: systematic review and meta-analysis of randomized trials.,32,31,1,0.9688,True,0.9816,0.1287,0.9196
+28114600,"The Effects of Pay-for-Performance Programs on Health, Health Care Use, and Processes of Care: A Systematic Review.",68,66,2,0.9706,True,0.9631,0.2231,0.7621
+27737830,Non-specific immunological effects of selected routine childhood immunisations: systematic review.,75,73,2,0.9733,True,0.9835,0.1839,0.9178
+26830221,Effectiveness of Prevention Strategies for Contrast-Induced Nephropathy: A Systematic Review and Meta-analysis.,76,74,2,0.9737,True,0.9915,0.5448,0.9487
+30917990,Comparative efficacy and acceptability of non-surgical brain stimulation for the acute treatment of major depressive episodes in adults: systematic review and network meta-analysis.,90,88,2,0.9778,True,0.9922,0.3554,0.9359
+25569206,Quantifying and monitoring overdiagnosis in cancer screening: a systematic review of methods.,49,48,1,0.9796,True,0.9939,0.285,0.9376
+32371466,"Occurrence, prevention, and management of the psychological effects of emerging virus outbreaks on healthcare workers: rapid review and meta-analysis.",50,49,1,0.98,True,0.9948,0.426,0.9319
+31255301,Population-level impact and herd effects following the introduction of human papillomavirus vaccination programmes: updated systematic review and meta-analysis.,61,60,1,0.9836,True,0.9932,0.3501,0.9385
+33148618,"Associations between high temperatures in pregnancy and risk of preterm birth, low birth weight, and stillbirths: systematic review and meta-analysis.",66,65,1,0.9848,True,0.9934,0.3494,0.9263
+30884526,Pharmacologic and Nonpharmacologic Treatments for Urinary Incontinence in Women: A Systematic Review and Network Meta-analysis of Clinical Outcomes.,79,78,1,0.9873,True,0.9903,0.241,0.93
+22872710,Assessing the risk of venous thromboembolic events in women taking progestin-only contraception: a meta-analysis.,8,8,0,1.0,True,0.9993,0.3471,0.9971
+22986378,Transitional care after hospitalization for acute stroke or myocardial infarction: a systematic review.,40,40,0,1.0,True,0.9911,0.3068,0.9188
+23033409,Indoor tanning and non-melanoma skin cancer: systematic review and meta-analysis.,16,16,0,1.0,True,0.9967,0.2636,0.9889
+23460092,Promoting a culture of safety as a patient safety strategy: a systematic review.,20,20,0,1.0,True,0.9877,0.3634,0.9112
+23529983,Coronary artery calcium score prediction of all cause mortality and cardiovascular events in people with type 2 diabetes: systematic review and meta-analysis.,8,8,0,1.0,True,0.9988,0.2207,0.9971
+23814120,Intake of fish and marine n-3 polyunsaturated fatty acids and risk of breast cancer: meta-analysis of data from 21 independent prospective cohort studies.,26,26,0,1.0,True,0.998,0.5031,0.9544
+23900314,Severe hypoglycaemia and cardiovascular disease: systematic review and meta-analysis with bias analysis.,6,6,0,1.0,True,0.9935,0.2026,0.9713
+24157497,Comparative effectiveness of renin-angiotensin system blockers and other antihypertensive drugs in patients with diabetes: systematic review and bayesian network meta-analysis.,61,61,0,1.0,True,0.9857,0.1665,0.9115
+24592495,The accessibility of firearms and risk for suicide and homicide victimization among household members: a systematic review and meta-analysis.,16,16,0,1.0,True,0.999,0.3772,0.9962
+24727842,Functional status and quality of life after transcatheter aortic valve replacement: a systematic review.,69,69,0,1.0,True,0.9941,0.3596,0.932
+24922745,Effect of screening sigmoidoscopy and screening colonoscopy on colorectal cancer incidence and mortality: systematic review and meta-analysis of randomised controlled trials and observational studies.,16,16,0,1.0,True,0.9988,0.3353,0.9949
+25006006,Leucocyte telomere length and risk of cardiovascular disease: systematic review and meta-analysis.,25,25,0,1.0,True,0.9982,0.4175,0.9532
+25556126,Blood glucose concentration and risk of pancreatic cancer: systematic review and dose-response meta-analysis.,9,9,0,1.0,True,0.9977,0.5538,0.9806
+26109551,Risk of recurrent stillbirth: systematic review and meta-analysis.,14,14,0,1.0,True,0.9992,0.4671,0.9966
+26199070,"Consumption of sugar sweetened beverages, artificially sweetened beverages, and fruit juice and incidence of type 2 diabetes: systematic review, meta-analysis, and estimation of population attributable fraction.",20,20,0,1.0,True,0.9963,0.4139,0.9367
+26349907,Diagnostic prediction models for suspected pulmonary embolism: systematic review and independent external validation in primary care.,4,4,0,1.0,True,0.9979,0.0963,0.995
+26420387,Calcium intake and risk of fracture: systematic review.,2,2,0,1.0,True,0.998,0.0458,0.9974
+26420598,Calcium intake and bone mineral density: systematic review and meta-analysis.,57,57,0,1.0,True,0.9969,0.4878,0.9518
+26830055,Comparative Effect of Contrast Media Type on the Incidence of Contrast-Induced Nephropathy: A Systematic Review and Meta-analysis.,29,29,0,1.0,True,0.994,0.181,0.9493
+29540345,Immune-related adverse events for anti-PD-1 and anti-PD-L1 drugs: systematic review and meta-analysis.,13,13,0,1.0,True,0.9964,0.1596,0.9912
+30158148,Environmental toxic metal contaminants and risk of cardiovascular disease: systematic review and meta-analysis.,45,45,0,1.0,True,0.9921,0.3095,0.9193
+30326495,Prevalence of Burnout Among Physicians: A Systematic Review.,157,157,0,1.0,True,0.9875,0.3386,0.9167
+30617123,Operative treatment versus nonoperative treatment of Achilles tendon ruptures: systematic review and meta-analysis.,29,29,0,1.0,True,0.9983,0.4328,0.9583
+31591158,"Efficacy and safety of first line treatments for patients with advanced epidermal growth factor receptor mutated, non-small cell lung cancer: systematic review and network meta-analysis.",16,16,0,1.0,True,0.9991,0.4349,0.9956
+31727627,Comparative efficacy and safety of new surgical treatments for benign prostatic hyperplasia: systematic review and network meta-analysis.,129,129,0,1.0,True,0.9943,0.4575,0.9331
+32427305,Association of Blood Pressure Lowering With Incident Dementia or Cognitive Impairment: A Systematic Review and Meta-analysis.,13,13,0,1.0,True,0.9975,0.389,0.9901
+32459529,Hydroxychloroquine or Chloroquine for Treatment or Prophylaxis of COVID-19: A Living Systematic Review.,9,9,0,1.0,True,0.9979,0.127,0.9954
+32496521,Association of Noninvasive Oxygenation Strategies With All-Cause Mortality in Adults With Acute Hypoxemic Respiratory Failure: A Systematic Review and Meta-analysis.,24,24,0,1.0,True,0.9936,0.1184,0.9423
+33176180,Intravenous alteplase for stroke with unknown time of onset guided by advanced imaging: systematic review and meta-analysis of individual patient data.,4,4,0,1.0,True,0.9997,0.4021,0.9994
+33186535,Efficacy and safety of lowering LDL cholesterol in older patients: a systematic review and meta-analysis of randomised controlled trials.,6,6,0,1.0,True,0.9887,0.1831,0.9472
+33441384,Efficacy and safety of low and very low carbohydrate diets for type 2 diabetes remission: systematic review and meta-analysis of published and unpublished randomized trial data.,16,16,0,1.0,True,0.9985,0.3647,0.9939

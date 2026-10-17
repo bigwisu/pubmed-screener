@@ -1,0 +1,42 @@
+[
+  {
+    "_rq3_note": "PRE-DECLARED — written before examining the miss list. Original instruction_inclusive preserved for audit. Do not modify after the GCP run.",
+    "sr_pmid": "27802478",
+    "title": "Management of Gout: A Systematic Review in Support of an American College of Physicians Clinical Practice Guideline.",
+    "instruction_inclusive_ORIGINAL": "Does this study provide potentially relevant evidence on acute gout treatment, urate-lowering prevention, or chronic gout medication discontinuation in adults?",
+    "instruction_inclusive": "Does this study report empirical data on any treatment for gout — including acute attack management, urate-lowering therapy (allopurinol, febuxostat, pegloticase, or other agents), dietary or lifestyle interventions, prophylaxis, or discontinuation of urate-lowering drugs — in adult patients with confirmed or suspected gout or hyperuricemia?",
+    "_rationale": "Original instruction names drug classes narrowly (acute, urate-lowering, discontinuation). Broader criterion may capture studies on dietary triggers, combination regimens, comorbidity management, or patient-reported outcomes that were borderline under the original."
+  },
+  {
+    "_rq3_note": "PRE-DECLARED — written before examining the miss list. Original instruction_inclusive preserved for audit. Do not modify after the GCP run.",
+    "sr_pmid": "27802505",
+    "title": "Diagnosis of Gout: A Systematic Review in Support of an American College of Physicians Clinical Practice Guideline.",
+    "instruction_inclusive_ORIGINAL": "Does this study provide potentially relevant evidence on gout diagnosis in people with joint inflammation and no prior definitive diagnosis?",
+    "instruction_inclusive": "Does this study report data on diagnosing gout or hyperuricemia — including clinical criteria, laboratory tests (serum urate, synovial fluid analysis, uric acid), imaging (ultrasound, dual-energy CT, plain radiograph), classification algorithms, or differential diagnosis from other crystal arthropathies — in patients with joint symptoms or swelling?",
+    "_rationale": "Paired SR with 27802478. Original restricts to 'no prior definitive diagnosis'; expanded criterion captures diagnostic accuracy studies regardless of prior diagnosis status, plus imaging and laboratory modalities that may be included in the full text but not flagged by the narrow abstract instruction."
+  },
+  {
+    "_rq3_note": "PRE-DECLARED — written before examining the miss list. Original instruction_inclusive preserved for audit. Do not modify after the GCP run.",
+    "sr_pmid": "30409774",
+    "title": "Comparative safety of immune checkpoint inhibitors in cancer: systematic review and network meta-analysis.",
+    "instruction_inclusive_ORIGINAL": "Does this study provide potentially relevant evidence on immune checkpoint inhibitor safety in patients with cancer?",
+    "instruction_inclusive": "Does this study report safety, tolerability, or adverse event data for any immune checkpoint inhibitor (anti-PD-1, anti-PD-L1, anti-CTLA-4, or combination) in adult or paediatric patients receiving treatment for any solid tumour or haematological malignancy — including treatment-related adverse events, immune-related adverse events, discontinuation due to toxicity, or treatment-related deaths?",
+    "_rationale": "Original is broad but abstract-level. Many clinical trials of checkpoint inhibitors report adverse events as secondary outcomes without foregrounding them in the abstract title/first sentence. Explicit enumeration of ICI drug classes and adverse-event outcome types may improve recall for studies where safety is a secondary endpoint."
+  },
+  {
+    "_rq3_note": "PRE-DECLARED — written before examining the miss list. Original instruction_inclusive preserved for audit. Do not modify after the GCP run.",
+    "sr_pmid": "31200992",
+    "title": "New WHO prevalence estimates of mental disorders in conflict settings: a systematic review and meta-analysis.",
+    "instruction_inclusive_ORIGINAL": "Does this study provide potentially relevant evidence on mental disorders in populations in conflict-affected settings within 10 years of conflict?",
+    "instruction_inclusive": "Does this study report prevalence, incidence, or burden estimates for any mental disorder — including depression, anxiety, PTSD, bipolar disorder, schizophrenia, or alcohol/substance use disorders — in civilian or refugee populations exposed to armed conflict, war, forced displacement, or humanitarian emergency, regardless of time elapsed since conflict?",
+    "_rationale": "Original imposes a '10 years of conflict' recency window that may not appear verbatim in abstracts and could exclude studies using different temporal framing. Explicit listing of disorder types and population descriptors (refugees, displaced, humanitarian) broadens the surface area for matching."
+  },
+  {
+    "_rq3_note": "PRE-DECLARED — written before examining the miss list. Original instruction_inclusive preserved for audit. Do not modify after the GCP run.",
+    "sr_pmid": "31585960",
+    "title": "Prognostic models for outcome prediction in patients with chronic obstructive pulmonary disease: systematic review and critical appraisal.",
+    "instruction_inclusive_ORIGINAL": "Does this study provide potentially relevant evidence on prognostic models in patients with chronic obstructive pulmonary disease?",
+    "instruction_inclusive": "Does this study develop, validate, update, or critically appraise a prognostic model, prediction rule, risk score, or clinical prediction tool for any outcome — including mortality, hospitalisation, exacerbation, lung function decline, or quality of life — in patients with COPD or chronic airflow limitation?",
+    "_rationale": "Original does not surface 'prognostic model' vocabulary variants (risk score, prediction tool, clinical prediction rule) nor outcome types. Abstracts describing BODE index, ADO index, or similar scores may not use the phrase 'prognostic model' and were plausibly missed under the narrow instruction."
+  }
+]

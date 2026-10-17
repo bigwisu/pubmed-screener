@@ -1,0 +1,64 @@
+{
+  "theta_star": 0.028,
+  "ci": {
+    "total_fn": 118,
+    "total_gt": 2431,
+    "miss_rate": 0.0485,
+    "miss_rate_pct": 4.85,
+    "ci_95_lo": 2.84,
+    "ci_95_hi": 7.35,
+    "n_srs_clustered": 62,
+    "n_bootstrap": 5000
+  },
+  "noise_floor": {
+    "fn_score_min": 0.0203,
+    "fn_score_max": 0.0279,
+    "fn_score_median": 0.0255,
+    "tn_score_median": 0.0228,
+    "tp_score_median": 0.1631,
+    "all_docs_p5": 0.0207,
+    "all_docs_p95": 0.0282,
+    "n_fn": 118,
+    "n_tp": 2313,
+    "n_tn": 911090,
+    "theta_star": 0.028
+  },
+  "categories": [
+    {
+      "category": "all_short_abstract",
+      "sr_count": 1,
+      "miss_count": 1,
+      "pct_of_all_fn": 0.8
+    },
+    {
+      "category": "preconfirmed_undetectable",
+      "sr_count": 2,
+      "miss_count": 9,
+      "pct_of_all_fn": 7.6
+    },
+    {
+      "category": "predeclared_pico_borderline",
+      "sr_count": 1,
+      "miss_count": 2,
+      "pct_of_all_fn": 1.7
+    },
+    {
+      "category": "residual",
+      "sr_count": 27,
+      "miss_count": 106,
+      "pct_of_all_fn": 89.8
+    }
+  ],
+  "t2": {
+    "n_srs": 62,
+    "n_at_95_recall": 45,
+    "t2_rate": 72.6,
+    "t2_target_pct": 75.0,
+    "t2_met": false,
+    "sensitivity_n_srs": 60,
+    "sensitivity_n_at_95": 45,
+    "sensitivity_rate": 75.0,
+    "sensitivity_met": true,
+    "statement": "T2 (per-SR recall \u2265 95% in \u2265 75% of 62 primary SRs) was not met: 45/62 = 72.6%. Sensitivity excluding 2 pre-declared abstract-undetectable SRs: 45/60 = 75.0% \u2014 T2 met."
+  }
+}

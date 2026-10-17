@@ -1,0 +1,43 @@
+nohup: ignoring input
+Loading model: models/soces_pico_laya_e2e ...
+Model loaded successfully on device: cuda
+Loading standalone PubMed documents from: /home/wisu/soces-pubmed/benchmark/pubmed_documents.parquet
+======================================================================
+BENCHMARK SCREENING ENGINE: LOCAL MODEL
+Model       : soces_pico_laya_e2e (models/soces_pico_laya_e2e)
+Device      : cuda
+Batch Size  : 64
+Corpus      : Full Corpus (15,530 PubMed documents per SR)
+Objective   : Curated PICO review_objective
+Threshold   : 0.5
+Reviews     : 1 systematic reviews
+Results CSV : outputs/soces_pico_laya_e2e_results.csv
+Summary CSV : outputs/soces_pico_laya_e2e_summary.csv
+SQLite DB   : outputs/soces_pico_laya_e2e_results.sqlite
+======================================================================
+
+Resume State : 65 SRs already completed (15,530 candidates).
+             : -64 systematic reviews remaining to screen.
+
+Benchmarking soces_pico_laya_e2e:   0%|          | 0/1 [00:00<?, ?it/s]/home/wisu/soces-pubmed/benchmark/screen_with_model.py:504: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  df_c["is_inclusion"] = df_c["is_inclusion"].fillna(False).astype(bool)
+
+  Screening 23420235 (soces_pico_laya_e2e):   0%|          | 0/15530 [00:00<?, ?doc/s][A
+  Screening 23420235 (soces_pico_laya_e2e):   0%|          | 64/15530 [00:03<13:29, 19.12doc/s][A
+  Screening 23420235 (soces_pico_laya_e2e):   1%|          | 128/15530 [00:05<10:16, 24.97doc/s][A
+  Screening 23420235 (soces_pico_laya_e2e):   1%|          | 192/15530 [00:07<09:15, 27.61doc/s][A
+  Screening 23420235 (soces_pico_laya_e2e):   2%|▏         | 256/15530 [00:09<08:44, 29.10doc/s][A
+  Screening 23420235 (soces_pico_laya_e2e):   2%|▏         | 320/15530 [00:11<08:28, 29.88doc/s][A
+  Screening 23420235 (soces_pico_laya_e2e):   2%|▏         | 384/15530 [00:13<08:18, 30.36doc/s][A
+  Screening 23420235 (soces_pico_laya_e2e):   3%|▎         | 448/15530 [00:15<08:12, 30.65doc/s][A
+  Screening 23420235 (soces_pico_laya_e2e):   3%|▎         | 512/15530 [00:17<08:07, 30.81doc/s][A
+  Screening 23420235 (soces_pico_laya_e2e):   4%|▎         | 576/15530 [00:19<08:05, 30.81doc/s][A
+  Screening 23420235 (soces_pico_laya_e2e):   4%|▍         | 640/15530 [00:21<08:08, 30.46doc/s][A
+                                                                                                [ABenchmarking soces_pico_laya_e2e:   0%|          | 0/1 [00:24<?, ?it/s]
+
+[Screening paused by user (Ctrl+C)]
+All completed reviews were saved to:
+  Summary : outputs/soces_pico_laya_e2e_summary.csv
+  Results : outputs/soces_pico_laya_e2e_results.csv
+  SQLite  : outputs/soces_pico_laya_e2e_results.sqlite
+To resume later, simply rerun the same command (completed SRs will auto-skip).

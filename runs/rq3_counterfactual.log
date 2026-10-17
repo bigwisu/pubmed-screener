@@ -1,0 +1,359 @@
+nohup: ignoring input
+Loading model: models/soces_pico_laya_e2e ...
+Model loaded successfully on device: cuda
+Loading standalone PubMed documents from: /home/wisu/soces-pubmed/benchmark/pubmed_documents.parquet
+[--objectives] Patched 5 SR instruction(s) from: /home/wisu/soces-pubmed/benchmark/rq3_instruction_counterfactual/alt_objectives.json
+               Original instructions preserved in alt file under 'instruction_inclusive_ORIGINAL'.
+======================================================================
+BENCHMARK SCREENING ENGINE: LOCAL MODEL
+Model       : soces_pico_laya_e2e (models/soces_pico_laya_e2e)
+Device      : cuda
+Batch Size  : 256
+Corpus      : Full Corpus (15,530 PubMed documents per SR)
+Objective   : Curated PICO review_objective
+Threshold   : 0.028
+Reviews     : 5 systematic reviews
+Results CSV : outputs/rq3_counterfactual/soces_pico_laya_e2e_results.csv
+Summary CSV : outputs/rq3_counterfactual/soces_pico_laya_e2e_summary.csv
+SQLite DB   : outputs/rq3_counterfactual/soces_pico_laya_e2e_results.sqlite
+======================================================================
+
+Benchmarking soces_pico_laya_e2e:   0%|          | 0/5 [00:00<?, ?it/s]/home/wisu/soces-pubmed/benchmark/screen_with_model.py:535: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  df_c["is_inclusion"] = df_c["is_inclusion"].fillna(False).astype(bool)
+
+  Screening 27802478 (soces_pico_laya_e2e):   0%|          | 0/15530 [00:00<?, ?doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):   2%|▏         | 256/15530 [00:09<09:05, 27.98doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):   3%|▎         | 512/15530 [00:17<08:17, 30.22doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):   5%|▍         | 768/15530 [00:25<07:56, 30.95doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):   7%|▋         | 1024/15530 [00:33<07:45, 31.18doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):   8%|▊         | 1280/15530 [00:41<07:36, 31.20doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  10%|▉         | 1536/15530 [00:49<07:30, 31.09doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  12%|█▏        | 1792/15530 [00:58<07:23, 30.97doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  13%|█▎        | 2048/15530 [01:06<07:17, 30.82doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  15%|█▍        | 2304/15530 [01:14<07:11, 30.65doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  16%|█▋        | 2560/15530 [01:23<07:05, 30.48doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  18%|█▊        | 2816/15530 [01:32<06:59, 30.29doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  20%|█▉        | 3072/15530 [01:40<06:53, 30.14doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  21%|██▏       | 3328/15530 [01:49<06:47, 29.93doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  23%|██▎       | 3584/15530 [01:58<06:42, 29.68doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  25%|██▍       | 3840/15530 [02:07<06:38, 29.32doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  26%|██▋       | 4096/15530 [02:16<06:33, 29.05doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  28%|██▊       | 4352/15530 [02:25<06:26, 28.89doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  30%|██▉       | 4608/15530 [02:33<06:18, 28.85doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  31%|███▏      | 4864/15530 [02:42<06:09, 28.88doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  33%|███▎      | 5120/15530 [02:51<06:01, 28.79doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  35%|███▍      | 5376/15530 [03:00<05:51, 28.91doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  36%|███▋      | 5632/15530 [03:09<05:41, 28.98doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  38%|███▊      | 5888/15530 [03:18<05:32, 28.99doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  40%|███▉      | 6144/15530 [03:26<05:23, 28.97doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  41%|████      | 6400/15530 [03:35<05:15, 28.92doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  43%|████▎     | 6656/15530 [03:44<05:07, 28.86doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  45%|████▍     | 6912/15530 [03:53<04:58, 28.83doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  46%|████▌     | 7168/15530 [04:02<04:49, 28.84doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  48%|████▊     | 7424/15530 [04:11<04:41, 28.84doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  49%|████▉     | 7680/15530 [04:20<04:32, 28.83doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  51%|█████     | 7936/15530 [04:29<04:23, 28.86doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  53%|█████▎    | 8192/15530 [04:38<04:14, 28.87doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  54%|█████▍    | 8448/15530 [04:46<04:05, 28.87doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  56%|█████▌    | 8704/15530 [04:55<03:56, 28.88doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  58%|█████▊    | 8960/15530 [05:04<03:47, 28.90doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  59%|█████▉    | 9216/15530 [05:13<03:38, 28.90doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  61%|██████    | 9472/15530 [05:22<03:29, 28.88doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  63%|██████▎   | 9728/15530 [05:31<03:21, 28.84doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  64%|██████▍   | 9984/15530 [05:40<03:12, 28.77doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  66%|██████▌   | 10240/15530 [05:49<03:04, 28.72doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  68%|██████▊   | 10496/15530 [05:58<02:55, 28.70doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  69%|██████▉   | 10752/15530 [06:06<02:46, 28.71doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  71%|███████   | 11008/15530 [06:15<02:37, 28.76doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  73%|███████▎  | 11264/15530 [06:24<02:28, 28.80doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  74%|███████▍  | 11520/15530 [06:33<02:19, 28.82doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  76%|███████▌  | 11776/15530 [06:42<02:09, 28.89doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  77%|███████▋  | 12032/15530 [06:51<02:00, 28.96doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  79%|███████▉  | 12288/15530 [07:00<01:52, 28.94doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  81%|████████  | 12544/15530 [07:08<01:43, 28.88doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  82%|████████▏ | 12800/15530 [07:17<01:34, 28.79doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  84%|████████▍ | 13056/15530 [07:26<01:26, 28.75doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  86%|████████▌ | 13312/15530 [07:35<01:17, 28.72doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  87%|████████▋ | 13568/15530 [07:44<01:08, 28.72doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  89%|████████▉ | 13824/15530 [07:53<00:59, 28.78doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  91%|█████████ | 14080/15530 [08:02<00:50, 28.82doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  92%|█████████▏| 14336/15530 [08:11<00:41, 28.84doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  94%|█████████▍| 14592/15530 [08:19<00:32, 29.05doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  96%|█████████▌| 14848/15530 [08:28<00:23, 29.04doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  97%|█████████▋| 15104/15530 [08:37<00:14, 28.96doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e):  99%|█████████▉| 15360/15530 [08:46<00:05, 28.90doc/s][A
+  Screening 27802478 (soces_pico_laya_e2e): 100%|██████████| 15530/15530 [08:52<00:00, 28.89doc/s][A
+                                                                                                  [A                                                                       Benchmarking soces_pico_laya_e2e:   0%|          | 0/5 [08:54<?, ?it/s]Benchmarking soces_pico_laya_e2e:  20%|██        | 1/5 [08:54<35:36, 534.18s/it]/home/wisu/soces-pubmed/benchmark/screen_with_model.py:535: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  df_c["is_inclusion"] = df_c["is_inclusion"].fillna(False).astype(bool)
+  27802478: recall=85.4%  precision=2.0%  specificity=75.8%  f1=0.039  WSS@95=0.0%  window=3812/89 GT  (533.2s, 29.1 doc/s)
+
+  Screening 27802505 (soces_pico_laya_e2e):   0%|          | 0/15530 [00:00<?, ?doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):   2%|▏         | 256/15530 [00:08<08:48, 28.90doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):   3%|▎         | 512/15530 [00:17<08:38, 28.97doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):   5%|▍         | 768/15530 [00:26<08:29, 28.97doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):   7%|▋         | 1024/15530 [00:35<08:20, 28.97doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):   8%|▊         | 1280/15530 [00:44<08:12, 28.95doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  10%|▉         | 1536/15530 [00:53<08:03, 28.92doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  12%|█▏        | 1792/15530 [01:01<07:56, 28.85doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  13%|█▎        | 2048/15530 [01:10<07:47, 28.81doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  15%|█▍        | 2304/15530 [01:19<07:39, 28.81doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  16%|█▋        | 2560/15530 [01:28<07:29, 28.83doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  18%|█▊        | 2816/15530 [01:37<07:20, 28.85doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  20%|█▉        | 3072/15530 [01:46<07:10, 28.91doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  21%|██▏       | 3328/15530 [01:55<07:01, 28.94doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  23%|██▎       | 3584/15530 [02:03<06:52, 28.97doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  25%|██▍       | 3840/15530 [02:12<06:44, 28.93doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  26%|██▋       | 4096/15530 [02:21<06:35, 28.90doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  28%|██▊       | 4352/15530 [02:30<06:27, 28.83doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  30%|██▉       | 4608/15530 [02:39<06:19, 28.77doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  31%|███▏      | 4864/15530 [02:48<06:11, 28.74doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  33%|███▎      | 5120/15530 [02:57<06:01, 28.76doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  35%|███▍      | 5376/15530 [03:06<05:52, 28.83doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  36%|███▋      | 5632/15530 [03:15<05:42, 28.90doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  38%|███▊      | 5888/15530 [03:23<05:33, 28.93doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  40%|███▉      | 6144/15530 [03:32<05:24, 28.91doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  41%|████      | 6400/15530 [03:41<05:16, 28.85doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  43%|████▎     | 6656/15530 [03:50<05:08, 28.79doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  45%|████▍     | 6912/15530 [03:59<04:59, 28.76doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  46%|████▌     | 7168/15530 [04:08<04:50, 28.76doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  48%|████▊     | 7424/15530 [04:17<04:41, 28.78doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  49%|████▉     | 7680/15530 [04:26<04:32, 28.81doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  51%|█████     | 7936/15530 [04:35<04:23, 28.85doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  53%|█████▎    | 8192/15530 [04:43<04:13, 28.89doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  54%|█████▍    | 8448/15530 [04:52<04:04, 28.92doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  56%|█████▌    | 8704/15530 [05:01<03:56, 28.92doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  58%|█████▊    | 8960/15530 [05:10<03:47, 28.88doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  59%|█████▉    | 9216/15530 [05:19<03:39, 28.80doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  61%|██████    | 9472/15530 [05:28<03:30, 28.76doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  63%|██████▎   | 9728/15530 [05:37<03:21, 28.74doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  64%|██████▍   | 9984/15530 [05:46<03:13, 28.70doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  66%|██████▌   | 10240/15530 [05:55<03:04, 28.73doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  68%|██████▊   | 10496/15530 [06:03<02:54, 28.77doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  69%|██████▉   | 10752/15530 [06:12<02:45, 28.84doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  71%|███████   | 11008/15530 [06:21<02:36, 28.85doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  73%|███████▎  | 11264/15530 [06:30<02:28, 28.81doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  74%|███████▍  | 11520/15530 [06:39<02:19, 28.76doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  76%|███████▌  | 11776/15530 [06:48<02:10, 28.74doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  77%|███████▋  | 12032/15530 [06:57<02:01, 28.76doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  79%|███████▉  | 12288/15530 [07:06<01:52, 28.81doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  81%|████████  | 12544/15530 [07:14<01:43, 28.84doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  82%|████████▏ | 12800/15530 [07:23<01:34, 28.87doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  84%|████████▍ | 13056/15530 [07:32<01:25, 28.85doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  86%|████████▌ | 13312/15530 [07:41<01:17, 28.80doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  87%|████████▋ | 13568/15530 [07:50<01:08, 28.70doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  89%|████████▉ | 13824/15530 [07:59<00:59, 28.65doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  91%|█████████ | 14080/15530 [08:08<00:50, 28.64doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  92%|█████████▏| 14336/15530 [08:17<00:41, 28.68doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  94%|█████████▍| 14592/15530 [08:26<00:32, 29.00doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  96%|█████████▌| 14848/15530 [08:34<00:23, 29.10doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  97%|█████████▋| 15104/15530 [08:43<00:14, 29.10doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e):  99%|█████████▉| 15360/15530 [08:52<00:05, 29.02doc/s][A
+  Screening 27802505 (soces_pico_laya_e2e): 100%|██████████| 15530/15530 [08:58<00:00, 29.00doc/s][A
+                                                                                                  [A                                                                                Benchmarking soces_pico_laya_e2e:  20%|██        | 1/5 [17:54<35:36, 534.18s/it]Benchmarking soces_pico_laya_e2e:  40%|████      | 2/5 [17:54<26:52, 537.63s/it]/home/wisu/soces-pubmed/benchmark/screen_with_model.py:535: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  df_c["is_inclusion"] = df_c["is_inclusion"].fillna(False).astype(bool)
+  27802505: recall=90.5%  precision=1.2%  specificity=89.6%  f1=0.023  WSS@95=0.0%  window=1633/21 GT  (539.1s, 28.8 doc/s)
+
+  Screening 30409774 (soces_pico_laya_e2e):   0%|          | 0/15530 [00:00<?, ?doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):   2%|▏         | 256/15530 [00:08<08:49, 28.82doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):   3%|▎         | 512/15530 [00:17<08:40, 28.83doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):   5%|▍         | 768/15530 [00:26<08:32, 28.78doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):   7%|▋         | 1024/15530 [00:35<08:24, 28.75doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):   8%|▊         | 1280/15530 [00:44<08:15, 28.76doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  10%|▉         | 1536/15530 [00:53<08:05, 28.83doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  12%|█▏        | 1792/15530 [01:02<07:56, 28.85doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  13%|█▎        | 2048/15530 [01:11<07:46, 28.88doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  15%|█▍        | 2304/15530 [01:19<07:36, 28.95doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  16%|█▋        | 2560/15530 [01:28<07:27, 28.99doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  18%|█▊        | 2816/15530 [01:37<07:18, 28.97doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  20%|█▉        | 3072/15530 [01:46<07:10, 28.92doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  21%|██▏       | 3328/15530 [01:55<07:02, 28.87doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  23%|██▎       | 3584/15530 [02:04<06:54, 28.84doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  25%|██▍       | 3840/15530 [02:13<06:47, 28.66doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  26%|██▋       | 4096/15530 [02:22<06:38, 28.70doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  28%|██▊       | 4352/15530 [02:30<06:28, 28.79doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  30%|██▉       | 4608/15530 [02:39<06:18, 28.88doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  31%|███▏      | 4864/15530 [02:48<06:08, 28.92doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  33%|███▎      | 5120/15530 [02:57<06:00, 28.91doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  35%|███▍      | 5376/15530 [03:06<05:51, 28.88doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  36%|███▋      | 5632/15530 [03:15<05:43, 28.83doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  38%|███▊      | 5888/15530 [03:24<05:34, 28.83doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  40%|███▉      | 6144/15530 [03:33<05:25, 28.82doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  41%|████      | 6400/15530 [03:41<05:16, 28.81doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  43%|████▎     | 6656/15530 [03:50<05:07, 28.85doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  45%|████▍     | 6912/15530 [03:59<04:58, 28.89doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  46%|████▌     | 7168/15530 [04:08<04:49, 28.90doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  48%|████▊     | 7424/15530 [04:17<04:40, 28.87doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  49%|████▉     | 7680/15530 [04:26<04:32, 28.80doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  51%|█████     | 7936/15530 [04:35<04:24, 28.76doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  53%|█████▎    | 8192/15530 [04:44<04:15, 28.74doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  54%|█████▍    | 8448/15530 [04:53<04:06, 28.72doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  56%|█████▌    | 8704/15530 [05:01<03:57, 28.75doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  58%|█████▊    | 8960/15530 [05:10<03:48, 28.81doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  59%|█████▉    | 9216/15530 [05:19<03:39, 28.82doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  61%|██████    | 9472/15530 [05:28<03:30, 28.84doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  63%|██████▎   | 9728/15530 [05:37<03:21, 28.85doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  64%|██████▍   | 9984/15530 [05:46<03:12, 28.83doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  66%|██████▌   | 10240/15530 [05:55<03:03, 28.79doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  68%|██████▊   | 10496/15530 [06:04<02:55, 28.74doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  69%|██████▉   | 10752/15530 [06:13<02:46, 28.71doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  71%|███████   | 11008/15530 [06:21<02:37, 28.75doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  73%|███████▎  | 11264/15530 [06:30<02:28, 28.79doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  74%|███████▍  | 11520/15530 [06:39<02:19, 28.82doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  76%|███████▌  | 11776/15530 [06:48<02:10, 28.84doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  77%|███████▋  | 12032/15530 [06:57<02:01, 28.84doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  79%|███████▉  | 12288/15530 [07:06<01:52, 28.84doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  81%|████████  | 12544/15530 [07:15<01:43, 28.81doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  82%|████████▏ | 12800/15530 [07:24<01:34, 28.77doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  84%|████████▍ | 13056/15530 [07:33<01:26, 28.74doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  86%|████████▌ | 13312/15530 [07:41<01:17, 28.72doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  87%|████████▋ | 13568/15530 [07:50<01:08, 28.67doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  89%|████████▉ | 13824/15530 [07:59<00:59, 28.69doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  91%|█████████ | 14080/15530 [08:08<00:50, 28.70doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  92%|█████████▏| 14336/15530 [08:17<00:41, 28.69doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  94%|█████████▍| 14592/15530 [08:26<00:32, 28.95doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  96%|█████████▌| 14848/15530 [08:35<00:23, 28.98doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  97%|█████████▋| 15104/15530 [08:44<00:14, 28.95doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e):  99%|█████████▉| 15360/15530 [08:52<00:05, 28.88doc/s][A
+  Screening 30409774 (soces_pico_laya_e2e): 100%|██████████| 15530/15530 [08:58<00:00, 28.86doc/s][A
+                                                                                                  [A                                                                                Benchmarking soces_pico_laya_e2e:  40%|████      | 2/5 [26:54<26:52, 537.63s/it]Benchmarking soces_pico_laya_e2e:  60%|██████    | 3/5 [26:54<17:57, 538.96s/it]/home/wisu/soces-pubmed/benchmark/screen_with_model.py:535: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  df_c["is_inclusion"] = df_c["is_inclusion"].fillna(False).astype(bool)
+  30409774: recall=83.3%  precision=1.0%  specificity=80.3%  f1=0.019  WSS@95=0.0%  window=3081/36 GT  (539.6s, 28.8 doc/s)
+
+  Screening 31200992 (soces_pico_laya_e2e):   0%|          | 0/15530 [00:00<?, ?doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):   2%|▏         | 256/15530 [00:08<08:49, 28.86doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):   3%|▎         | 512/15530 [00:17<08:39, 28.92doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):   5%|▍         | 768/15530 [00:26<08:30, 28.89doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):   7%|▋         | 1024/15530 [00:35<08:22, 28.86doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):   8%|▊         | 1280/15530 [00:44<08:13, 28.85doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  10%|▉         | 1536/15530 [00:53<08:04, 28.89doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  12%|█▏        | 1792/15530 [01:02<07:55, 28.88doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  13%|█▎        | 2048/15530 [01:10<07:46, 28.89doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  15%|█▍        | 2304/15530 [01:19<07:37, 28.90doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  16%|█▋        | 2560/15530 [01:28<07:28, 28.91doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  18%|█▊        | 2816/15530 [01:37<07:19, 28.91doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  20%|█▉        | 3072/15530 [01:46<07:10, 28.91doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  21%|██▏       | 3328/15530 [01:55<07:02, 28.91doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  23%|██▎       | 3584/15530 [02:04<06:53, 28.92doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  25%|██▍       | 3840/15530 [02:12<06:44, 28.89doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  26%|██▋       | 4096/15530 [02:21<06:35, 28.89doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  28%|██▊       | 4352/15530 [02:30<06:27, 28.87doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  30%|██▉       | 4608/15530 [02:39<06:18, 28.88doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  31%|███▏      | 4864/15530 [02:48<06:09, 28.87doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  33%|███▎      | 5120/15530 [02:57<06:00, 28.89doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  35%|███▍      | 5376/15530 [03:06<05:51, 28.91doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  36%|███▋      | 5632/15530 [03:14<05:42, 28.89doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  38%|███▊      | 5888/15530 [03:23<05:33, 28.89doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  40%|███▉      | 6144/15530 [03:32<05:25, 28.87doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  41%|████      | 6400/15530 [03:41<05:16, 28.84doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  43%|████▎     | 6656/15530 [03:50<05:07, 28.81doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  45%|████▍     | 6912/15530 [03:59<04:59, 28.80doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  46%|████▌     | 7168/15530 [04:08<04:50, 28.81doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  48%|████▊     | 7424/15530 [04:17<04:41, 28.83doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  49%|████▉     | 7680/15530 [04:26<04:32, 28.82doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  51%|█████     | 7936/15530 [04:34<04:23, 28.83doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  53%|█████▎    | 8192/15530 [04:43<04:14, 28.83doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  54%|█████▍    | 8448/15530 [04:52<04:05, 28.84doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  56%|█████▌    | 8704/15530 [05:01<03:56, 28.86doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  58%|█████▊    | 8960/15530 [05:10<03:47, 28.85doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  59%|█████▉    | 9216/15530 [05:19<03:39, 28.82doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  61%|██████    | 9472/15530 [05:28<03:30, 28.82doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  63%|██████▎   | 9728/15530 [05:37<03:21, 28.81doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  64%|██████▍   | 9984/15530 [05:46<03:12, 28.76doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  66%|██████▌   | 10240/15530 [05:54<03:04, 28.70doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  68%|██████▊   | 10496/15530 [06:03<02:55, 28.70doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  69%|██████▉   | 10752/15530 [06:12<02:46, 28.72doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  71%|███████   | 11008/15530 [06:21<02:37, 28.75doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  73%|███████▎  | 11264/15530 [06:30<02:28, 28.77doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  74%|███████▍  | 11520/15530 [06:39<02:19, 28.81doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  76%|███████▌  | 11776/15530 [06:48<02:10, 28.83doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  77%|███████▋  | 12032/15530 [06:57<02:01, 28.83doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  79%|███████▉  | 12288/15530 [07:06<01:52, 28.83doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  81%|████████  | 12544/15530 [07:14<01:43, 28.82doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  82%|████████▏ | 12800/15530 [07:23<01:34, 28.81doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  84%|████████▍ | 13056/15530 [07:32<01:25, 28.80doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  86%|████████▌ | 13312/15530 [07:41<01:17, 28.80doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  87%|████████▋ | 13568/15530 [07:50<01:08, 28.78doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  89%|████████▉ | 13824/15530 [07:59<00:59, 28.79doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  91%|█████████ | 14080/15530 [08:08<00:50, 28.79doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  92%|█████████▏| 14336/15530 [08:17<00:41, 28.75doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  94%|█████████▍| 14592/15530 [08:25<00:32, 28.98doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  96%|█████████▌| 14848/15530 [08:34<00:23, 28.99doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  97%|█████████▋| 15104/15530 [08:43<00:14, 28.97doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e):  99%|█████████▉| 15360/15530 [08:52<00:05, 28.93doc/s][A
+  Screening 31200992 (soces_pico_laya_e2e): 100%|██████████| 15530/15530 [08:58<00:00, 28.94doc/s][A
+                                                                                                  [A                                                                                Benchmarking soces_pico_laya_e2e:  60%|██████    | 3/5 [35:54<17:57, 538.96s/it]Benchmarking soces_pico_laya_e2e:  80%|████████  | 4/5 [35:54<08:59, 539.38s/it]/home/wisu/soces-pubmed/benchmark/screen_with_model.py:535: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  df_c["is_inclusion"] = df_c["is_inclusion"].fillna(False).astype(bool)
+  31200992: recall=97.9%  precision=7.6%  specificity=92.5%  f1=0.141  WSS@95=87.0%  window=1250/97 GT  (539.1s, 28.8 doc/s)
+
+  Screening 31585960 (soces_pico_laya_e2e):   0%|          | 0/15530 [00:00<?, ?doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):   2%|▏         | 256/15530 [00:08<08:45, 29.04doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):   3%|▎         | 512/15530 [00:17<08:37, 28.99doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):   5%|▍         | 768/15530 [00:26<08:30, 28.93doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):   7%|▋         | 1024/15530 [00:35<08:21, 28.90doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):   8%|▊         | 1280/15530 [00:44<08:13, 28.89doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  10%|▉         | 1536/15530 [00:53<08:04, 28.90doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  12%|█▏        | 1792/15530 [01:01<07:55, 28.91doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  13%|█▎        | 2048/15530 [01:10<07:45, 28.94doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  15%|█▍        | 2304/15530 [01:19<07:36, 28.99doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  16%|█▋        | 2560/15530 [01:28<07:27, 29.01doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  18%|█▊        | 2816/15530 [01:37<07:18, 29.02doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  20%|█▉        | 3072/15530 [01:46<07:11, 28.89doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  21%|██▏       | 3328/15530 [01:55<07:02, 28.90doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  23%|██▎       | 3584/15530 [02:03<06:53, 28.92doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  25%|██▍       | 3840/15530 [02:12<06:44, 28.91doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  26%|██▋       | 4096/15530 [02:21<06:35, 28.92doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  28%|██▊       | 4352/15530 [02:30<06:27, 28.87doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  30%|██▉       | 4608/15530 [02:39<06:18, 28.86doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  31%|███▏      | 4864/15530 [02:48<06:09, 28.86doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  33%|███▎      | 5120/15530 [02:57<06:00, 28.86doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  35%|███▍      | 5376/15530 [03:05<05:51, 28.87doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  36%|███▋      | 5632/15530 [03:14<05:42, 28.86doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  38%|███▊      | 5888/15530 [03:23<05:33, 28.88doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  40%|███▉      | 6144/15530 [03:32<05:24, 28.88doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  41%|████      | 6400/15530 [03:41<05:16, 28.88doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  43%|████▎     | 6656/15530 [03:50<05:07, 28.83doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  45%|████▍     | 6912/15530 [03:59<04:58, 28.84doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  46%|████▌     | 7168/15530 [04:08<04:49, 28.83doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  48%|████▊     | 7424/15530 [04:16<04:41, 28.81doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  49%|████▉     | 7680/15530 [04:25<04:32, 28.78doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  51%|█████     | 7936/15530 [04:34<04:23, 28.79doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  53%|█████▎    | 8192/15530 [04:43<04:14, 28.80doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  54%|█████▍    | 8448/15530 [04:52<04:05, 28.80doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  56%|█████▌    | 8704/15530 [05:01<03:56, 28.81doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  58%|█████▊    | 8960/15530 [05:10<03:48, 28.81doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  59%|█████▉    | 9216/15530 [05:19<03:39, 28.81doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  61%|██████    | 9472/15530 [05:28<03:30, 28.79doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  63%|██████▎   | 9728/15530 [05:37<03:21, 28.77doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  64%|██████▍   | 9984/15530 [05:45<03:12, 28.74doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  66%|██████▌   | 10240/15530 [05:54<03:03, 28.76doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  68%|██████▊   | 10496/15530 [06:03<02:55, 28.74doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  69%|██████▉   | 10752/15530 [06:12<02:46, 28.73doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  71%|███████   | 11008/15530 [06:21<02:37, 28.75doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  73%|███████▎  | 11264/15530 [06:30<02:28, 28.76doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  74%|███████▍  | 11520/15530 [06:39<02:19, 28.76doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  76%|███████▌  | 11776/15530 [06:48<02:10, 28.77doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  77%|███████▋  | 12032/15530 [06:57<02:01, 28.79doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  79%|███████▉  | 12288/15530 [07:05<01:52, 28.82doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  81%|████████  | 12544/15530 [07:14<01:43, 28.83doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  82%|████████▏ | 12800/15530 [07:23<01:34, 28.84doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  84%|████████▍ | 13056/15530 [07:32<01:25, 28.84doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  86%|████████▌ | 13312/15530 [07:41<01:16, 28.82doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  87%|████████▋ | 13568/15530 [07:50<01:08, 28.77doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  89%|████████▉ | 13824/15530 [07:59<00:59, 28.75doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  91%|█████████ | 14080/15530 [08:08<00:50, 28.76doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  92%|█████████▏| 14336/15530 [08:17<00:41, 28.74doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  94%|█████████▍| 14592/15530 [08:25<00:32, 28.96doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  96%|█████████▌| 14848/15530 [08:34<00:23, 28.97doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  97%|█████████▋| 15104/15530 [08:43<00:14, 28.95doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e):  99%|█████████▉| 15360/15530 [08:52<00:05, 28.93doc/s][A
+  Screening 31585960 (soces_pico_laya_e2e): 100%|██████████| 15530/15530 [08:58<00:00, 28.95doc/s][A
+                                                                                                  [A                                                                                Benchmarking soces_pico_laya_e2e:  80%|████████  | 4/5 [44:54<08:59, 539.38s/it]Benchmarking soces_pico_laya_e2e: 100%|██████████| 5/5 [44:54<00:00, 539.59s/it]Benchmarking soces_pico_laya_e2e: 100%|██████████| 5/5 [44:54<00:00, 538.95s/it]
+  31585960: recall=77.9%  precision=10.0%  specificity=89.6%  f1=0.177  WSS@95=0.0%  window=1766/226 GT  (539.0s, 28.8 doc/s)
+
+======================================================================
+BENCHMARK SCREENING COMPLETE
+Summary table saved to: outputs/rq3_counterfactual/soces_pico_laya_e2e_summary.csv
+Results table saved to: outputs/rq3_counterfactual/soces_pico_laya_e2e_results.csv
+Parquet table saved to: outputs/rq3_counterfactual/soces_pico_laya_e2e_results.parquet
+SQLite table saved to : outputs/rq3_counterfactual/soces_pico_laya_e2e_results.sqlite
+======================================================================

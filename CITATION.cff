@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use PubMed-Screener-420M in your research, please cite this software and the associated manuscript."
+title: "PubMed-Screener-420M"
+authors:
+  - family-names: "Suntoyo"
+    given-names: "Wisudanto"
+    affiliation: "School of Business and Management, Institut Teknologi Bandung"
+  - family-names: "Sunitiyoso"
+    given-names: "Yos"
+    affiliation: "School of Business and Management, Institut Teknologi Bandung"
+  - family-names: "Siallagan"
+    given-names: "Manahan"
+    affiliation: "School of Business and Management, Institut Teknologi Bandung"
+  - family-names: "Hermawan"
+    given-names: "Pri"
+    affiliation: "School of Business and Management, Institut Teknologi Bandung"
+version: 1.0.0
+date-released: 2026-03-31
+license: Apache-2.0
+repository-code: "https://github.com/bigwisu/pubmed-screener"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Suntoyo"
+      given-names: "Wisudanto"
+    - family-names: "Sunitiyoso"
+      given-names: "Yos"
+    - family-names: "Siallagan"
+      given-names: "Manahan"
+    - family-names: "Hermawan"
+      given-names: "Pri"
+  title: "Calibrated Small Language Models for Stage-1 Systematic Review Screening: Frozen Thresholds, Noise-Floor Mechanics, and Sovereign Edge Execution"
+  journal: "Journal of Biomedical Informatics"
+  year: 2026

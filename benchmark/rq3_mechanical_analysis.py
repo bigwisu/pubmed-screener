@@ -11,11 +11,11 @@ any human rater:
   L1-D  Mechanical category counts
   L1-E  T2 statement with pre-declared wording
 
-Pre-declared mechanical categories (applied in order):
-  1. short_abstract  — abstract < 100 chars (rater-free)
-  2. preconfirmed_undetectable — SR 24046285, 25770113 (declared prior)
-  3. predeclared_pico_borderline — SR 23935058 (declared prior)
-  4. residual — everything else
+Mechanical categories (assigned per missed record, rater-free, no hand-picked
+review lists):
+  1. short_or_missing_abstract — abstract < 100 chars (includes the literal
+     "[No Abstract]" placeholder)
+  2. abstract_present          — abstract >= 100 chars
 
 Usage:
   python benchmark/rq3_mechanical_analysis.py
@@ -44,18 +44,7 @@ T2_RECALL_THRESHOLD = 0.95
 # 4 calibration SRs — excluded from the primary 62-SR evaluation set
 CALIBRATION_SR_PMIDS = {"22226047", "22323502", "22422870", "22777524"}
 
-SHORT_ABSTRACT_CHARS = 100     # abstract < this → mechanical undetectable
-
-# Pre-confirmed abstract-undetectable SRs (declared prior to analysis)
-PRECONFIRMED_UNDETECTABLE = {
-    "24046285": "smoking subgroup — inclusion criterion not inferable from abstract",
-    "25770113": "semantic misalignment — abstract does not match review objective vocabulary",
-}
-
-# Pre-declared PICO-borderline SRs
-PREDECLARED_PICO_BORDERLINE = {
-    "23935058": "sexual-abuser interventions — inclusion boundary ambiguous as stated",
-}
+SHORT_ABSTRACT_CHARS = 100     # abstract < this → short or missing abstract
 
 N_BOOTSTRAP = 5_000
 RNG_SEED = 42
@@ -133,17 +122,6 @@ def build_sr_miss_table(df: pd.DataFrame, df_docs: pd.DataFrame) -> pd.DataFrame
     else:
         df_misses["short_abstract_count"] = None
 
-    # Assign mechanical category (first matching rule)
-    def assign_category(row):
-        if row["sr_pmid"] in PRECONFIRMED_UNDETECTABLE:
-            return "preconfirmed_undetectable"
-        if row["sr_pmid"] in PREDECLARED_PICO_BORDERLINE:
-            return "predeclared_pico_borderline"
-        if row.get("short_abstract_count", 0) is not None and row.get("short_abstract_count", 0) == row["miss_count"] and row["miss_count"] > 0:
-            return "all_short_abstract"
-        return "residual"
-
-    df_misses["category"] = df_misses.apply(assign_category, axis=1)
     return df_misses.sort_values("miss_count", ascending=False).reset_index(drop=True)
 
 
@@ -227,14 +205,34 @@ def noise_floor_stats(df: pd.DataFrame) -> dict:
 # L1-D: Category summary
 # ---------------------------------------------------------------------------
 
-def category_summary(df_miss: pd.DataFrame) -> pd.DataFrame:
-    cats = df_miss.groupby("category").agg(
-        sr_count=("sr_pmid", "count"),
-        miss_count=("miss_count", "sum"),
-    ).reset_index()
-    total_fn = df_miss["miss_count"].sum()
-    cats["pct_of_all_fn"] = (cats["miss_count"] / total_fn * 100).round(1)
-    return cats
+def category_summary(df: pd.DataFrame, df_docs: pd.DataFrame) -> pd.DataFrame:
+    """Record-level split of the misses by abstract length.
+
+    A review can have misses in both categories, so the review counts add up
+    to more than the number of reviews with a miss.
+    """
+    inc = df[df["is_inclusion"] == 1].merge(
+        df_docs[["pmid", "abstract_len"]], on="pmid", how="left"
+    )
+    inc["abstract_len"] = inc["abstract_len"].fillna(0)
+    inc["category"] = np.where(
+        inc["abstract_len"] < SHORT_ABSTRACT_CHARS,
+        "short_or_missing_abstract",
+        "abstract_present",
+    )
+    inc["is_miss"] = inc["relevance_score"] < THETA_STAR
+
+    rows = []
+    total_fn = int(inc["is_miss"].sum())
+    for cat, grp in inc.groupby("category"):
+        n_miss = int(grp["is_miss"].sum())
+        rows.append({
+            "category": cat,
+            "miss_count": n_miss,
+            "sr_count_with_miss": int(grp.loc[grp["is_miss"], "sr_pmid"].nunique()),
+            "pct_of_all_fn": round(n_miss / total_fn * 100, 1),
+        })
+    return pd.DataFrame(rows)
 
 
 # ---------------------------------------------------------------------------
@@ -254,30 +252,16 @@ def t2_statement(df: pd.DataFrame) -> dict:
     n_at_95 = int((sr_recall["recall"] >= T2_RECALL_THRESHOLD).sum())
     t2_rate = n_at_95 / n_srs if n_srs > 0 else 0.0
 
-    # Sensitivity: exclude pre-confirmed undetectable SRs
-    sr_recall_sens = sr_recall[~sr_recall["sr_pmid"].isin(PRECONFIRMED_UNDETECTABLE)]
-    n_srs_sens = len(sr_recall_sens)
-    n_at_95_sens = int((sr_recall_sens["recall"] >= T2_RECALL_THRESHOLD).sum())
-    t2_rate_sens = n_at_95_sens / n_srs_sens if n_srs_sens > 0 else 0.0
-
     return {
         "n_srs": n_srs,
         "n_at_95_recall": n_at_95,
         "t2_rate": round(t2_rate * 100, 1),
         "t2_target_pct": T2_TARGET_RATE * 100,
         "t2_met": t2_rate >= T2_TARGET_RATE,
-        "sensitivity_n_srs": n_srs_sens,
-        "sensitivity_n_at_95": n_at_95_sens,
-        "sensitivity_rate": round(t2_rate_sens * 100, 1),
-        "sensitivity_met": t2_rate_sens >= T2_TARGET_RATE,
         "statement": (
             f"T2 (per-SR recall ≥ 95% in ≥ 75% of {n_srs} primary SRs) was "
             f"{'met' if t2_rate >= T2_TARGET_RATE else 'not met'}: "
-            f"{n_at_95}/{n_srs} = {t2_rate * 100:.1f}%. "
-            f"Sensitivity excluding {len(PRECONFIRMED_UNDETECTABLE)} pre-declared "
-            f"abstract-undetectable SRs: {n_at_95_sens}/{n_srs_sens} = "
-            f"{t2_rate_sens * 100:.1f}% — T2 "
-            f"{'met' if t2_rate_sens >= T2_TARGET_RATE else 'still not met'}."
+            f"{n_at_95}/{n_srs} = {t2_rate * 100:.1f}%."
         ),
     }
 
@@ -350,7 +334,7 @@ def main():
     print(f"  θ* = {nf['theta_star']}")
 
     print("\n── L1-D: Mechanical category counts ─────────────────────")
-    cats = category_summary(df_miss)
+    cats = category_summary(df, df_docs)
     print(cats.to_string(index=False))
 
     print("\n── L1-E: T2 statement ───────────────────────────────────")

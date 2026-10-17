@@ -25,28 +25,16 @@
   },
   "categories": [
     {
-      "category": "all_short_abstract",
-      "sr_count": 1,
-      "miss_count": 1,
-      "pct_of_all_fn": 0.8
+      "category": "abstract_present",
+      "miss_count": 107,
+      "sr_count_with_miss": 30,
+      "pct_of_all_fn": 90.7
     },
     {
-      "category": "preconfirmed_undetectable",
-      "sr_count": 2,
-      "miss_count": 9,
-      "pct_of_all_fn": 7.6
-    },
-    {
-      "category": "predeclared_pico_borderline",
-      "sr_count": 1,
-      "miss_count": 2,
-      "pct_of_all_fn": 1.7
-    },
-    {
-      "category": "residual",
-      "sr_count": 27,
-      "miss_count": 106,
-      "pct_of_all_fn": 89.8
+      "category": "short_or_missing_abstract",
+      "miss_count": 11,
+      "sr_count_with_miss": 7,
+      "pct_of_all_fn": 9.3
     }
   ],
   "t2": {
@@ -55,10 +43,6 @@
     "t2_rate": 72.6,
     "t2_target_pct": 75.0,
     "t2_met": false,
-    "sensitivity_n_srs": 60,
-    "sensitivity_n_at_95": 45,
-    "sensitivity_rate": 75.0,
-    "sensitivity_met": true,
-    "statement": "T2 (per-SR recall \u2265 95% in \u2265 75% of 62 primary SRs) was not met: 45/62 = 72.6%. Sensitivity excluding 2 pre-declared abstract-undetectable SRs: 45/60 = 75.0% \u2014 T2 met."
+    "statement": "T2 (per-SR recall \u2265 95% in \u2265 75% of 62 primary SRs) was not met: 45/62 = 72.6%."
   }
 }

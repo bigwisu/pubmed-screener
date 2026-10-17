@@ -1,0 +1,126 @@
+{
+  "design2": {
+    "n_reviews": 62,
+    "n_pairs": 14796,
+    "n_unique_documents": 14382,
+    "n_inclusions": 2431,
+    "pooled_prevalence": 0.16430116247634496,
+    "mean_per_review_prevalence": 0.15445513608970052,
+    "median_per_review_prevalence": 0.1449788352065392,
+    "mean_pairs_per_review": 238.6451612903226,
+    "median_pairs_per_review": 163.5,
+    "tp": 2313,
+    "fp": 8878,
+    "fn": 118,
+    "tn": 3487,
+    "pooled_recall": 0.9514603044014809,
+    "pooled_recall_ci": [
+      0.9268925441736663,
+      0.9712012611614734
+    ],
+    "pooled_specificity": 0.2820056611403154,
+    "pooled_specificity_ci": [
+      0.22903325012523984,
+      0.3332247533282057
+    ],
+    "pooled_workload": 0.756353068396864,
+    "macro_mean_workload": 0.776161710060022,
+    "median_workload": 0.8249807987711213,
+    "macro_specificity_mean": 0.2527739158046924,
+    "macro_wss95_mean": 0.26651859849932275,
+    "macro_wss95_ci": [
+      0.23007295599576943,
+      0.3038410021078147
+    ],
+    "macro_wss95_median": 0.24599917294140095,
+    "macro_pr_auc_mean": 0.3530158990770297,
+    "macro_pr_auc_ci": [
+      0.3228404515342492,
+      0.3828628276009901
+    ],
+    "macro_pr_auc_min": 0.13401283380865958,
+    "macro_pr_auc_max": 0.6684284638307626,
+    "macro_roc_auc_mean": 0.7360671366476944,
+    "reviews_recall_ge_95": 45,
+    "macro_threshold_wss_mean": 0.16329298796299194,
+    "macro_threshold_wss_ci": [
+      0.13616204510330265,
+      0.19105222103154487
+    ],
+    "macro_roc_auc_ci": [
+      0.7122364226120045,
+      0.7593211074554292
+    ],
+    "design1_threshold_wss_mean": 0.8858103468193081,
+    "design1_threshold_wss_ci": [
+      0.8470715419411774,
+      0.9174900857169237
+    ]
+  },
+  "design1_per_review_summary": {
+    "n_reviews": 62,
+    "n_meeting_95": 45,
+    "n_below_95": 17,
+    "n_perfect": 31,
+    "below_95_n_inclusions_median": 26.0,
+    "meeting_95_n_inclusions_median": 25.0,
+    "below_95_with_lt20_inclusions": 6,
+    "t2_sensitivity_excl_two": [
+      45,
+      60
+    ],
+    "reviews_recall_90_to_95": [
+      [
+        "27142267",
+        0.9,
+        10
+      ],
+      [
+        "31200992",
+        0.9072,
+        97
+      ],
+      [
+        "31585960",
+        0.9292,
+        226
+      ],
+      [
+        "33472813",
+        0.9333,
+        30
+      ],
+      [
+        "26903336",
+        0.9457,
+        92
+      ]
+    ],
+    "meeting_95_with_misses": 14
+  },
+  "calibration_loo_selected_theta": {
+    "all_four": 0.034,
+    "drop_22226047": 0.04,
+    "drop_22323502": 0.034,
+    "drop_22422870": 0.034,
+    "drop_22777524": 0.033
+  },
+  "calibration_detail": {
+    "22226047": {
+      "n_pos": 49,
+      "tp_at_theta": 49
+    },
+    "22323502": {
+      "n_pos": 5,
+      "tp_at_theta": 4
+    },
+    "22422870": {
+      "n_pos": 4,
+      "tp_at_theta": 4
+    },
+    "22777524": {
+      "n_pos": 37,
+      "tp_at_theta": 37
+    }
+  }
+}

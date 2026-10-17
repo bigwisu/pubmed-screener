@@ -1,8 +1,8 @@
-# Benchmark Corpus & Evaluation Data
+# Benchmark Corpus and Evaluation Data
 
-## Benchmark Origin & Terms of Use
+## 1. Benchmark Provenance
 
-The 66 systematic review benchmark evaluation corpus used in this study was compiled and generously shared by **Raphaël Bentegeac and Aghilès Hamroun** (Lille University Hospital / UMR1167 RID-AGE, Pasteur Institute of Lille) for the BibliZap evaluation study:
+Bentegeac et al. (2026) compiled the 66 systematic review benchmark evaluation corpus for the BibliZap study:
 
 > **Bentegeac R, Le Guellec B, Leblanc V, Lenain R, Dauchet L, Gauthier V, Gerard E, Chazard E, Amouyel P, Aymes E, Hamroun A.**  
 > *BibliZap: an exploratory evaluation of an automated multi-level citation searching tool for systematic and rapid reviews.*  
@@ -10,10 +10,10 @@ The 66 systematic review benchmark evaluation corpus used in this study was comp
 
 ---
 
-## Data Availability Statement
+## 2. Data Availability Statement
 
-In compliance with data sharing agreements and copyright policies governing third-party literature datasets:
+Data sharing complies with third-party copyright terms and data distribution agreements:
 
-1. **Third-Party Gold Standard Dataset:** The raw inclusion/exclusion mappings and candidate citation lists from the Bentegeac et al. corpus are **available from the original authors upon reasonable request**.
-2. **Model Evaluation Code:** All inference engines, calibration protocols, and threshold analysis tools provided in this repository (`screen_with_model.py`, `threshold_analysis.py`, etc.) accept standardized CSV or JSON formatted screening lists and execute fully offline without modification.
-3. **Public Replications:** Researchers wishing to evaluate `PubMed-Screener-420M` on open-access benchmark data can also use the open **SYNERGY dataset** (de Bruin et al., 2023, *Data in Brief*) using `scripts/build_synergy_dataset.py`.
+1. **Third-Party Evaluation Corpus:** The raw inclusion lists and candidate citation lists are available from the original authors upon request.
+2. **Offline Evaluation Pipelines:** The evaluation scripts (`screen_with_model.py`, `threshold_analysis.py`) execute fully offline on local systems.
+3. **Open Training Replications:** Users MAY rebuild open training sets from the SYNERGY corpus using `scripts/build_synergy_dataset.py`.

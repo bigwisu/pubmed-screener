@@ -14,6 +14,9 @@ authors:
   - family-names: "Hermawan"
     given-names: "Pri"
     affiliation: "School of Business and Management, Institut Teknologi Bandung"
+  - family-names: "Pusponegoro"
+    given-names: "Hardiono D."
+    affiliation: "Department of Child Health, Faculty of Medicine, Universitas Indonesia / Cipto Mangunkusumo General Hospital"
 version: 1.0.0
 date-released: 2026-03-31
 license: Apache-2.0
@@ -29,6 +32,8 @@ preferred-citation:
       given-names: "Manahan"
     - family-names: "Hermawan"
       given-names: "Pri"
+    - family-names: "Pusponegoro"
+      given-names: "Hardiono D."
   title: "Calibrated Small Language Models for Stage-1 Systematic Review Screening: Frozen Thresholds, Noise-Floor Mechanics, and Sovereign Edge Execution"
   journal: "Journal of Biomedical Informatics"
   year: 2026

@@ -99,8 +99,67 @@ print(result)
 Run screening over candidate lists from the command line:
 
 ```bash
-python screen_with_model.py --sr 22422870 --threshold 0.028
+python screen_with_model.py --model bigwisu/PubMed-Screener-420M --sr 22422870 --threshold 0.028
 ```
+
+### 2.4 Real-World Example: Screening a CSV Export from PubMed
+
+A researcher exports search results from PubMed as a CSV with columns `pmid`, `title`, and `abstract`, then screens all records against a PICO objective in one pass:
+
+**`my_papers.csv`** (excerpt):
+```
+pmid,title,abstract
+38901234,"Effect of metformin on HbA1c in type 2 diabetes: a randomised controlled trial","BACKGROUND: Metformin is a first-line agent for type 2 diabetes. METHODS: We randomised 240 adults..."
+38812345,"Sodium-glucose cotransporter-2 inhibitors versus metformin for glycaemic control","OBJECTIVE: To compare SGLT-2 inhibitors with metformin as initial therapy in adults with newly diagnosed type 2 diabetes..."
+38723456,"Physical activity interventions and cardiovascular outcomes: a systematic review","BACKGROUND: Aerobic exercise reduces cardiovascular risk. METHODS: We searched MEDLINE and Embase..."
+```
+
+**`screen_my_papers.py`**:
+```python
+import csv
+from pubmed_screener import PubMedScreener
+
+# 1. Define your PICO screening question
+pico_objective = (
+    "Does this study provide potentially relevant evidence on metformin versus "
+    "SGLT-2 inhibitors for glycaemic control in adults with type 2 diabetes?"
+)
+
+# 2. Load papers from CSV
+with open("my_papers.csv", newline="", encoding="utf-8") as f:
+    records = list(csv.DictReader(f))
+# records = [{"pmid": "...", "title": "...", "abstract": "..."}, ...]
+
+# 3. Load screener (downloads weights from HF on first run, ~843 MB cached locally)
+screener = PubMedScreener()
+
+# 4. Screen all records
+results = screener.screen_batch(pico_objective, records)
+
+# 5. Print and save candidates
+included = [r for r in results if r["included"]]
+print(f"{len(included)} / {len(results)} papers flagged for full-text review\n")
+
+with open("candidates.csv", "w", newline="", encoding="utf-8") as f:
+    writer = csv.DictWriter(f, fieldnames=["pmid", "score", "decision", "threshold"])
+    writer.writeheader()
+    writer.writerows(included)
+```
+
+Run it:
+```bash
+python screen_my_papers.py
+# 2 / 3 papers flagged for full-text review
+```
+
+**`candidates.csv`** output:
+```
+pmid,score,decision,threshold
+38901234,0.7431,INCLUDE,0.028
+38812345,0.6892,INCLUDE,0.028
+```
+
+The model runs entirely on-device (Apple MPS on Apple Silicon, CPU fallback otherwise). No data leaves the machine.
 
 ---
 

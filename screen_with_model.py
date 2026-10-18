@@ -14,13 +14,13 @@ F1, and WSS@95/WSS@100).
 
 Usage examples (operational threshold theta* = 0.028):
   # Screen a single review
-  python screen_with_model.py --model models/pubmed_screener_420m --threshold 0.028 --sr 22422870
+  python screen_with_model.py --model bigwisu/PubMed-Screener-420M --threshold 0.028 --sr 22422870
 
   # Screen the 4 calibration reviews only
-  python screen_with_model.py --model models/pubmed_screener_420m --threshold 0.028 --test
+  python screen_with_model.py --model bigwisu/PubMed-Screener-420M --threshold 0.028 --test
 
   # Full 66 systematic review benchmark on local GPU/MPS
-  python screen_with_model.py --model models/pubmed_screener_420m --threshold 0.028 --batch-size 128
+  python screen_with_model.py --model bigwisu/PubMed-Screener-420M --threshold 0.028 --batch-size 128
 """
 
 import os

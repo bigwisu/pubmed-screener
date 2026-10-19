@@ -1,0 +1,182 @@
+{
+  "25770113": {
+    "7816064": "Abstract names Crohn's disease, not inflammatory bowel disease, and reports no lung outcomes. It gives no respiratory terms to match the screening question.",
+    "10833208": "Instruction asks about lung disease, but the abstract reports Crohn's remission and no lung outcomes. It names Crohn's disease, not inflammatory bowel disease.",
+    "18047523": "Abstract reports general adverse events, not lung or respiratory events. It names no pulmonary outcome, despite testing methotrexate in psoriasis.",
+    "22344575": "Instruction seeks lung-disease evidence, but the abstract focuses on arthritis efficacy and names no pulmonary outcomes. It reports no unexpected adverse events without naming respiratory events.",
+    "22533447": "Abstract focuses on psoriasis efficacy and reports only general adverse events, not lung outcomes. Screener may miss trials that do not name pulmonary disease.",
+    "24269926": "Abstract names Crohn's disease, not inflammatory bowel disease, and reports no lung outcomes. It focuses on treatment failure and says only \"well tolerated.\""
+  },
+  "23935058": {
+    "18420555": "Abstract says \"sexual offenders,\" not child abusers, and describes a preparatory program, not prevention of reoffending. It omits reoffending outcomes.",
+    "19937708": "Paper names adolescents who offended sexually, not known abusers or people at risk. It says specialized treatment and criminal charges, not psychological intervention or child sexual abuse outcomes."
+  },
+  "27802478": {
+    "159913": "Instruction names gout treatment and prevention, but not drug harms. Abstract reports severe allopurinol reactions, often during treatment for asymptomatic hyperuricemia.",
+    "3907678": "Title and abstract use \"acute gouty arthritis,\" while the instruction asks about \"acute gout treatment.\" They name two drugs, not treatment types.",
+    "5335059": "No abstract.",
+    "6691361": "Instruction omits drug harms and dosing safety. Abstract reports allopurinol toxicity and dose guidance, but does not name gout.",
+    "7436588": "No abstract.",
+    "8563541": "No abstract.",
+    "15960069": "Instruction omits adverse effects, while the abstract reports severe allopurinol toxicity. Abstract does not state that the patient took allopurinol for gout.",
+    "19125135": "Instruction asks about urate-lowering prevention, but the abstract links serum urate levels to flares and costs. It tests no treatment, which may hide its relevance to prevention.",
+    "19369467": "Instruction asks about treatment or prevention, but the abstract reports associations. It links serum uric acid levels to gout episodes, not to a drug intervention.",
+    "19696695": "Instruction omits adverse effects and drug safety evidence. Abstract reports severe allopurinol harms and genetic risk, not treatment or prevention outcomes.",
+    "21790926": "Instruction names treatment and prevention, but not safety testing before allopurinol. Paper studies HLA testing for drug reactions, not treatment efficacy.",
+    "22488501": "Instruction names gout treatment and prevention, but not drug safety or adverse events. Paper links the initial allopurinol dose to a severe reaction in a case-control study.",
+    "22701258": "Instruction names treatment, prevention, and discontinuation, but not adverse events. Abstract reports fatal harm from allopurinol, not treatment effectiveness.",
+    "23024028": "No abstract.",
+    "23550256": "Instruction asks for treatment evidence, but the abstract presents national recommendations rather than a treatment study. Abstract still describes evidence on acute gout drugs and febuxostat.",
+    "23678154": "Instruction asks about treatment, prevention, or stopping drugs. Abstract links serum urate to kidney disease but does not name urate-lowering therapy.",
+    "23873481": "Instruction names treatment and prevention, but not safety or adverse effects. Abstract focuses on allopurinol hypersensitivity, a serious harm from therapy for chronic gout.",
+    "25115449": "Instruction names gout treatment and prevention, but not drug harms. Abstract links allopurinol to severe skin reactions and renal risk, which the screener may not recognize.",
+    "25392987": "Instruction says \"urate-lowering prevention,\" but the paper describes uricosuric drugs for chronic gout. It reports whether treatment lowered serum urate.",
+    "25519877": "Instruction names treatment, prevention, and drug discontinuation, but not safety. Abstract focuses on adverse events from urate-lowering drugs.",
+    "26104483": "No abstract.",
+    "26193384": "Instruction names gout treatment and prevention, but not drug safety or adverse events. Abstract studies fatal allopurinol reactions in new users, including people with asymptomatic hyperuricemia.",
+    "26399967": "Instruction names gout treatment and prevention, but not drug safety screening. Abstract studies HLA testing to prevent severe reactions to allopurinol, not gout attacks.",
+    "26481934": "Instruction names treatment, prevention, and stopping therapy, but not drug harms. Abstract reports fracture risk linked to allopurinol use in a registry study.",
+    "26709250": "Instruction names gout treatment and prevention, but omits drug safety and adverse events. Abstract reports febuxostat skin reactions, not treatment efficacy or medication discontinuation."
+  },
+  "24046285": {
+    "15758000": "Abstract reports clopidogrel efficacy after fibrinolysis but gives no results by smoking status. Screener may have missed it because the abstract lacks smoking terms.",
+    "20818903": "Title and abstract focus on dose comparisons and omit smoking status, the review's key term. This hid the paper's relevant analysis by smoking status.",
+    "22920930": "Abstract compares prasugrel with clopidogrel and reports cardiovascular outcomes, but does not mention smoking or smoker subgroups. Screener required evidence by smoking status."
+  },
+  "27548070": {
+    "19561363": "Screener asks for frailty assessment, but the paper reports a preoperative six-minute walk, not frailty. Its 12-month outcomes fit, but the title and abstract omit frailty terminology.",
+    "23428221": "No abstract.",
+    "23979272": "Instruction asks for frailty assessment, but the paper describes preoperative Timed Up and Go performance, not frailty. It reports one-year outcomes after cardiac surgery.",
+    "24140659": "Instruction asks for frailty assessment, but the abstract discusses chronic respiratory illness and TAVR, not frailty. It links limited walking and oxygen use to death.",
+    "24156967": "Instruction asks for frailty, but the abstract reports COPD, function, and walking distance without naming frailty.",
+    "24958751": "Instruction asks for frailty assessment, but the abstract predicts TAVR outcomes without naming frailty or a frailty measure. It also omits patient ages."
+  },
+  "29049756": {
+    "11130566": "Instruction targets colonoscopy follow-up, but the abstract describes screening uptake as \"compliance.\" It reports GP kit delivery, not an intervention after positive tests.",
+    "22560885": "Title and abstract focus on invitations to increase screening participation, not follow-up after positive tests. Abstract reports colonoscopy rates but tests no follow-up intervention.",
+    "23045537": "Abstract says \"abnormal colorectal screens\" and \"diagnostic resolution,\" not follow-up after positive tests for fecal blood.",
+    "23868483": "Abstract describes program partnerships and colonoscopy navigation, not follow-up after positive fecal tests. It does not identify participants as asymptomatic."
+  },
+  "27802505": {
+    "856219": "Instruction asks for diagnosis in patients without a prior gout diagnosis. Paper describes classification criteria for acute gout, using patients already diagnosed, not diagnostic testing in undiagnosed patients.",
+    "19125136": "Instruction requires joint inflammation and no prior gout diagnosis. Abstract describes tests against crystals but does not state either patient feature.",
+    "26359487": "Instruction asks about diagnosis, but the paper presents gout classification criteria. Abstract does not clearly state that participants had no prior diagnosis."
+  },
+  "30409774": {
+    "22123319": "Title and abstract focus on biomarkers and clinical activity, not toxicity or adverse events. Abstract mentions safety only briefly, so the screener may miss it.",
+    "22547592": "Abstract calls ipilimumab an anti-CTLA-4 antibody, not an immune checkpoint inhibitor. It presents efficacy first and reports safety outcomes later.",
+    "22858559": "Abstract calls ipilimumab an anti-CTLA4 antibody and reports \"irAEs,\" rather than naming checkpoint inhibitor safety. Chemotherapy combination may obscure relevance.",
+    "27745820": "Title and opening abstract focus on efficacy, not safety. Abstract reports harms as adverse events, not with the term \"safety.\"",
+    "28655793": "No abstract."
+  },
+  "32442035": {
+    "32226116": "Instruction names ventilation, oxygenation, and aerosol transmission, but not laboratory tests of airborne virus survival. Paper reports MERS-CoV survival after aerosolization, not a ventilation method or transmission event.",
+    "32275497": "Screener sought evidence of aerosol transmission. Abstract reported viral distribution in air and on surfaces, not transmission or ventilation."
+  },
+  "30383109": {
+    "2758678": "Abstract calls proteinuria abnormal urinary protein excretion, not a clinical outcome. It also groups sickle cell trait with sickle cell disease.",
+    "15089795": "Instruction uses broad outcome language, while the paper names the specific kidney finding, albuminuria. Its non-significant result may have obscured relevance.",
+    "17409269": "Instruction says \"vascular outcomes\" but does not name venous thromboembolism or pulmonary embolism. Abstract links sickle cell trait to these risks.",
+    "23543093": "Title frames the study as genetic research, not sickle cell trait outcomes. Abstract buries the trait among genetic markers and names the outcome exertional rhabdomyolysis.",
+    "28115816": "Title names sickle cell trait, but the study frames it through rs334 and renal measures. It reports eGFR and CKD, not broad clinical outcomes."
+  },
+  "32909814": {
+    "23726159": "Abstract reports stroke outcomes, not orthostatic hypotension, despite comparing intensive and less intensive blood pressure targets."
+  },
+  "27893131": {
+    "12958120": "Title and abstract discuss inconsistency in meta-analyses, not palliative care. They do not name eligible patients, interventions, or outcomes.",
+    "17546575": "Abstract focuses on meaningful quality-of-life changes in laryngeal cancer, not palliative care interventions. This obscures its value for interpreting review outcomes.",
+    "17555582": "Instruction seeks palliative care evidence, but the paper describes methods to pool time-to-event data and calculate hazard ratios. It does not name palliative care or patients.",
+    "25953697": "Title does not mention palliative care. Abstract only recommends integrating palliative and hospice care; it does not describe a tested intervention.",
+    "26482223": "Abstract reports ESAS score thresholds for advanced cancer but does not name palliative care. Instruction may miss symptom-score studies because it asks for evidence on palliative care interventions."
+  },
+  "27142267": {
+    "17593236": "Paper names sitagliptin and glimepiride, not the broader terms DPP-4 inhibitor and sulphonylurea. Its abstract reports hypoglycaemia as an adverse event, not the main outcome."
+  },
+  "31200992": {
+    "11095275": "No abstract.",
+    "11102332": "Title and abstract describe urban mental illness, but do not name recent conflict or its timing.",
+    "12204925": "Abstract names Derry but does not mention conflict or its timing. Screener could not link Derry to a conflict in the past 10 years.",
+    "16300691": "Title and abstract describe a national Mexican survey, not a population in a conflict-affected setting. They do not mention recent conflict.",
+    "19040499": "Abstract reports a Mexico City adolescent survey but does not mention conflict or its timing. Screener lacked cues for its required setting.",
+    "19381985": "Paper links caste, poverty, and mental health in Nepal, but does not mention conflict or its timing.",
+    "19874426": "Abstract reports Israeli adolescents but does not mention conflict or its timing. Screener may not link Israel to a conflict-affected setting.",
+    "23841918": "Abstract reports war trauma in rural Uganda. It does not label the setting conflict-affected or date the conflict within 10 years.",
+    "27246607": "Abstract mentions decades of war, but not conflict within the past 10 years. It reports on Beirut adolescents without linking them to a recent conflict."
+  },
+  "31585960": {
+    "1641525": "Title and abstract say chronic bronchitis and fast progressive disease, not COPD or prognostic model. This wording may hide its logistic regression risk prediction.",
+    "10712989": "Screener asks for prognostic models. Abstract instead reports factors linked to treatment failure and logistic regression, without naming a prediction model.",
+    "15950136": "Instruction asks for prognostic models, but the abstract describes risk factors for recovery and treatment failure. It does not call its analysis a prediction model.",
+    "16547786": "Instruction asks for prognostic models, but the abstract reports multivariate associations and risk factors, not a prediction model. It focuses on events in the previous year.",
+    "18331119": "Abstract frames the study as cost analysis, not prognosis. It reports regression models for costs and acute events but never calls them prognostic models.",
+    "18415809": "Title and abstract focus on rehabilitation costs and adherence predictors, not prognostic models. Abstract does not say that researchers developed or validated a prediction model.",
+    "21232087": "Title and abstract describe determinants of high healthcare use, not prognostic models. They report predictors of costly patients but do not name a prediction model.",
+    "23089685": "Instruction asks for prognostic models, but the abstract says \"predictor variables\" and reports readmission risks, not a model.",
+    "24029813": "Instruction asks for \"prognostic models,\" but the paper describes \"predictors of adherence\" and \"dropout.\" This wording may hide its prediction of a clinical outcome.",
+    "24549125": "Title emphasizes clinical characteristics, not prognostic models. Abstract calls its prediction tool a preliminary risk scale for adverse events.",
+    "28652724": "Instruction asks for prognostic models, but the abstract presents prognostic variables and mortality links, not a prediction model. This wording obscures its validation evidence.",
+    "28765496": "Abstract calls the models \"predictive,\" not \"prognostic.\" Its focus on a care program may obscure models that predict readmission in COPD patients.",
+    "28848887": "No abstract.",
+    "29343950": "Abstract links factors to readmission with logistic regression, but never names a prognostic model. This wording gap obscured its prediction evidence.",
+    "29398283": "Screener seeks prognostic models, but the abstract reports mortality and readmission risks without naming a prediction model.",
+    "29881266": "Instruction asks for prognostic models, but the abstract names multidimensional indices and risk prediction. This vocabulary gap may have caused the screener to miss the study."
+  },
+  "33472813": {
+    "25373391": "Abstract calls sciatica \"lumbar radicular pain,\" not sciatica. Its title highlights minocycline, although the trial also tests amitriptyline against placebo.",
+    "27788130": "Abstract frames the study as placebo-response research, not antidepressant treatment. It mentions duloxetine only within a knee osteoarthritis trial, which may hide its relevance."
+  },
+  "26903336": {
+    "15644651": "Instruction names septic shock, but the abstract discusses sepsis and severe sepsis without mentioning shock or shock criteria. This wording gap likely caused the miss.",
+    "20069275": "Instruction asks for septic shock definitions and clinical criteria. Abstract focuses on severe sepsis care bundles and outcomes, and mentions septic shock only as a guideline topic.",
+    "20400903": "Instruction asks for septic shock criteria, but the abstract focuses on severe sepsis coding and incidence. It does not name septic shock or report clinical criteria.",
+    "24740011": "Instruction asks for shock criteria, but the abstract reports ICU sepsis outcomes and does not name septic shock. This indirect evidence may have seemed out of scope.",
+    "25528662": "Instruction asks for septic shock criteria, but the abstract reports nationwide severe sepsis trends. It does not mention septic shock or describe shock criteria."
+  },
+  "23420235": {
+    "11686977": "Instruction targets open-angle glaucoma treatments, but the abstract describes 5-FU after glaucoma surgery and does not name open-angle glaucoma. This wording hides its role as an adjunct to trabeculectomy."
+  },
+  "25059938": {
+    "20375927": "Screener asks for community empowerment, but the paper frames this as a social intervention and emphasizes statistical methods. Abstract reports HIV prevention effects among sex workers in Brazil."
+  },
+  "25569206": {
+    "15032789": "Title emphasizes a disease model, not cancer screening or overdiagnosis. Abstract mentions overdiagnosis as a model measure and lung screening only in its example."
+  },
+  "26830221": {
+    "12191973": "Instruction asks about contrast-induced kidney injury in adults receiving contrast. Paper studies statin treatment for ischemic kidney failure in rats, not contrast injury.",
+    "24500238": "Abstract uses \"CI-AKI\" and frames sodium bicarbonate as hydration treatment, rather than naming contrast-induced nephropathy prevention."
+  },
+  "26868137": {
+    "16397169": "No abstract."
+  },
+  "27737830": {
+    "7678105": "Instruction requires children, but the paper studies elderly adults. Abstract describes blastogenic and mitogen responses, not non-specific or heterologous effects.",
+    "9806045": "Abstract does not identify children or describe tetanus vaccine as routine. It reports a response to an unrelated antigen, not a named non-specific effect."
+  },
+  "28114600": {
+    "21569283": "Abstract names the Quality and Outcomes Framework, but not pay-for-performance. It focuses on recorded smoking advice, which may hide the link to provider incentives.",
+    "21722444": "Abstract names the QOF and GP contract, not pay-for-performance. Its financial incentives and vaccination outcomes may not signal a provider-targeted program."
+  },
+  "30884526": {
+    "11010699": "Screener names stress, urgency, or mixed incontinence, but the abstract says only urinary incontinence in elderly women. It describes group education, not a named incontinence type."
+  },
+  "30917990": {
+    "16195088": "Instruction requires acute depressive episodes, but the abstract says only major depression. It also describes rTMS as add-on treatment.",
+    "28640168": "Abstract focuses on seizure quality and BIS timing, not acute depression outcomes. It mentions treatment-resistant depression but not an acute episode."
+  },
+  "31255301": {
+    "24286785": "Title frames a broad STI survey, not vaccine impact. Abstract reports lower HPV 16/18 prevalence after vaccination but does not link the change to the programme."
+  },
+  "31990319": {
+    "31632594": "Abstract uses \"liability immunity,\" not \"malpractice liability,\" and describes care quality through spending and patient outcomes."
+  },
+  "32371466": {
+    "14966227": "Abstract reports anxiety but lacks the instruction's terms \"psychological effects\" and \"stress management.\" Its focus on protective practices may have hidden this relevant finding."
+  },
+  "32479176": {
+    "26113460": "Abstract describes secure messaging for medication updates, not engagement with EHR data through portals. It mentions patient portals only when noting differences between users and non-users."
+  },
+  "33148618": {
+    "29803546": "Abstract describes seasonal patterns in cerebral palsy births, not high-temperature exposure during pregnancy. It mentions mean temperature and low birth weight but does not link them to heat."
+  }
+}

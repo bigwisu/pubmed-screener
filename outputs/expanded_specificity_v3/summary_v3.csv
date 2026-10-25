@@ -1,0 +1,4 @@
+sr_pmid,n_corpus,n_inclusions,threshold,ori_recall,ori_precision,v3_tp,v3_fp,v3_fn,v3_tn,v3_recall,v3_precision,v3_fn_recovered,v3_new_fp,v3_tp_lost,v3_fp_narrowed_out,v3_delta_mean,v3_delta_median,v3_fn_delta_mean,v3_fn_delta_median,elapsed_s,v3
+27802478,15530,89,0.028,0.7191,0.0886,74,1229,15,14212,0.8315,0.0568,10,760,0,189,0.003274,-0.0002,0.11364,0.0004,529.9,Does this study provide potentially relevant evidence on gout management in adults?
+27802505,15530,21,0.028,0.8571,0.059,21,700,0,14809,1.0,0.0291,3,481,0,68,0.00458,0.0005,0.6413,0.934,529.6,Does this study provide potentially relevant evidence on gout diagnosis?
+30409774,15530,36,0.028,0.8611,0.0939,30,233,6,15261,0.8333,0.1141,0,32,1,98,-0.000823,-0.0003,-0.00054,-0.0002,529.8,Does this study provide potentially relevant evidence on immune checkpoint inhibitors in patients with cancer?

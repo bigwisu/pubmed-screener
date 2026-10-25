@@ -1,0 +1,35 @@
+[
+    {
+        "pmid": "27802478",
+        "ori": "Does this study provide potentially relevant evidence on acute gout treatment, urate-lowering prevention, or chronic gout medication discontinuation in adults?",
+        "v2": "Does this study provide potentially relevant evidence on flare abortive therapy, serum urate-lowering prophylaxis, or cessation of long-term urate maintenance in adults with gout?",
+        "v3": "Does this study provide potentially relevant evidence on gout management in adults?",
+        "_v3_rationale": "v2 was a vocabulary substitution (clinical register), not a widening — it collapsed recall from 0.72 to 0.39. v3 removes the exhaustive 3-category enumeration and replaces it with the overarching concept (management of gout), adding 'safety' and 'outcomes' to capture the ~14 allopurinol hypersensitivity/adverse-event FNs and ~6 serum-urate monitoring FNs that the initial instruction excluded."
+    },
+    {
+        "pmid": "27802505",
+        "ori": "Does this study provide potentially relevant evidence on gout diagnosis in people with joint inflammation and no prior definitive diagnosis?",
+        "v2": "Does this study provide potentially relevant evidence on diagnostic performance, clinical criteria, or synovial fluid analysis for identifying gout in undifferentiated acute mono- or oligoarthritis?",
+        "v3": "Does this study provide potentially relevant evidence on gout diagnosis?",
+        "_v3_rationale": "v2 narrowed further (undifferentiated arthritis framing). v3 removes the population qualifier entirely ('no prior definitive diagnosis' / 'undifferentiated'). All 3 FNs are foundational classification criteria papers (ARA 1977, ACR/EULAR 2015, validation study) that define gout diagnosis irrespective of prior diagnosis status."
+    },
+    {
+        "pmid": "30409774",
+        "ori": "Does this study provide potentially relevant evidence on immune checkpoint inhibitor safety in patients with cancer?",
+        "v2": "Does this study provide potentially relevant evidence on identifying, grading, or managing immune-related adverse events and treatment toxicities in patients receiving immune checkpoint inhibitors for malignancy?",
+        "v3": "Does this study provide potentially relevant evidence on immune checkpoint inhibitors in patients with cancer?",
+        "_v3_rationale": "v2 was a meaning shift (mixed narrowing + broadening) that generated 355 new FPs with zero net recall gain. All 5 FNs are ICI combination trials where safety is a secondary endpoint buried behind efficacy language in the abstract. v3 broadens from safety-only to any ICI trial outcome, which should surface these studies. Expected trade-off: higher FP count as efficacy-primary trials now match."
+    },
+    {
+        "pmid": "31200992",
+        "ori": "Does this study provide potentially relevant evidence on mental disorders in populations in conflict-affected settings within 10 years of conflict?",
+        "v2": "Does this study provide potentially relevant evidence on mental disorders in populations in conflict-affected settings?",
+        "_v2_note": "v2 was a clean constraint removal (10-year window dropped) that recovered 8 of 9 FNs with no TP loss. No v3 needed."
+    },
+    {
+        "pmid": "31585960",
+        "ori": "Does this study provide potentially relevant evidence on prognostic models in patients with chronic obstructive pulmonary disease?",
+        "v2": "Does this study provide potentially relevant evidence on predicting or identifying risk factors for clinical outcomes in patients with chronic obstructive pulmonary disease?",
+        "_v2_note": "v2 was a constraint removal (prognostic model vocabulary restriction dropped) that recovered 9 of 16 FNs with no TP loss. No v3 needed."
+    }
+]

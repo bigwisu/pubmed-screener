@@ -26,7 +26,7 @@ pubmed-screener/
 │   ├── design2_and_supplementary_analysis.py  # Design 2 Boolean deployment evaluation
 │   ├── level1_category_audit.py               # Level 1 abstract length error categorization
 │   ├── rq3_mechanical_analysis.py             # RQ3 noise-floor score decomposition
-│   ├── rq3_instruction_counterfactual/        # Level 2 pre-declared alternative instructions
+│   ├── rq3_instruction_counterfactual/        # Level 2 pre-declared instructions; exploratory v2/v3 scripts and specs
 │   └── sr_review_objectives.json              # PICO-aligned screening instructions for all 66 benchmark reviews
 ├── docs/                                      # Technical specifications (ASD-STE100 / Arc42)
 │   ├── design1_cross_topic_matrix.md          # Design 1 cross-topic matrix specification
@@ -37,7 +37,9 @@ pubmed-screener/
 ├── outputs/                                   # Canonical benchmark scores
 │   ├── soces_pico_laya_e2e_results.parquet   # Benchmark result table (1,024,980 rows)
 │   ├── per_review_recall.csv                  # Appendix B per-review recall (62 reviews)
-│   └── rq3_counterfactual/                    # Level 2 original-vs-counterfactual scores
+│   ├── rq3_counterfactual/                    # Level 2 original-vs-counterfactual scores
+│   ├── expanded_specificity/                  # Exploratory v2 per-record scores and summary
+│   └── expanded_specificity_v3/               # Exploratory v3 per-record scores and summary
 ├── publication/                               # Summary tables and audit results
 │   └── tables/                                # Tabular results matching manuscript
 ├── scripts/                                   # Upstream data builders
@@ -177,6 +179,7 @@ The table below maps manuscript findings to replication scripts and outputs:
 | **Table 4–5 / RQ3** | Level 1 abstract length error audit | `python benchmark/level1_category_audit.py` | `publication/tables/rq3_level1_summary.json` |
 | **RQ3 Mechanics** | Noise-floor score decomposition | `python benchmark/rq3_mechanical_analysis.py` | `publication/tables/rq3_miss_table.csv` |
 | **Appendix B** | Per-review recall (62 unseen reviews) | `python benchmark/design2_and_supplementary_analysis.py` | `publication/tables/per_review_recall.csv` |
+| **Exploratory v2 / v3** | Widened-instruction counterfactuals (v3: 3 reviews) | `python benchmark/rq3_instruction_counterfactual/expanded_specificity_analysis.py` then `python benchmark/rq3_instruction_counterfactual/v3_specificity_analysis.py` | `outputs/expanded_specificity/`, `outputs/expanded_specificity_v3/` |
 | **RQ3 Level 2** | Pre-declared instruction counterfactual (5 reviews) | `python screen_with_model.py --model bigwisu/PubMed-Screener-420M --objectives benchmark/rq3_instruction_counterfactual/alt_objectives.json --base-objectives benchmark/sr_review_objectives.json --output-dir outputs/rq3_counterfactual` | `outputs/rq3_counterfactual/` |
 
 ---

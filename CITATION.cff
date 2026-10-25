@@ -34,6 +34,7 @@ preferred-citation:
       given-names: "Pri"
     - family-names: "Pusponegoro"
       given-names: "Hardiono D."
-  title: "Calibrated Small Language Models for Stage-1 Systematic Review Screening: Frozen Thresholds, Noise-Floor Mechanics, and Sovereign Edge Execution"
+  title: "Local AI Screening of PubMed Citations for Systematic Reviews with a Small Language Model"
   journal: "Journal of Biomedical Informatics"
+  status: submitted
   year: 2026

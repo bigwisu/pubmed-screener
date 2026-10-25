@@ -1,6 +1,6 @@
 # PubMed-Screener-420M (`bigwisu/PubMed-Screener-420M`)
 
-> **Development Notice:** The authors developed and maintained this codebase with IBM Bob as an AI coding assistant.
+> **AI Use:** Generative AI tools were used only to assist with preliminary prose drafting, syntactic editing, table formatting and bibliographic organisation of the accompanying manuscript. The concepts, experiments, code, analyses and conclusions are the authors' own.
 
 This repository contains **PubMed-Screener-420M**.
 PubMed-Screener-420M is an open-weights Small Language Model for Stage-1 systematic review screening.

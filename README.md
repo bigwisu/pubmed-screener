@@ -247,7 +247,7 @@ df = pd.read_parquet("outputs/soces_pico_laya_e2e_results.parquet")
 
 ## 6. Technical Specifications
 
-Detailed Arc42 specifications in ASD-STE100 standard:
+Detailed Arc42 specifications:
 - [`docs/design1_cross_topic_matrix.md`](docs/design1_cross_topic_matrix.md): Design 1 cross-topic matrix evaluation.
 - [`docs/design2_boolean_search_deployment.md`](docs/design2_boolean_search_deployment.md): Design 2 Boolean search deployment evaluation.
 

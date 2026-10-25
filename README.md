@@ -4,7 +4,7 @@
 
 This repository contains **PubMed-Screener-420M**.
 PubMed-Screener-420M is an open-weights Small Language Model for Stage-1 systematic review screening.
-The model evaluates candidate title and abstract text against natural language PICO objectives.
+The model evaluates candidate title and abstract text against a short PICO-aligned screening instruction per review.
 A single frozen operating threshold ($\theta^* = 0.028$) classifies candidate citations.
 
 [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model%20Weights-blue)](https://huggingface.co/bigwisu/PubMed-Screener-420M)
@@ -19,22 +19,25 @@ pubmed-screener/
 ├── pubmed_screener/                           # Production Python package (Apache-2.0)
 │   ├── __init__.py                            # Package entry point and constants
 │   ├── screener.py                            # PubMedScreener high-level inference interface
-│   └── presets.py                             # Standard PICO prompts and schemas
+│   └── presets.py                             # Standard PICO screening instructions and schemas
 ├── benchmark/                                 # Scientific benchmark replication scripts
 │   ├── README.md                              # Benchmark attribution and terms of use
 │   ├── threshold_analysis.py                  # Primary statistical evaluation and cluster bootstrap
 │   ├── design2_and_supplementary_analysis.py  # Design 2 Boolean deployment evaluation
 │   ├── level1_category_audit.py               # Level 1 abstract length error categorization
 │   ├── rq3_mechanical_analysis.py             # RQ3 noise-floor score decomposition
-│   └── sr_review_objectives.json              # PICO objectives for all 66 benchmark reviews
+│   ├── rq3_instruction_counterfactual/        # Level 2 pre-declared alternative instructions
+│   └── sr_review_objectives.json              # PICO-aligned screening instructions for all 66 benchmark reviews
 ├── docs/                                      # Technical specifications (ASD-STE100 / Arc42)
 │   ├── design1_cross_topic_matrix.md          # Design 1 cross-topic matrix specification
 │   ├── design2_boolean_search_deployment.md   # Design 2 Boolean deployment specification
-│   ├── appendix_a_per_review_recall.md        # Per-review recall tables
-│   ├── appendix_b_level1_rule.md              # Level 1 abstract length decision rule
-│   └── appendix_c_reporting_checklist.md     # Reporting standards checklist
+│   ├── appendix_b_per_review_recall.md        # Appendix B: per-review recall table
+│   ├── appendix_c_level1_rule.md              # Appendix C: Level 1 abstract length decision rule
+│   └── appendix_d_reporting_checklist.md      # Appendix D: reporting standards checklist
 ├── outputs/                                   # Canonical benchmark scores
-│   └── soces_pico_laya_e2e_results.parquet   # Benchmark result table (1,024,980 rows)
+│   ├── soces_pico_laya_e2e_results.parquet   # Benchmark result table (1,024,980 rows)
+│   ├── per_review_recall.csv                  # Appendix B per-review recall (62 reviews)
+│   └── rq3_counterfactual/                    # Level 2 original-vs-counterfactual scores
 ├── publication/                               # Summary tables and audit results
 │   └── tables/                                # Tabular results matching manuscript
 ├── scripts/                                   # Upstream data builders
@@ -104,7 +107,7 @@ python screen_with_model.py --model bigwisu/PubMed-Screener-420M --sr 22422870 -
 
 ### 2.4 Real-World Example: Screening a CSV Export from PubMed
 
-A researcher exports search results from PubMed as a CSV with columns `pmid`, `title`, and `abstract`, then screens all records against a PICO objective in one pass:
+A researcher exports search results from PubMed as a CSV with columns `pmid`, `title`, and `abstract`, then screens all records against a PICO-aligned screening instruction in one pass:
 
 **`my_papers.csv`** (excerpt):
 ```
@@ -119,7 +122,7 @@ pmid,title,abstract
 import csv
 from pubmed_screener import PubMedScreener
 
-# 1. Define your PICO screening question
+# 1. Define your PICO-aligned screening instruction
 pico_objective = (
     "Does this study provide potentially relevant evidence on metformin versus "
     "SGLT-2 inhibitors for glycaemic control in adults with type 2 diabetes?"
@@ -173,7 +176,8 @@ The table below maps manuscript findings to replication scripts and outputs:
 | **Table 3 / RQ2** | Dual-design comparison (Design 1 vs 2) | `python benchmark/design2_and_supplementary_analysis.py` | `publication/tables/phase1_summary.json` |
 | **Table 4–5 / RQ3** | Level 1 abstract length error audit | `python benchmark/level1_category_audit.py` | `publication/tables/rq3_level1_summary.json` |
 | **RQ3 Mechanics** | Noise-floor score decomposition | `python benchmark/rq3_mechanical_analysis.py` | `publication/tables/rq3_miss_table.csv` |
-| **Appendix A** | Per-review recall (62 unseen reviews) | `python benchmark/design2_and_supplementary_analysis.py` | `publication/tables/per_review_recall.csv` |
+| **Appendix B** | Per-review recall (62 unseen reviews) | `python benchmark/design2_and_supplementary_analysis.py` | `publication/tables/per_review_recall.csv` |
+| **RQ3 Level 2** | Pre-declared instruction counterfactual (5 reviews) | `python screen_with_model.py --model bigwisu/PubMed-Screener-420M --objectives benchmark/rq3_instruction_counterfactual/alt_objectives.json --base-objectives benchmark/sr_review_objectives.json --output-dir outputs/rq3_counterfactual` | `outputs/rq3_counterfactual/` |
 
 ---
 

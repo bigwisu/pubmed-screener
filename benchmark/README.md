@@ -16,4 +16,5 @@ Data sharing complies with third-party copyright terms and data distribution agr
 
 1. **Third-Party Evaluation Corpus:** The raw inclusion lists and candidate citation lists are available from the original authors upon request.
 2. **Offline Evaluation Pipelines:** The evaluation scripts (`screen_with_model.py`, `threshold_analysis.py`) execute fully offline on local systems.
-3. **Open Training Replications:** Users MAY rebuild open training sets from the SYNERGY corpus using `scripts/build_synergy_dataset.py`.
+3. **Withheld Inputs:** The analysis scripts read `benchmark_candidates.parquet`, `pubmed_documents.parquet` and `sr_document_mappings.parquet`. These files derive from the third-party corpus and are not distributed here. Obtain them from the original authors and place them in `benchmark/`.
+4. **Open Training Replications:** Users MAY rebuild open training sets from the SYNERGY corpus using `scripts/build_synergy_dataset.py`.

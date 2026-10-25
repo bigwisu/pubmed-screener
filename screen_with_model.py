@@ -373,6 +373,10 @@ def main():
             "The primary sr_review_objectives.json is never modified."
         ),
     )
+    parser.add_argument(
+        "--base-objectives", type=str, default=None,
+        help="Path to the base sr_review_objectives.json (defaults to sr_review_objectives.json next to this script).",
+    )
 
     args = parser.parse_args()
 
@@ -396,7 +400,7 @@ def main():
     data_path = args.data or os.path.join(script_dir, "benchmark_candidates.parquet")
     docs_path = os.path.join(script_dir, "pubmed_documents.parquet")
     mappings_path = os.path.join(script_dir, "sr_document_mappings.parquet")
-    objectives_path = os.path.join(script_dir, "sr_review_objectives.json")
+    objectives_path = args.base_objectives or os.path.join(script_dir, "sr_review_objectives.json")
 
     full_corpus = not args.prefiltered
 

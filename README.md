@@ -259,14 +259,14 @@ PubMed-Screener-420M builds upon open-source software:
 - **Laya (`convaiinnovations/laya`):** Propositional decision engine from ConvAI Innovations.
 - **ModernBERT (`answerdotai/ModernBERT-large`):** Transformer encoder from Answer.ai and LightOn.
 
-If you use this software or model, please cite the manuscript (submitted to the *Journal of Biomedical Informatics*; not yet peer reviewed). GitHub's "Cite this repository" button reads [`CITATION.cff`](CITATION.cff).
+If you use this software or model, please cite the manuscript (submitted to *Array*; not yet peer reviewed). GitHub's "Cite this repository" button reads [`CITATION.cff`](CITATION.cff).
 
 ```bibtex
 @unpublished{suntoyo2026pubmedscreener,
   title  = {Local AI Screening of PubMed Citations for Systematic Reviews with a Small Language Model},
   author = {Suntoyo, Wisudanto and Sunitiyoso, Yos and Siallagan, Manahan and Hermawan, Pri and Pusponegoro, Hardiono D.},
   year   = {2026},
-  note   = {Manuscript submitted to the Journal of Biomedical Informatics. Code: https://github.com/bigwisu/pubmed-screener. Model weights: https://huggingface.co/bigwisu/PubMed-Screener-420M}
+  note   = {Manuscript submitted to Array. Code: https://github.com/bigwisu/pubmed-screener. Model weights: https://huggingface.co/bigwisu/PubMed-Screener-420M}
 }
 ```
 

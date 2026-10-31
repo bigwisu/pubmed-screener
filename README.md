@@ -263,7 +263,7 @@ If you use this software or model, please cite the manuscript (submitted to *Arr
 
 ```bibtex
 @unpublished{suntoyo2026pubmedscreener,
-  title  = {Local AI Screening of PubMed Citations for Systematic Reviews with a Small Language Model},
+  title  = {Locally Sovereign Citation Screening: A Calibrated Small Language Model for Systematic Review Triage},
   author = {Suntoyo, Wisudanto and Sunitiyoso, Yos and Siallagan, Manahan and Hermawan, Pri and Pusponegoro, Hardiono D.},
   year   = {2026},
   note   = {Manuscript submitted to Array. Code: https://github.com/bigwisu/pubmed-screener. Model weights: https://huggingface.co/bigwisu/PubMed-Screener-420M}
